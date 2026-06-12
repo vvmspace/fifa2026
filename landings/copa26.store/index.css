@@ -113,11 +113,12 @@ header {
 }
 
 .hero p {
-    font-size: 17px;
+    font-size: 16px;
     color: var(--text-muted);
     max-width: 500px;
     margin: 0 auto;
     font-weight: 400;
+    line-height: 17px;
 }
 
 .seo-section-title {
