@@ -102,14 +102,29 @@
             </p>
         </section>
 
-        <div class="filters">
-            <button class="tab active" onclick="filter('all')">
+        <div class="filters" role="tablist" aria-label="Filtros de partidos">
+            <button
+                class="tab active"
+                role="tab"
+                aria-selected="true"
+                onclick="filter('all')"
+            >
                 Todos los Partidos
             </button>
-            <button class="tab" onclick="filter('grupos')">
+            <button
+                class="tab"
+                role="tab"
+                aria-selected="false"
+                onclick="filter('grupos')"
+            >
                 Fase de Grupos
             </button>
-            <button class="tab" onclick="filter('playoffs')">
+            <button
+                class="tab"
+                role="tab"
+                aria-selected="false"
+                onclick="filter('playoffs')"
+            >
                 Fases Finales
             </button>
         </div>
@@ -124,10 +139,22 @@
                 </div>
                 <div class="c-teams">
                     <div class="team">
-                        <span class="flag">🇺🇸</span> Estados Unidos
+                        <span
+                            class="flag"
+                            role="img"
+                            aria-label="Bandera de Estados Unidos"
+                            >🇺🇸</span
+                        >
+                        Estados Unidos
                     </div>
                     <div class="team">
-                        <span class="flag">🇵🇾</span> Paraguay
+                        <span
+                            class="flag"
+                            role="img"
+                            aria-label="Bandera de Paraguay"
+                            >🇵🇾</span
+                        >
+                        Paraguay
                     </div>
                 </div>
                 <div class="c-text">
@@ -142,12 +169,14 @@
                     <button
                         class="btn btn-gold"
                         onclick="route('tickets', 'usa-par')"
+                        aria-label="Adquirir acceso para Estados Unidos vs Paraguay"
                     >
                         Adquirir Acceso
                     </button>
                     <button
                         class="btn btn-outline"
                         onclick="route('info', 'usa-par')"
+                        aria-label="Ver detalles del recinto para Estados Unidos vs Paraguay"
                     >
                         Detalles del Recinto
                     </button>
@@ -163,9 +192,23 @@
                 </div>
                 <div class="c-teams">
                     <div class="team">
-                        <span class="flag">🇦🇷</span> Argentina
+                        <span
+                            class="flag"
+                            role="img"
+                            aria-label="Bandera de Argentina"
+                            >🇦🇷</span
+                        >
+                        Argentina
                     </div>
-                    <div class="team"><span class="flag">🇩🇿</span> Argelia</div>
+                    <div class="team">
+                        <span
+                            class="flag"
+                            role="img"
+                            aria-label="Bandera de Argelia"
+                            >🇩🇿</span
+                        >
+                        Argelia
+                    </div>
                 </div>
                 <div class="c-text">
                     El debut de los campeones. Asegura
@@ -178,6 +221,7 @@
                     <button
                         class="btn btn-gold"
                         onclick="route('tickets', 'arg-alg')"
+                        aria-label="Ver disponibilidad para Argentina vs Argelia"
                     >
                         Ver Disponibilidad
                     </button>
@@ -200,10 +244,16 @@
                 </div>
                 <div class="c-teams">
                     <div class="team">
-                        <span class="flag">🏆</span> Finalista 1
+                        <span class="flag" role="img" aria-label="Trofeo"
+                            >🏆</span
+                        >
+                        Finalista 1
                     </div>
                     <div class="team">
-                        <span class="flag">🏆</span> Finalista 2
+                        <span class="flag" role="img" aria-label="Trofeo"
+                            >🏆</span
+                        >
+                        Finalista 2
                     </div>
                 </div>
                 <div class="c-text">
@@ -216,6 +266,7 @@
                     <button
                         class="btn btn-gold"
                         onclick="route('tickets', 'final')"
+                        aria-label="Reservar boletos para la Gran Final"
                     >
                         Reservar Final
                     </button>
@@ -260,9 +311,12 @@
             }
 
             function route(action, id) {
-                const baseUrl =
-                    action === "tickets" ? "/go/vip/" : "/go/venue/";
-                window.location.href = baseUrl + id;
+                if (action === "tickets") {
+                    window.location.href =
+                        "https://www.ticketmaster.com/2026-world-cup-tickets/artist/4067734";
+                } else {
+                    window.location.href = "/go/venue/" + id;
+                }
             }
 
             function startCountdown() {
