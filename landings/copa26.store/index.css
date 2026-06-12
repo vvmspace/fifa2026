@@ -120,12 +120,21 @@ header {
     font-weight: 400;
 }
 
+.seo-section-title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 32px;
+    letter-spacing: -0.5px;
+}
+
 /* Фильтры */
 .filters {
     max-width: 1100px;
     margin: 0 auto 40px;
     padding: 0 24px;
     display: flex;
+    justify-content: center;
     gap: 12px;
     overflow-x: auto;
     scrollbar-width: none;
