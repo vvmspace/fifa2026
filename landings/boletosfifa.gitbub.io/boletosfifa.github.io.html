@@ -14,23 +14,23 @@
                 {
                     "@context": "https://schema.org",
                     "@type": "SportsEvent",
-                    "name": "Estados Unidos vs Paraguay - Fase de Grupos",
-                    "startDate": "2026-06-12T18:00:00-07:00",
+                    "name": "Alemania vs TBD - Fase de Grupos",
+                    "startDate": "2026-06-14T17:00:00-05:00",
                     "eventStatus": "https://schema.org/EventScheduled",
                     "location": {
                         "@type": "Place",
-                        "name": "SoFi Stadium",
+                        "name": "NRG Stadium",
                         "address": {
                             "@type": "PostalAddress",
-                            "addressLocality": "Los Ángeles"
+                            "addressLocality": "Houston"
                         }
                     },
                     "offers": {
                         "@type": "AggregateOffer",
-                        "url": "https://boletosfifa.store/#usa-par",
+                        "url": "https://boletosfifa.store/#ger-match",
                         "priceCurrency": "USD",
-                        "lowPrice": "150",
-                        "highPrice": "1200",
+                        "lowPrice": "120",
+                        "highPrice": "900",
                         "availability": "https://schema.org/InStock"
                     }
                 },
@@ -133,48 +133,100 @@
         <main class="grid">
             <article class="card" data-stage="grupos">
                 <div class="c-time">
-                    <span class="c-date" data-utc="2026-06-12T21:00:00Z"
-                        >12 Jun</span
+                    <span class="c-date" data-utc="2026-06-14T17:00:00Z"
+                        >14 Jun</span
                     >
-                    <span class="c-venue">🇺🇸 Los Ángeles, SoFi Stadium</span>
+                    <span class="c-venue">🇺🇸 Houston, NRG Stadium</span>
                 </div>
                 <div class="c-teams">
                     <div class="team">
                         <span
                             class="flag"
                             role="img"
-                            aria-label="Bandera de Estados Unidos"
-                            >🇺🇸</span
+                            aria-label="Bandera de Alemania"
+                            >🇩🇪</span
                         >
-                        Estados Unidos
+                        Alemania
                     </div>
                     <div class="team">
                         <span
                             class="flag"
                             role="img"
-                            aria-label="Bandera de Paraguay"
-                            >🇵🇾</span
+                            aria-label="Bandera de TBD"
+                            >❓</span
                         >
-                        Paraguay
+                        TBD
                     </div>
                 </div>
                 <div class="c-text">
-                    Partido inaugural en EE. UU. Asegura tus
-                    <strong>boletos oficiales</strong> en el SoFi Stadium antes
-                    de que se agote la disponibilidad general.
+                    ¡Hoy! Disponibilidad inmediata de
+                    <strong>boletos oficiales</strong> en el NRG Stadium.
+                    Asegura tu lugar en Houston para este choque europeo.
                 </div>
                 <div class="c-actions">
                     <button
                         class="btn btn-gold"
-                        onclick="route('tickets', 'usa-par')"
-                        aria-label="Comprar boletos para Estados Unidos vs Paraguay"
+                        onclick="route('tickets', 'ger-match')"
+                        aria-label="Comprar boletos para Alemania vs TBD"
                     >
                         Comprar Boletos
                     </button>
                     <button
                         class="btn btn-outline"
-                        onclick="route('info', 'usa-par')"
-                        aria-label="Ver detalles del estadio para Estados Unidos vs Paraguay"
+                        onclick="route('info', 'ger-match')"
+                        aria-label="Ver detalles del estadio"
+                    >
+                        Info del Estadio
+                    </button>
+                </div>
+            </article>
+
+            <article class="card" data-stage="grupos">
+                <div class="c-time">
+                    <span class="c-date" data-utc="2026-06-14T20:00:00Z"
+                        >14 Jun</span
+                    >
+                    <span class="c-venue"
+                        >🇺🇸 Philadelphia, Lincoln Financial Field</span
+                    >
+                </div>
+                <div class="c-teams">
+                    <div class="team">
+                        <span
+                            class="flag"
+                            role="img"
+                            aria-label="Bandera de Países Bajos"
+                            >🇳🇱</span
+                        >
+                        Países Bajos
+                    </div>
+                    <div class="team">
+                        <span
+                            class="flag"
+                            role="img"
+                            aria-label="Bandera de TBD"
+                            >❓</span
+                        >
+                        TBD
+                    </div>
+                </div>
+                <div class="c-text">
+                    ¡Hoy! Últimos pases disponibles para el partido en
+                    Filadelfia. Asegura tu asiento con
+                    <strong>entradas verificadas</strong>.
+                </div>
+                <div class="c-actions">
+                    <button
+                        class="btn btn-gold"
+                        onclick="route('tickets', 'net-match')"
+                        aria-label="Comprar boletos para Países Bajos vs TBD"
+                    >
+                        Comprar Boletos
+                    </button>
+                    <button
+                        class="btn btn-outline"
+                        onclick="route('info', 'net-match')"
+                        aria-label="Ver detalles del estadio"
                     >
                         Info del Estadio
                     </button>
@@ -202,10 +254,10 @@
                         <span
                             class="flag"
                             role="img"
-                            aria-label="Bandera de Argelia"
-                            >🇩🇿</span
+                            aria-label="Bandera de TBD"
+                            >❓</span
                         >
-                        Argelia
+                        TBD
                     </div>
                 </div>
                 <div class="c-text">
@@ -216,8 +268,138 @@
                 <div class="c-actions">
                     <button
                         class="btn btn-gold"
-                        onclick="route('tickets', 'arg-alg')"
-                        aria-label="Comprar boletos para Argentina vs Argelia"
+                        onclick="route('tickets', 'arg-match')"
+                        aria-label="Comprar boletos para Argentina vs TBD"
+                    >
+                        Comprar Boletos
+                    </button>
+                </div>
+            </article>
+
+            <article class="card" data-stage="grupos">
+                <div class="c-time">
+                    <span class="c-date" data-utc="2026-06-16T19:00:00Z"
+                        >16 Jun</span
+                    >
+                    <span class="c-venue"
+                        >🇺🇸 Atlanta, Mercedes-Benz Stadium</span
+                    >
+                </div>
+                <div class="c-teams">
+                    <div class="team">
+                        <span
+                            class="flag"
+                            role="img"
+                            aria-label="Bandera de Brasil"
+                            >🇧🇷</span
+                        >
+                        Brasil
+                    </div>
+                    <div class="team">
+                        <span
+                            class="flag"
+                            role="img"
+                            aria-label="Bandera de TBD"
+                            >❓</span
+                        >
+                        TBD
+                    </div>
+                </div>
+                <div class="c-text">
+                    Garantiza tu lugar para ver el Jogo Bonito en Atlanta.
+                    Asegura <strong>boletos de Categoría 1</strong> con vista
+                    directa al campo.
+                </div>
+                <div class="c-actions">
+                    <button
+                        class="btn btn-gold"
+                        onclick="route('tickets', 'bra-match')"
+                        aria-label="Comprar boletos para Brasil vs TBD"
+                    >
+                        Comprar Boletos
+                    </button>
+                </div>
+            </article>
+
+            <article class="card" data-stage="grupos">
+                <div class="c-time">
+                    <span class="c-date" data-utc="2026-06-17T19:00:00Z"
+                        >17 Jun</span
+                    >
+                    <span class="c-venue">🇺🇸 Miami, Hard Rock Stadium</span>
+                </div>
+                <div class="c-teams">
+                    <div class="team">
+                        <span
+                            class="flag"
+                            role="img"
+                            aria-label="Bandera de Francia"
+                            >🇫🇷</span
+                        >
+                        Francia
+                    </div>
+                    <div class="team">
+                        <span
+                            class="flag"
+                            role="img"
+                            aria-label="Bandera de TBD"
+                            >❓</span
+                        >
+                        TBD
+                    </div>
+                </div>
+                <div class="c-text">
+                    Vive la pasión en Miami. <strong>Entradas premium</strong>
+                    y paquetes de hospitalidad para este choque estelar.
+                </div>
+                <div class="c-actions">
+                    <button
+                        class="btn btn-gold"
+                        onclick="route('tickets', 'fra-match')"
+                        aria-label="Comprar boletos para Francia vs TBD"
+                    >
+                        Comprar Boletos
+                    </button>
+                </div>
+            </article>
+
+            <article class="card" data-stage="grupos">
+                <div class="c-time">
+                    <span class="c-date" data-utc="2026-06-20T19:00:00Z"
+                        >20 Jun</span
+                    >
+                    <span class="c-venue">🇺🇸 Seattle, Lumen Field</span>
+                </div>
+                <div class="c-teams">
+                    <div class="team">
+                        <span
+                            class="flag"
+                            role="img"
+                            aria-label="Bandera de Inglaterra"
+                            >🏴󠁧󠁢󠁥󠁮󠁧󠁿</span
+                        >
+                        Inglaterra
+                    </div>
+                    <div class="team">
+                        <span
+                            class="flag"
+                            role="img"
+                            aria-label="Bandera de TBD"
+                            >❓</span
+                        >
+                        TBD
+                    </div>
+                </div>
+                <div class="c-text">
+                    Disfruta de la acción en la Costa Oeste.
+                    <strong>Asientos generales</strong>
+                    y pases VIP disponibles para este duelo.
+                </div>
+                <div class="c-actions">
+                    <button
+                        class="btn btn-gold"
+                        onclick="route('tickets', 'eng-match')"
+                        aria-label="Comprar boletos para Inglaterra vs TBD"
                     >
                         Comprar Boletos
                     </button>
@@ -315,7 +497,7 @@
             }
 
             function startCountdown() {
-                const targetDate = new Date("2026-06-12T21:00:00Z").getTime();
+                const targetDate = new Date("2026-06-14T17:00:00Z").getTime();
                 const ticker = document.getElementById("countdown");
 
                 setInterval(() => {
