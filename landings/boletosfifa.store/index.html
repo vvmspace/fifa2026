@@ -19,27 +19,26 @@
                 {
                     "@context": "https://schema.org",
                     "@type": "SportsEvent",
-                    "name": "Boletos Estados Unidos vs Paraguay - FIFA 2026",
-                    "description": "Compra de entradas para el partido inaugural del Grupo A en Los Ángeles.",
-                    "startDate": "2026-06-12T18:00:00-07:00",
+                    "name": "Boletos México vs Polonia - FIFA 2026",
+                    "description": "Entradas para ver a la Selección Mexicana en el Estadio Azteca.",
+                    "startDate": "2026-06-13T15:00:00-06:00",
                     "eventStatus": "https://schema.org/EventScheduled",
                     "location": {
                         "@type": "Place",
-                        "name": "SoFi Stadium",
+                        "name": "Estadio Azteca",
                         "address": {
                             "@type": "PostalAddress",
-                            "addressLocality": "Los Ángeles",
-                            "addressRegion": "California",
-                            "addressCountry": "US"
+                            "addressLocality": "Ciudad de México",
+                            "addressCountry": "MX"
                         }
                     },
                     "offers": {
                         "@type": "AggregateOffer",
-                        "url": "https://boletosfifa.store/#usa-par",
+                        "url": "https://boletosfifa.store/#mex-pol",
                         "priceCurrency": "USD",
-                        "lowPrice": "180",
-                        "highPrice": "1500",
-                        "priceCount": "45",
+                        "lowPrice": "120",
+                        "highPrice": "900",
+                        "priceCount": "34",
                         "availability": "https://schema.org/InStock"
                     }
                 },
@@ -306,66 +305,72 @@
                 </div>
 
                 <div class="grid">
-                    <article class="card" id="usa-par" data-stage="grupos">
+                    <article class="card" id="ger-match" data-stage="grupos">
                         <header class="c-time">
-                            <span class="c-date" data-utc="2026-06-12T21:00:00Z"
-                                >12 Jun</span
+                            <span class="c-date" data-utc="2026-06-14T17:00:00Z"
+                                >14 Jun</span
                             >
                             <span class="c-venue"
-                                >SoFi Stadium — Los Ángeles, CA</span
+                                >NRG Stadium — Houston, TX</span
                             >
                         </header>
-                        <h3 class="match-title">Estados Unidos vs Paraguay</h3>
+                        <h3 class="match-title">Alemania vs TBD</h3>
                         <div class="c-text">
-                            Disponibilidad inmediata de
+                            ¡Hoy! Disponibilidad inmediata de
                             <strong>boletos de Categoría 1, 2 y 3</strong>.
-                            Asegura tus asientos juntos en el SoFi Stadium.
-                            Entradas 100% verificadas para el debut de la
-                            selección estadounidense.
+                            Asegura tu lugar en Houston para este choque
+                            europeo.
                         </div>
                         <div class="c-actions">
                             <button
                                 class="btn btn-gold"
-                                onclick="route('tickets', 'usa-par')"
+                                onclick="route('tickets', 'ger-match')"
                             >
                                 Comprar Boletos
                             </button>
                             <button
                                 class="btn btn-outline"
-                                onclick="route('info', 'usa-par')"
+                                onclick="route('info', 'ger-match')"
                             >
                                 Ver Precios
                             </button>
                         </div>
                     </article>
 
-                    <article class="card" id="mex-pol" data-stage="grupos">
+                    <article class="card" id="net-match" data-stage="grupos">
                         <header class="c-time">
-                            <span class="c-date" data-utc="2026-06-13T21:00:00Z"
-                                >13 Jun</span
+                            <span class="c-date" data-utc="2026-06-14T20:00:00Z"
+                                >14 Jun</span
                             >
                             <span class="c-venue"
-                                >Estadio Azteca — Ciudad de México</span
+                                >Lincoln Financial Field — Philadelphia,
+                                PA</span
                             >
                         </header>
-                        <h3 class="match-title">México vs Polonia</h3>
+                        <h3 class="match-title">Países Bajos vs TBD</h3>
                         <div class="c-text">
-                            Compra entradas para ver a El Tri en el
-                            <strong>mítico Estadio Azteca</strong>. Asientos
-                            disponibles en zonas de visibilidad panorámica para
-                            el partido más esperado del Grupo B.
+                            ¡Hoy! Últimos pases disponibles para el partido en
+                            Filadelfia.
+                            <strong>Entradas verificadas</strong> y acceso
+                            garantizado.
                         </div>
                         <div class="c-actions">
                             <button
                                 class="btn btn-gold"
-                                onclick="route('tickets', 'mex-pol')"
+                                onclick="route('tickets', 'net-match')"
                             >
-                                Ver Entradas
+                                Comprar Boletos
+                            </button>
+                            <button
+                                class="btn btn-outline"
+                                onclick="route('info', 'net-match')"
+                            >
+                                Ver Precios
                             </button>
                         </div>
                     </article>
 
-                    <article class="card" id="arg-alg" data-stage="grupos">
+                    <article class="card" id="arg-match" data-stage="grupos">
                         <header class="c-time">
                             <span class="c-date" data-utc="2026-06-15T19:00:00Z"
                                 >15 Jun</span
@@ -374,120 +379,116 @@
                                 >AT&T Stadium — Dallas, TX</span
                             >
                         </header>
-                        <h3 class="match-title">Argentina vs Argelia</h3>
+                        <h3 class="match-title">Argentina vs TBD</h3>
                         <div class="c-text">
-                            Alta demanda para ver al campeón mundial. Reserva de
-                            <strong>entradas de fútbol</strong> en zona VIP
-                            Hospitality y tribuna general. Entrega digital
-                            garantizada antes del partido.
+                            Alta demanda para ver al campeón mundial en Dallas.
+                            <strong>Zonas VIP Hospitality</strong> y tribuna
+                            general disponibles.
                         </div>
                         <div class="c-actions">
                             <button
                                 class="btn btn-gold"
-                                onclick="route('tickets', 'arg-alg')"
+                                onclick="route('tickets', 'arg-match')"
                             >
-                                Buscar Boletos
+                                Comprar Boletos
+                            </button>
+                            <button
+                                class="btn btn-outline"
+                                onclick="route('info', 'arg-match')"
+                            >
+                                Ver Precios
                             </button>
                         </div>
                     </article>
 
-                    <article class="card" id="bra-sui" data-stage="grupos">
+                    <article class="card" id="bra-match" data-stage="grupos">
                         <header class="c-time">
-                            <span class="c-date" data-utc="2026-06-16T21:00:00Z"
+                            <span class="c-date" data-utc="2026-06-16T19:00:00Z"
                                 >16 Jun</span
                             >
                             <span class="c-venue"
                                 >Mercedes-Benz Stadium — Atlanta, GA</span
                             >
                         </header>
-                        <h3 class="match-title">Brasil vs Suiza</h3>
+                        <h3 class="match-title">Brasil vs TBD</h3>
                         <div class="c-text">
-                            Garantiza tu lugar para ver el Jogo Bonito. Acceso a
-                            <strong>palcos VIP</strong> y boletos de Categoría 1
-                            con vista directa al centro del campo. Excelente
-                            oportunidad para familias.
+                            Garantiza tu lugar para ver el Jogo Bonito en
+                            Atlanta.
+                            <strong>Categoría 1</strong> con vista directa al
+                            campo.
                         </div>
                         <div class="c-actions">
                             <button
                                 class="btn btn-gold"
-                                onclick="route('tickets', 'bra-sui')"
+                                onclick="route('tickets', 'bra-match')"
                             >
                                 Comprar Boletos
                             </button>
-                        </div>
-                    </article>
-
-                    <article class="card" id="can-jap" data-stage="grupos">
-                        <header class="c-time">
-                            <span class="c-date" data-utc="2026-06-17T22:00:00Z"
-                                >17 Jun</span
-                            >
-                            <span class="c-venue">BMO Field — Toronto, ON</span>
-                        </header>
-                        <h3 class="match-title">Canadá vs Japón</h3>
-                        <div class="c-text">
-                            Reserva boletos en Toronto para presenciar el debut
-                            de la selección local. Excelente disponibilidad en
-                            <strong>tribuna familiar</strong> y sectores
-                            económicos de Categoría 3.
-                        </div>
-                        <div class="c-actions">
                             <button
-                                class="btn btn-gold"
-                                onclick="route('tickets', 'can-jap')"
+                                class="btn btn-outline"
+                                onclick="route('info', 'bra-match')"
                             >
-                                Ver Entradas
+                                Ver Precios
                             </button>
                         </div>
                     </article>
 
-                    <article class="card" id="esp-col" data-stage="grupos">
+                    <article class="card" id="fra-match" data-stage="grupos">
                         <header class="c-time">
-                            <span class="c-date" data-utc="2026-06-20T00:00:00Z"
-                                >20 Jun</span
+                            <span class="c-date" data-utc="2026-06-17T19:00:00Z"
+                                >17 Jun</span
                             >
                             <span class="c-venue"
                                 >Hard Rock Stadium — Miami, FL</span
                             >
                         </header>
-                        <h3 class="match-title">España vs Colombia</h3>
+                        <h3 class="match-title">Francia vs TBD</h3>
                         <div class="c-text">
-                            Alta expectación en Miami. Consigue
-                            <strong>entradas baratas</strong> y paquetes premium
-                            para este choque transatlántico con un ambiente
-                            latino inigualable en las gradas.
+                            Vive la pasión en Miami.
+                            <strong>Entradas premium</strong>
+                            y paquetes de hospitalidad para este choque estelar.
                         </div>
                         <div class="c-actions">
                             <button
                                 class="btn btn-gold"
-                                onclick="route('tickets', 'esp-col')"
+                                onclick="route('tickets', 'fra-match')"
                             >
-                                Buscar Boletos
+                                Comprar Boletos
+                            </button>
+                            <button
+                                class="btn btn-outline"
+                                onclick="route('info', 'fra-match')"
+                            >
+                                Ver Precios
                             </button>
                         </div>
                     </article>
 
-                    <article class="card" id="eng-nig" data-stage="grupos">
+                    <article class="card" id="eng-match" data-stage="grupos">
                         <header class="c-time">
-                            <span class="c-date" data-utc="2026-06-21T21:00:00Z"
-                                >21 Jun</span
+                            <span class="c-date" data-utc="2026-06-20T19:00:00Z"
+                                >20 Jun</span
                             >
                             <span class="c-venue"
                                 >Lumen Field — Seattle, WA</span
                             >
                         </header>
-                        <h3 class="match-title">Inglaterra vs Nigeria</h3>
+                        <h3 class="match-title">Inglaterra vs TBD</h3>
                         <div class="c-text">
-                            Disfruta de la acción en Seattle. Últimos pases de
-                            Hospitality y
-                            <strong>asientos generales</strong> para un
-                            enfrentamiento físico y táctico de primer nivel
-                            mundial.
+                            Disfruta de la acción en Seattle.
+                            <strong>Asientos generales</strong>
+                            y pases VIP disponibles para este duelo.
                         </div>
                         <div class="c-actions">
                             <button
                                 class="btn btn-gold"
-                                onclick="route('tickets', 'eng-nig')"
+                                onclick="route('tickets', 'eng-match')"
+                            >
+                                Comprar Boletos
+                            </button>
+                            <button
+                                class="btn btn-outline"
+                                onclick="route('info', 'eng-match')"
                             >
                                 Ver Precios
                             </button>
@@ -515,12 +516,9 @@
                             Gran Final Copa del Mundo FIFA 2026
                         </h3>
                         <div class="c-text">
-                            Adquiere
-                            <strong
-                                >boletos para la Final del Mundial 2026</strong
-                            >. Acceso exclusivo a los últimos paquetes
-                            corporativos y localidades premium liberadas en el
-                            MetLife Stadium.
+                            Acceso exclusivo a los últimos paquetes corporativos
+                            y <strong>localidades premium</strong> liberadas en
+                            el MetLife Stadium.
                         </div>
                         <div class="c-actions">
                             <button
@@ -622,7 +620,7 @@
             }
 
             function startCountdown() {
-                const targetDate = new Date("2026-06-12T21:00:00Z").getTime();
+                const targetDate = new Date("2026-06-13T21:00:00Z").getTime();
                 const ticker = document.getElementById("countdown");
                 setInterval(() => {
                     const now = new Date().getTime();
