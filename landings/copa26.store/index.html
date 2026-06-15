@@ -5,8 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
         <title>
-            Entradas Copa Mundial 2026 | Accesos y Pases Copa 26, Argentina vs
-            TBD, Brasil vs TBD, Francia vs TBD
+            Entradas Copa Mundial 2026 | Accesos y Pases Copa 26, España vs Cabo
+            Verde, Bélgica vs Egipto, Brasil vs Suiza
         </title>
 
         <meta
@@ -238,6 +238,20 @@
         </script>
 
         <link rel="stylesheet" href="index.css" />
+        <!-- Google tag (gtag.js) -->
+        <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"
+        ></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
+
+            gtag("config", "G-XXXXXXXXXX");
+        </script>
     </head>
     <body>
         <div class="premium-ticker" role="alert">
@@ -312,29 +326,54 @@
                 </div>
 
                 <div class="grid">
-                    <article class="card" id="arg-match" data-stage="grupos">
+                    <article class="card" id="esp-match" data-stage="grupos">
                         <header class="c-time">
-                            <span class="c-date" data-utc="2026-06-15T19:00:00Z"
+                            <span class="c-date" data-utc="2026-06-15T20:00:00Z"
                                 >15 Jun</span
                             >
                             <span class="c-venue"
-                                >AT&T Stadium — Dallas, TX</span
+                                >Hard Rock Stadium — Miami, FL</span
                             >
                         </header>
-                        <h3 class="match-title">Argentina vs TBD</h3>
+                        <h3 class="match-title">España vs Cabo Verde</h3>
                         <div class="c-text">
-                            ¡Hoy! Gran demanda de aficionados para acompañar al
-                            cuadro albiceleste. Reserva tus
-                            <strong>localidades</strong> en sectores VIP
-                            Hospitality y gradas generales con asignación
-                            digital inmediata.
+                            ¡Hoy! Máxima expectación en Florida. Encuentra
+                            <strong>entradas accesibles</strong> y pases VIP
+                            para vivir la pasión del fútbol internacional con la
+                            mejor atmósfera de Miami.
                         </div>
                         <div class="c-actions">
                             <button
                                 class="btn btn-gold"
-                                onclick="route('tickets', 'arg-match')"
+                                onclick="route('tickets', 'esp-match')"
                             >
-                                Ver Disponibilidad
+                                Buscar Entradas
+                            </button>
+                        </div>
+                    </article>
+
+                    <article class="card" id="bel-match" data-stage="grupos">
+                        <header class="c-time">
+                            <span class="c-date" data-utc="2026-06-15T23:00:00Z"
+                                >15 Jun</span
+                            >
+                            <span class="c-venue"
+                                >Lumen Field — Seattle, WA</span
+                            >
+                        </header>
+                        <h3 class="match-title">Bélgica vs Egipto</h3>
+                        <div class="c-text">
+                            ¡Hoy! Disfruta del torneo en la Costa Oeste.
+                            Disponemos de pases Club Level y
+                            <strong>asientos regulares</strong> para presenciar
+                            este electrizante choque intercontinental.
+                        </div>
+                        <div class="c-actions">
+                            <button
+                                class="btn btn-gold"
+                                onclick="route('tickets', 'bel-match')"
+                            >
+                                Cotizar Asientos
                             </button>
                         </div>
                     </article>
@@ -348,7 +387,7 @@
                                 >Mercedes-Benz Stadium — Atlanta, GA</span
                             >
                         </header>
-                        <h3 class="match-title">Brasil vs TBD</h3>
+                        <h3 class="match-title">Brasil vs Suiza</h3>
                         <div class="c-text">
                             No te pierdas el debut de la canarinha. Entradas en
                             <strong>palcos corporativos</strong> y tribunas
@@ -365,54 +404,29 @@
                         </div>
                     </article>
 
-                    <article class="card" id="fra-match" data-stage="grupos">
+                    <article class="card" id="arg-match" data-stage="grupos">
                         <header class="c-time">
                             <span class="c-date" data-utc="2026-06-17T19:00:00Z"
                                 >17 Jun</span
                             >
                             <span class="c-venue"
-                                >Hard Rock Stadium — Miami, FL</span
+                                >AT&T Stadium — Dallas, TX</span
                             >
                         </header>
-                        <h3 class="match-title">Francia vs TBD</h3>
+                        <h3 class="match-title">Argentina vs Argelia</h3>
                         <div class="c-text">
-                            Máxima expectación en Florida. Encuentra
-                            <strong>entradas accesibles</strong> y pases VIP
-                            para vivir la pasión del fútbol internacional con la
-                            mejor atmósfera de Miami.
+                            Gran demanda de aficionados para acompañar al cuadro
+                            albiceleste. Reserva tus
+                            <strong>localidades</strong> en sectores VIP
+                            Hospitality y gradas generales con asignación
+                            digital inmediata.
                         </div>
                         <div class="c-actions">
                             <button
                                 class="btn btn-gold"
-                                onclick="route('tickets', 'fra-match')"
+                                onclick="route('tickets', 'arg-match')"
                             >
-                                Buscar Entradas
-                            </button>
-                        </div>
-                    </article>
-
-                    <article class="card" id="eng-match" data-stage="grupos">
-                        <header class="c-time">
-                            <span class="c-date" data-utc="2026-06-20T19:00:00Z"
-                                >20 Jun</span
-                            >
-                            <span class="c-venue"
-                                >Lumen Field — Seattle, WA</span
-                            >
-                        </header>
-                        <h3 class="match-title">Inglaterra vs TBD</h3>
-                        <div class="c-text">
-                            Disfruta del torneo en la Costa Oeste. Disponemos de
-                            pases Club Level y
-                            <strong>asientos regulares</strong> para presenciar
-                            este electrizante choque intercontinental.
-                        </div>
-                        <div class="c-actions">
-                            <button
-                                class="btn btn-gold"
-                                onclick="route('tickets', 'eng-match')"
-                            >
-                                Cotizar Asientos
+                                Ver Disponibilidad
                             </button>
                         </div>
                     </article>
@@ -427,7 +441,7 @@
                         "
                     >
                         <header class="c-time">
-                            <span class="c-date" data-utc="2026-07-19T19:00:00Z"
+                            <span class="c-date" data-utc="2026-07-19T15:00:00Z"
                                 >19 Jul</span
                             >
                             <span class="c-venue"
@@ -540,6 +554,13 @@
             }
 
             function route(action, id) {
+                if (typeof gtag === "function") {
+                    gtag("event", "button_click", {
+                        event_category: "engagement",
+                        event_action: action,
+                        event_label: id,
+                    });
+                }
                 window.location.href =
                     "https://www.ticketmaster.com/2026-world-cup-tickets/artist/4067734";
             }
