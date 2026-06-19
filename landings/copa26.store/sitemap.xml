@@ -129,6 +129,50 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://copa26.store/jordan-argentina/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://copa26.store/mexico-czechia/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://copa26.store/paraguay-australia/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://copa26.store/paraguay-australia/entradas/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://copa26.store/paraguay-australia/vivo/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://copa26.store/paraguay-turkey/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://copa26.store/paraguay-turkey/entradas/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://copa26.store/paraguay-turkey/vivo/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://copa26.store/scotland-morocco/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://copa26.store/scotland-morocco/entradas/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://copa26.store/scotland-morocco/vivo/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://copa26.store/semifinal-1/</loc>
     <priority>0.8</priority>
   </url>
@@ -157,27 +201,43 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://copa26.store/scotland-morocco/</loc>
+    <loc>https://copa26.store/tunisia-japan/</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://copa26.store/scotland-morocco/entradas/</loc>
+    <loc>https://copa26.store/tunisia-japan/entradas/</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://copa26.store/scotland-morocco/vivo/</loc>
+    <loc>https://copa26.store/uruguay-cabo-verde/</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://copa26.store/turkey-paraguay/</loc>
+    <loc>https://copa26.store/uruguay-cabo-verde/entradas/</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://copa26.store/turkey-paraguay/entradas/</loc>
+    <loc>https://copa26.store/uruguay-cabo-verde/vivo/</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://copa26.store/turkey-paraguay/vivo/</loc>
+    <loc>https://copa26.store/uruguay-spain/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://copa26.store/uruguay-spain/entradas/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://copa26.store/uruguay-spain/vivo/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://copa26.store/ecuador-curacao/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://copa26.store/ecuador-curacao/entradas/</loc>
     <priority>0.8</priority>
   </url>
 </urlset>

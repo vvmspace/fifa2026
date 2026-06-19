@@ -125,11 +125,51 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://boletosfifa.store/ecuador-curacao/</loc>
+    <loc>https://boletosfifa.store/ghana-panama-en-vivo/</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://boletosfifa.store/ghana-panama-en-vivo/</loc>
+    <loc>https://boletosfifa.store/jordan-argentina/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://boletosfifa.store/mexico-czechia/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://boletosfifa.store/paraguay-australia/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://boletosfifa.store/paraguay-australia/boletos/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://boletosfifa.store/paraguay-australia/vivo/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://boletosfifa.store/paraguay-turkey/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://boletosfifa.store/paraguay-turkey/boletos/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://boletosfifa.store/paraguay-turkey/vivo/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://boletosfifa.store/scotland-morocco/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://boletosfifa.store/scotland-morocco/boletos/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://boletosfifa.store/scotland-morocco/vivo/</loc>
     <priority>0.8</priority>
   </url>
   <url>
@@ -161,31 +201,47 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://boletosfifa.store/scotland-morocco/</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://boletosfifa.store/scotland-morocco/boletos/</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://boletosfifa.store/scotland-morocco/vivo/</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://boletosfifa.store/tunisia-japan/</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://boletosfifa.store/turkey-paraguay/</loc>
+    <loc>https://boletosfifa.store/tunisia-japan/boletos/</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://boletosfifa.store/turkey-paraguay/boletos/</loc>
+    <loc>https://boletosfifa.store/tunisia-japan/vivo/</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://boletosfifa.store/turkey-paraguay/vivo/</loc>
+    <loc>https://boletosfifa.store/uruguay-cabo-verde/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://boletosfifa.store/uruguay-cabo-verde/boletos/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://boletosfifa.store/uruguay-cabo-verde/vivo/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://boletosfifa.store/uruguay-spain/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://boletosfifa.store/uruguay-spain/boletos/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://boletosfifa.store/uruguay-spain/vivo/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://boletosfifa.store/ecuador-curacao/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://boletosfifa.store/ecuador-curacao/boletos/</loc>
     <priority>0.8</priority>
   </url>
 </urlset>
