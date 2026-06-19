@@ -26,6 +26,20 @@
 node index.js -> check events.json -> events -> ... -> dates -> ...
 После обновления в landings/.../index.html - должно быть обновлено расписание игры с фокусом не ближайшие игры + игры должны выводиться строго после текущей даты/времени.
 
+## Site specifics:
+
+### boletosfifa.store
+
+- Keywords: FIFA 2026, boletos, ver en vivo, ver online
+- Lang code: es-419 + country specific spanish code for scpecific games es-AR, ...
+
+### copa26.store
+
+- Keywords: Copa Mundial 2026, Entradas, ver en vivo en linea, ver en directo
+- Lang code: es
+
+
+
 IMPORTANT: Избегай автоматического обновления.
 Используй скрипты ТОЛЬКО для подгрузки контекста.
 
