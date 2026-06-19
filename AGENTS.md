@@ -23,7 +23,7 @@
 - [game]/vivo - для онлайн трансляций
 
 Обновление игр:
-node index.js -> check events.json -> events -> ... -> dates -> ...
+node index.js events.md -> check events.md -> events -> ... -> dates -> ...
 После обновления в landings/.../index.html - должно быть обновлено расписание игры с фокусом не ближайшие игры + игры должны выводиться строго после текущей даты/времени.
 
 ## Site specifics:
