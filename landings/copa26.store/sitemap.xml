@@ -22,32 +22,92 @@
     <loc>https://copa26.store/paraguay/</loc>
     <priority>1.0</priority>
   </url>
-  <!-- High Priority Games -->
+  <!-- Nearest Games (High Priority) -->
   <url>
-    <loc>https://copa26.store/usa-australia/</loc>
+    <loc>https://copa26.store/netherlands-sweden/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://copa26.store/usa-australia/entradas/</loc>
+    <loc>https://copa26.store/netherlands-sweden/entradas/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://copa26.store/usa-australia/vivo/</loc>
+    <loc>https://copa26.store/netherlands-sweden/vivo/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://copa26.store/final/</loc>
+    <loc>https://copa26.store/germany-ivory-coast/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://copa26.store/final/boletos/</loc>
+    <loc>https://copa26.store/germany-ivory-coast/entradas/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://copa26.store/final/vivo/</loc>
+    <loc>https://copa26.store/germany-ivory-coast/vivo/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://copa26.store/ecuador-curacao/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://copa26.store/ecuador-curacao/entradas/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://copa26.store/ecuador-curacao/vivo/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://copa26.store/tunisia-japan/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://copa26.store/tunisia-japan/entradas/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://copa26.store/tunisia-japan/vivo/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://copa26.store/spain-saudi-arabia/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://copa26.store/spain-saudi-arabia/entradas/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://copa26.store/spain-saudi-arabia/vivo/</loc>
     <priority>1.0</priority>
   </url>
   <!-- Other Games -->
+  <url>
+    <loc>https://copa26.store/usa-australia/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://copa26.store/usa-australia/entradas/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://copa26.store/usa-australia/vivo/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://copa26.store/final/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://copa26.store/final/boletos/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://copa26.store/final/vivo/</loc>
+    <priority>0.8</priority>
+  </url>
   <url>
     <loc>https://copa26.store/argentina-austria/</loc>
     <priority>0.8</priority>
@@ -202,11 +262,15 @@
   </url>
   <url>
     <loc>https://copa26.store/tunisia-japan/</loc>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://copa26.store/tunisia-japan/entradas/</loc>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://copa26.store/tunisia-japan/vivo/</loc>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://copa26.store/uruguay-cabo-verde/</loc>
@@ -234,10 +298,14 @@
   </url>
   <url>
     <loc>https://copa26.store/ecuador-curacao/</loc>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://copa26.store/ecuador-curacao/entradas/</loc>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://copa26.store/ecuador-curacao/vivo/</loc>
+    <priority>1.0</priority>
   </url>
 </urlset>

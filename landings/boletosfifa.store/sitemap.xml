@@ -22,32 +22,92 @@
     <loc>https://boletosfifa.store/paraguay/</loc>
     <priority>1.0</priority>
   </url>
-  <!-- High Priority Games -->
+  <!-- Nearest Games (High Priority) -->
   <url>
-    <loc>https://boletosfifa.store/usa-australia/</loc>
+    <loc>https://boletosfifa.store/netherlands-sweden/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://boletosfifa.store/usa-australia/boletos/</loc>
+    <loc>https://boletosfifa.store/netherlands-sweden/boletos/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://boletosfifa.store/usa-australia/vivo/</loc>
+    <loc>https://boletosfifa.store/netherlands-sweden/vivo/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://boletosfifa.store/final/</loc>
+    <loc>https://boletosfifa.store/germany-ivory-coast/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://boletosfifa.store/final/boletos/</loc>
+    <loc>https://boletosfifa.store/germany-ivory-coast/boletos/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://boletosfifa.store/final/vivo/</loc>
+    <loc>https://boletosfifa.store/germany-ivory-coast/vivo/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://boletosfifa.store/ecuador-curacao/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://boletosfifa.store/ecuador-curacao/boletos/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://boletosfifa.store/ecuador-curacao/vivo/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://boletosfifa.store/tunisia-japan/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://boletosfifa.store/tunisia-japan/boletos/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://boletosfifa.store/tunisia-japan/vivo/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://boletosfifa.store/spain-saudi-arabia/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://boletosfifa.store/spain-saudi-arabia/boletos/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://boletosfifa.store/spain-saudi-arabia/vivo/</loc>
     <priority>1.0</priority>
   </url>
   <!-- Other Games -->
+  <url>
+    <loc>https://boletosfifa.store/usa-australia/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://boletosfifa.store/usa-australia/boletos/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://boletosfifa.store/usa-australia/vivo/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://boletosfifa.store/final/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://boletosfifa.store/final/boletos/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://boletosfifa.store/final/vivo/</loc>
+    <priority>0.8</priority>
+  </url>
   <url>
     <loc>https://boletosfifa.store/argentina-austria/</loc>
     <priority>0.8</priority>
@@ -202,15 +262,15 @@
   </url>
   <url>
     <loc>https://boletosfifa.store/tunisia-japan/</loc>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://boletosfifa.store/tunisia-japan/boletos/</loc>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://boletosfifa.store/tunisia-japan/vivo/</loc>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://boletosfifa.store/uruguay-cabo-verde/</loc>
@@ -238,10 +298,14 @@
   </url>
   <url>
     <loc>https://boletosfifa.store/ecuador-curacao/</loc>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://boletosfifa.store/ecuador-curacao/boletos/</loc>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://boletosfifa.store/ecuador-curacao/vivo/</loc>
+    <priority>1.0</priority>
   </url>
 </urlset>
