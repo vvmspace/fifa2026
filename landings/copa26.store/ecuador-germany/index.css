@@ -1,0 +1,199 @@
+:root {
+    --obsidian: #050505;
+    --gold-primary: #d4af37;
+    --gold-secondary: #aa8a2e;
+    --gold-light: #f9e4b7;
+    --glass: rgba(255, 255, 255, 0.03);
+    --glass-border: rgba(212, 175, 55, 0.2);
+    --text-main: #e0e0e0;
+    --text-muted: #a0a0a0;
+}
+
+body {
+    background-color: var(--obsidian);
+    color: var(--text-main);
+    font-family: 'Inter', 'Segoe UI', Roboto, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+.luxury-bg {
+    position: fixed;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: 
+        radial-gradient(circle at 20% 30%, rgba(212, 175, 55, 0.05) 0%, transparent 40%),
+        radial-gradient(circle at 80% 70%, rgba(212, 175, 55, 0.05) 0%, transparent 40%),
+        linear-gradient(180deg, #0a0a0a 0%, #050505 100%);
+    z-index: -1;
+}
+
+header {
+    padding: 6rem 2rem 4rem;
+    text-align: center;
+    position: relative;
+}
+
+.gold-label {
+    color: var(--gold-primary);
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 1.5rem;
+    opacity: 0.8;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 800;
+    margin: 0;
+    line-height: 1.1;
+    background: linear-gradient(to bottom, var(--gold-light) 0%, var(--gold-primary) 50%, var(--gold-secondary) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 10px 20px rgba(0,0,0,0.5));
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem 6rem;
+}
+
+.glass-section {
+    background: var(--glass);
+    backdrop-filter: blur(20px);
+    border: 1px solid var(--glass-border);
+    border-radius: 40px;
+    padding: 4rem;
+    margin-bottom: 4rem;
+    box-shadow: 0 30px 60px rgba(0,0,0,0.6);
+    transition: transform 0.3s ease;
+}
+
+.match-hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 4rem;
+    gap: 2rem;
+}
+
+.team-box {
+    flex: 1;
+}
+
+.team-name {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.vs-badge {
+    font-size: 1rem;
+    color: var(--gold-primary);
+    border: 1px solid var(--gold-primary);
+    padding: 0.6rem 1.2rem;
+    border-radius: 100px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: rgba(212, 175, 55, 0.1);
+}
+
+.content-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: start;
+}
+
+.content-block h2 {
+    color: var(--gold-primary);
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.content-block h2::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 60px;
+    height: 2px;
+    background: var(--gold-primary);
+}
+
+.content-block p {
+    font-size: 1.1rem;
+    color: var(--text-muted);
+    text-align: justify;
+    margin-bottom: 1.5rem;
+}
+
+.cta-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 4rem;
+}
+
+.btn {
+    padding: 1.5rem 3.5rem;
+    border-radius: 100px;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    cursor: pointer;
+}
+
+.btn-gold {
+    background: linear-gradient(135deg, var(--gold-primary), var(--gold-secondary));
+    color: var(--obsidian);
+    box-shadow: 0 10px 30px rgba(212, 175, 55, 0.3);
+}
+
+.btn-gold:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(212, 175, 55, 0.4);
+    filter: brightness(1.1);
+}
+
+.btn-outline {
+    border: 1px solid var(--gold-primary);
+    color: var(--gold-primary);
+    background: transparent;
+}
+
+.btn-outline:hover {
+    background: var(--gold-primary);
+    color: var(--obsidian);
+    transform: translateY(-5px);
+}
+
+footer {
+    text-align: center;
+    padding: 4rem 2rem;
+    color: #444;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+@media (max-width: 992px) {
+    .content-grid { grid-template-columns: 1fr; }
+    h1 { font-size: 3rem; }
+    .match-hero { flex-direction: column; }
+}
+
+@media (max-width: 600px) {
+    .glass-section { padding: 2rem; }
+    .cta-container { flex-direction: column; }
+    h1 { font-size: 2.2rem; }
+}

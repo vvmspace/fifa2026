@@ -3,151 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Entradas Ecuador vs Alemania - Copa Mundial 2026 | Reservas</title>
-    <meta name="description" content="Reserve sus entradas para Ecuador vs Alemania en el MetLife Stadium. Acceso preferencial, paquetes VIP y la mejor ubicación para la Copa Mundial 2026.">
+    <title>Entradas Ecuador vs Alemania | Acceso Premium Copa 2026</title>
+    <meta name="description" content="Asegure sus entradas para Ecuador vs Alemania en el MetLife Stadium. Disponibilidad limitada de asientos VIP y hospitalidad de lujo para la Copa Mundial 2026.">
+    <link rel="stylesheet" href="../../index.css">
     <style>
-        :root {
-            --obsidian: #0a0a0a;
-            --gold: #d4af37;
-            --gold-light: #f9e4b7;
-            --glass: rgba(255, 255, 255, 0.05);
-            --glass-border: rgba(212, 175, 55, 0.3);
-        }
-        body {
-            background-color: var(--obsidian);
-            color: #e0e0e0;
-            font-family: 'Inter', sans-serif;
-            margin: 0;
-        }
-        .luxury-bg {
-            position: fixed;
-            top: 0; left: 0; width: 100%; height: 100%;
-            background: radial-gradient(circle at 50% -20%, #1a1a1a 0%, var(--obsidian) 70%);
-            z-index: -1;
-        }
-        header {
-            padding: 4rem 2rem;
-            text-align: center;
-            border-bottom: 1px solid var(--glass-border);
-        }
-        .gold-text {
-            color: var(--gold);
-            text-transform: uppercase;
-            letter-spacing: 4px;
-            font-size: 0.9rem;
-            display: block;
-            margin-bottom: 1rem;
-        }
-        h1 {
-            font-size: 3rem;
-            background: linear-gradient(to right, var(--gold-light), var(--gold), var(--gold-light));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            margin: 0;
-        }
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 4rem 2rem;
-        }
-        .glass-card {
-            background: var(--glass);
-            backdrop-filter: blur(12px);
-            border: 1px solid var(--glass-border);
-            border-radius: 24px;
-            padding: 3rem;
-            text-align: center;
-        }
-        .ticket-options {
+        .ticket-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 2rem;
-            margin: 3rem 0;
+            margin-top: 3rem;
         }
-        .ticket-tier {
-            border: 1px solid var(--glass-border);
-            padding: 2rem;
-            border-radius: 16px;
-            background: rgba(0,0,0,0.3);
-            transition: transform 0.3s ease;
-        }
-        .ticket-tier:hover {
-            transform: translateY(-10px);
-            border-color: var(--gold);
-        }
-        .tier-name {
-            color: var(--gold);
-            font-size: 1.5rem;
-            font-weight: 600;
-            margin-bottom: 1rem;
-        }
-        .tier-desc {
-            font-size: 0.95rem;
-            color: #aaa;
-            margin-bottom: 2rem;
-        }
-        .btn {
-            padding: 1rem 2rem;
-            border-radius: 50px;
-            text-decoration: none;
-            font-weight: 600;
-            display: inline-block;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            border: none;
-            width: 100%;
-        }
-        .btn-gold {
-            background: linear-gradient(135deg, var(--gold), #b8860b);
-            color: var(--obsidian);
-        }
-        .btn-gold:hover {
-            box-shadow: 0 10px 20px rgba(212, 175, 55, 0.4);
-        }
-        footer {
+        .ticket-card {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(212, 175, 55, 0.2);
+            border-radius: 24px;
+            padding: 2.5rem;
             text-align: center;
-            padding: 4rem 2rem;
-            color: #555;
-            font-size: 0.8rem;
+            transition: all 0.3s ease;
+        }
+        .ticket-card:hover {
+            transform: translateY(-10px);
+            border-color: var(--gold-primary);
+            background: rgba(255, 255, 255, 0.05);
+        }
+        .price {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: var(--gold-primary);
+            margin: 1.5rem 0;
+            display: block;
+        }
+        .features {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 2rem 0;
+            color: var(--text-muted);
+            text-align: left;
+        }
+        .features li {
+            margin-bottom: 0.8rem;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+        .features li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: var(--gold-primary);
         }
     </style>
 </head>
 <body>
     <div class="luxury-bg"></div>
     <header>
-        <span class="gold-text">Entradas Oficiales</span>
-        <h1>Entradas Ecuador vs Alemania</h1>
+        <span class="gold-label">Copa Mundial 2026 &bull; Boletos Exclusivos</span>
+        <h1 class="hero-title">Entradas Ecuador vs Alemania</h1>
     </header>
     <div class="container">
-        <div class="glass-card">
-            <p style="font-size: 1.2rem; color: #ccc; margin-bottom: 3rem;">
-                Asegure su presencia en el MetLife Stadium para el duelo más sofisticado de la Copa Mundial. 
-                Disponibilidad limitada para el público más exclusivo.
-            </p>
-            <div class="ticket-options">
-                <div class="ticket-tier">
-                    <div class="tier-name">Clase Ejecutiva</div>
-                    <div class="tier-desc">Asientos premium en zona central con visibilidad optimizada y acceso prioritario.</div>
-                    <button onclick="window.location.href='https://www.ticketmaster.com/2026-world-cup-tickets/artist/4067734'" class="btn btn-gold">Reservar Ahora</button>
+        <div class="glass-section">
+            <div class="content-block" style="text-align: center; margin-bottom: 3rem;">
+                <h2>Acceso Garantizado al MetLife Stadium</h2>
+                <p>
+                    No deje su lugar al azar. Ofrecemos la selección más exclusiva de asientos para el encuentro entre Ecuador y Alemania, asegurando que su experiencia sea tan impresionante como el juego mismo.
+                </p>
+            </div>
+            <div class="ticket-grid">
+                <div class="ticket-card">
+                    <h3>Categoría Plata</h3>
+                    <span class="price">Desde $450</span>
+                    <ul class="features">
+                        <li>Acceso estándar al estadio</li>
+                        <li>Asientos en tribuna lateral</li>
+                        <li>Soporte digital prioritario</li>
+                    </ul>
+                    <a href="https://www.ticketmaster.com/2026-world-cup-tickets/artist/4067734" class="btn btn-gold" style="display: block; text-align: center;">Comprar Ahora</a>
                 </div>
-                <div class="ticket-tier" style="border-color: var(--gold); background: rgba(212, 175, 55, 0.05);">
-                    <div class="tier-name">Royal Suite</div>
-                    <div class="tier-desc">Lujo absoluto: Sala privada, servicio de catering de clase mundial y vistas inigualables.</div>
-                    <button onclick="window.location.href='https://www.ticketmaster.com/2026-world-cup-tickets/artist/4067734'" class="btn btn-gold">Acceso Royal</button>
+                <div class="ticket-card">
+                    <h3>Categoría Oro</h3>
+                    <span class="price">Desde $1,200</span>
+                    <ul class="features">
+                        <li>Acceso rápido (Fast Track)</li>
+                        <li>Vistas panorámicas del campo</li>
+                        <li>Acceso a lounges exclusivos</li>
+                    </ul>
+                    <a href="https://www.ticketmaster.com/2026-world-cup-tickets/artist/4067734" class="btn btn-gold" style="display: block; text-align: center;">Comprar Ahora</a>
                 </div>
-                <div class="ticket-tier">
-                    <div class="tier-name">Acceso General</div>
-                    <div class="tier-desc">Viva la intensidad del fútbol mundial en la zona más vibrante del estadio.</div>
-                    <button onclick="window.location.href='https://www.ticketmaster.com/2026-world-cup-tickets/artist/4067734'" class="btn btn-gold">Comprar Entrada</button>
+                <div class="ticket-card">
+                    <h3>Categoría Diamante</h3>
+                    <span class="price">Desde $3,500</span>
+                    <ul class="features">
+                        <li>Hospitalidad VIP completa</li>
+                        <li>Asientos en primera fila</li>
+                        <li>Servicio de Concierge privado</li>
+                    </ul>
+                    <a href="https://www.ticketmaster.com/2026-world-cup-tickets/artist/4067734" class="btn btn-gold" style="display: block; text-align: center;">Comprar Ahora</a>
                 </div>
             </div>
-            <p style="color: #777; font-style: italic; font-size: 0.9rem;">
-                *La emisión de entradas es estrictamente digital mediante códigos QR cifrados.
-            </p>
         </div>
     </div>
     <footer>
-        &copy; 2026 Copa Mundial. Servicio de Gestión de Entradas Elite.
+        &copy; 2026 Copa Mundial. Gestión de Entradas Premium.
     </footer>
 </body>
 </html>
