@@ -1,0 +1,96 @@
+
+body {
+    background-color: #0a0a0a;
+    color: #d4af37;
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+.luxury-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.glass-card {
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(212, 175, 55, 0.2);
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    margin-bottom: 40px;
+}
+
+h1, h2, h3 {
+    color: #f1d279;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.gold-text {
+    color: #d4af37;
+    font-weight: bold;
+}
+
+.btn-exclusive {
+    display: block;
+    width: fit-content;
+    margin: 30px auto;
+    padding: 15px 40px;
+    background: linear-gradient(135deg, #d4af37 0%, #f1d279 100%);
+    color: #0a0a0a;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 50px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-exclusive:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0 20px rgba(212, 175, 55, 0.6);
+}
+
+a {
+    color: #f1d279;
+    text-decoration: none;
+}
+
+.match-header {
+    text-align: center;
+    padding: 60px 0;
+    background: radial-gradient(circle, rgba(212,175,55,0.1) 0%, rgba(0,0,0,0) 70%);
+}
+
+.grid-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.footer-luxury {
+    text-align: center;
+    padding: 40px;
+    font-size: 0.9em;
+    color: #666;
+    border-top: 1px solid rgba(212, 175, 55, 0.1);
+}
+
+.hero-section {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1508098682722-e99c437460c5?q=80&w=2070&auto=format&fit=crop');
+    background-size: cover;
+    background-position: center;
+    color: #d4af37;
+}
