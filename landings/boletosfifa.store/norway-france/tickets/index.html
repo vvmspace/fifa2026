@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boletos Exclusivos | Noruega vs Francia | Copa Mundial 2026</title>
+    <style>
+        :root {
+            --gold: #d4af37;
+            --dark-gold: #aa8a2e;
+            --obsidian: #0a0a0b;
+            --glass: rgba(255, 255, 255, 0.05);
+            --glass-border: rgba(212, 175, 55, 0.3);
+        }
+        body {
+            background-color: var(--obsidian);
+            color: #e0e0e0;
+            font-family: 'Cinzel', serif;
+            margin: 0;
+        }
+        .header {
+            height: 40vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background: linear-gradient(to bottom, #1a1a1d, #0a0a0b);
+            border-bottom: 1px solid var(--glass-border);
+        }
+        h1 {
+            color: var(--gold);
+            text-transform: uppercase;
+            letter-spacing: 8px;
+            margin-bottom: 20px;
+        }
+        .container {
+            max-width: 1000px;
+            margin: -50px auto 50px;
+            padding: 0 20px;
+        }
+        .ticket-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        .ticket-card {
+            background: var(--glass);
+            border: 1px solid var(--glass-border);
+            padding: 40px;
+            text-align: center;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+        }
+        .ticket-card:hover {
+            transform: translateY(-10px);
+            border-color: var(--gold);
+            box-shadow: 0 10px 30px rgba(212, 175, 55, 0.2);
+        }
+        .ticket-card h2 {
+            color: var(--gold);
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+        .price {
+            font-size: 2rem;
+            margin-bottom: 30px;
+            display: block;
+            font-weight: bold;
+        }
+        .btn-buy {
+            padding: 15px 30px;
+            background: linear-gradient(45deg, var(--dark-gold), var(--gold));
+            color: var(--obsidian);
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: uppercase;
+            display: inline-block;
+            cursor: pointer;
+            border: none;
+            width: 100%;
+        }
+        .footer {
+            text-align: center;
+            padding: 50px;
+            color: #666;
+            border-top: 1px solid var(--glass-border);
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Adquisición de Entradas</h1>
+        <p>Noruega vs Francia | Gillette Stadium</p>
+    </div>
+    <div class="container">
+        <div class="ticket-grid">
+            <div class="ticket-card">
+                <h2>Categoría Oro</h2>
+                <p>Ubicaciones privilegiadas con vista panorámica al campo.</p>
+                <span class="price">Desde $1,200 USD</span>
+                <button class="btn-buy" onclick="window.open('https://www.ticketmaster.com/2026-world-cup-tickets/artist/4067734', '_blank')">Reservar Ahora</button>
+            </div>
+            <div class="ticket-card" style="border-color: var(--gold);">
+                <h2>Experiencia Platino</h2>
+                <p>Acceso al lounge VIP, catering gourmet y asientos reclinables.</p>
+                <span class="price">Desde $3,500 USD</span>
+                <button class="btn-buy" onclick="window.open('https://www.ticketmaster.com/2026-world-cup-tickets/artist/4067734', '_blank')">Reservar Ahora</button>
+            </div>
+            <div class="ticket-card">
+                <h2>Socio Imperial</h2>
+                <p>El máximo nivel de lujo. Acceso total al túnel de jugadores y hospitality.</p>
+                <span class="price">Consulta Privada</span>
+                <button class="btn-buy" onclick="window.open('https://www.ticketmaster.com/2026-world-cup-tickets/artist/4067734', '_blank')">Solicitar Acceso</button>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        &copy; 2026 Copa Mundial. El estándar del lujo deportivo.
+    </div>
+</body>
+</html>

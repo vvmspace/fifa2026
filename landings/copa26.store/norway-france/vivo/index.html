@@ -1,53 +1,69 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Noruega vs Francia en Vivo | Streaming de Lujo Copa Mundial 2026</title>
-    <meta name="description" content="Transmisión en alta definición para Noruega vs Francia. Acceso exclusivo a la señal premium con comentarios de élite y análisis en tiempo real desde el Gillette Stadium.">
-    <link rel="stylesheet" href="../style-luxury-v2.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <title>Ver en Vivo | Noruega vs Francia | Mundial 2026</title>
+    <style>
+        :root {
+            --gold: #d4af37;
+            --obsidian: #0a0a0b;
+            --glass-border: rgba(212, 175, 55, 0.3);
+        }
+        body {
+            background-color: var(--obsidian);
+            color: #e0e0e0;
+            font-family: 'Cinzel', serif;
+            margin: 0;
+            text-align: center;
+        }
+        .stream-box {
+            width: 100%;
+            max-width: 1000px;
+            aspect-ratio: 16/9;
+            margin: 50px auto;
+            border: 2px solid var(--gold);
+            background: #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 0 40px rgba(212, 175, 55, 0.2);
+        }
+        .play-btn {
+            width: 70px;
+            height: 70px;
+            background: var(--gold);
+            border-radius: 50%;
+            cursor: pointer;
+            position: relative;
+        }
+        .play-btn::after {
+            content: '';
+            border-style: solid;
+            border-width: 10px 0 10px 20px;
+            border-color: transparent transparent transparent #000;
+            position: absolute;
+            top: 20px; left: 25px;
+        }
+        .nav {
+            margin-top: 30px;
+        }
+        .btn {
+            color: var(--gold);
+            text-decoration: none;
+            border: 1px solid var(--gold);
+            padding: 10px 20px;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <div class="header-content">
-            <a href="/" class="logo">COPA <strong>26</strong></a>
-            <nav>
-                <a href="/" class="btn btn-outline" style="padding: 0.5rem 1rem; font-size: 0.8rem;">Volver al Inicio</a>
-            </nav>
-        </div>
-    </header>
-
-    <main>
-        <section class="hero">
-            <div class="hero-content">
-                <small>SEÑAL PRIVADA</small>
-                <h1>Transmisión VIP<br>Noruega vs Francia</h1>
-                <div class="match-score-card">
-                    <strong>Noruega</strong>
-                    <span>vs</span>
-                    <strong>Francia</strong>
-                </div>
-                <p>Sienta la intensidad del Gillette Stadium desde la comodidad de su residencia. Calidad 4K, sonido envolvente y acceso a ángulos de cámara exclusivos.</p>
-                <div class="c-actions">
-                    <button class="btn btn-gold" onclick="window.location.href='https://www.ticketmaster.com/2026-world-cup-tickets/artist/4067734'">Acceder al Stream</button>
-                    <a href="../entradas" class="btn btn-outline">Reservar Asientos</a>
-                </div>
-            </div>
-        </section>
-
-        <section class="seo-content-block">
-            <h2>La Experiencia Digital de Élite</h2>
-            <p>
-                La tecnología de transmisión más avanzada del mundo se pone al servicio del fanático exigente. Para el duelo entre Noruega y Francia, hemos implementado un flujo de datos optimizado que garantiza cero latencia y una resolución cristalina. No se trata solo de ver un partido, sino de sumergirse en la atmósfera del Gillette Stadium a través de una ventana digital de alta fidelidad.
-            </p>
-            <p>
-                Nuestros analistas de élite proporcionarán una narrativa detallada, desglosando cada movimiento táctico y cada destello de genialidad individual. Desde el despliegue ofensivo de los noruegos hasta la solidez defensiva francesa, cada segundo será capturado con una precisión cinematográfica. Esta es la opción ideal para quienes valoran la exclusividad y la comodidad sin sacrificar la emoción del directo.
-            </p>
-            <p>
-                La señal premium incluye acceso a estadísticas en tiempo real y una interfaz minimalista que no interrumpe la visión del juego. Es el estándar de oro de las transmisiones deportivas, diseñado para una audiencia que busca la excelencia en cada detalle. Prepárese para presenciar el choque de potencias en la máxima calidad posible.
-            </p>
-        </section>
-    </main>
+    <h1 style="color: var(--gold); margin-top: 50px;">Transmisión Directa</h1>
+    <div class="stream-box">
+        <div class="play-btn"></div>
+    </div>
+    <div class="nav">
+        <a href="../index.html" class="btn">Volver al Juego</a>
+    </div>
 </body>
 </html>
