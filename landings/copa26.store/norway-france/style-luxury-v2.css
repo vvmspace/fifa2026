@@ -1,0 +1,194 @@
+
+:root {
+    --obsidian: #0a0a0a;
+    --obsidian-light: #1a1a1a;
+    --gold: #d4af37;
+    --gold-light: #f9e498;
+    --gold-gradient: linear-gradient(135deg, #d4af37 0%, #f9e498 50%, #b8860b 100%);
+    --glass: rgba(255, 255, 255, 0.03);
+    --glass-border: rgba(212, 175, 55, 0.3);
+    --text-main: #e0e0e0;
+    --text-dim: #a0a0a0;
+    --font-serif: 'Playfair Display', serif;
+    --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+body {
+    background-color: var(--obsidian);
+    color: var(--text-main);
+    font-family: var(--font-sans);
+    margin: 0;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+header {
+    padding: 2rem;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.8), transparent);
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+    top: 0;
+    box-sizing: border-box;
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: var(--gold);
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.logo strong {
+    color: white;
+    font-weight: 300;
+}
+
+main {
+    padding-top: 8rem;
+}
+
+.hero {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: radial-gradient(circle at center, #1a1a1a 0%, #0a0a0a 100%);
+    position: relative;
+}
+
+.hero h1 {
+    font-family: var(--font-serif);
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    background: var(--gold-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+}
+
+.hero h1 small {
+    display: block;
+    font-family: var(--font-sans);
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: var(--text-dim);
+    -webkit-text-fill-color: var(--text-dim);
+    margin-top: 1rem;
+}
+
+.match-score-card {
+    display: inline-flex;
+    align-items: center;
+    gap: 3rem;
+    background: var(--glass);
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--glass-border);
+    padding: 2rem 4rem;
+    border-radius: 100px;
+    margin: 3rem 0;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+}
+
+.match-score-card span {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: white;
+    font-family: var(--font-serif);
+}
+
+.match-score-card strong {
+    font-size: 1.5rem;
+    color: var(--gold);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.hero p {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    color: var(--text-dim);
+    font-style: italic;
+}
+
+.seo-content-block {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 6rem 2rem;
+}
+
+.seo-content-block h2 {
+    font-family: var(--font-serif);
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    color: var(--gold);
+}
+
+.seo-content-block p {
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+    text-align: justify;
+    color: var(--text-main);
+    opacity: 0.9;
+}
+
+.c-actions {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.btn {
+    padding: 1.2rem 2.5rem;
+    border-radius: 5px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.9rem;
+}
+
+.btn-gold {
+    background: var(--gold-gradient);
+    color: var(--obsidian);
+    border: none;
+    box-shadow: 0 10px 20px rgba(212, 175, 55, 0.2);
+}
+
+.btn-gold:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 15px 30px rgba(212, 175, 55, 0.4);
+}
+
+.btn-outline {
+    background: transparent;
+    color: var(--gold);
+    border: 1px solid var(--gold);
+}
+
+.btn-outline:hover {
+    background: var(--gold);
+    color: var(--obsidian);
+}
+
+@media (max-width: 768px) {
+    .hero h1 { font-size: 2.5rem; }
+    .match-score-card { gap: 1.5rem; padding: 1.5rem 2rem; }
+    .match-score-card span { font-size: 1.5rem; }
+    .c-actions { flex-direction: column; }
+}
