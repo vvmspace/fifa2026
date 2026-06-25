@@ -1,113 +1,166 @@
 <!DOCTYPE html>
-<html lang="es-419">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ver en Vivo: Jordania vs Argentina | Streaming de Lujo FIFA 2026</title>
-    <meta name="description" content="Siga la transmisión en directo de Jordania vs Argentina. Calidad 4K, acceso exclusivo y análisis en tiempo real desde el AT&T Stadium.">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <title>Ver Jordania vs Argentina en Vivo | Señal Premium Boletos FIFA</title>
+    <meta name="description" content="Sintonice el partido Jordania vs Argentina en vivo. Transmisión de alta gama con calidad 4K y análisis experto desde el AT&T Stadium.">
     <style>
         :root {
             --obsidian: #0a0a0a;
             --gold: #d4af37;
             --gold-light: #f1d592;
-            --glass: rgba(26, 26, 26, 0.8);
-            --text: #e0e0e0;
+            --glass: rgba(255, 255, 255, 0.05);
+            --glass-border: rgba(212, 175, 55, 0.3);
+            --text-main: #e0e0e0;
+            --text-muted: #a0a0a0;
         }
         body {
-            margin: 0;
-            padding: 0;
             background-color: var(--obsidian);
-            color: var(--text);
+            color: var(--text-main);
             font-family: 'Inter', sans-serif;
+            margin: 0;
             line-height: 1.6;
         }
-        h1, h2 {
-            font-family: 'Playfair Display', serif;
-            color: var(--gold);
+        .luxury-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at 50% 50%, #111 0%, #0a0a0a 100%);
+            z-index: -1;
+        }
+        .gold-gradient-text {
+            background: linear-gradient(135deg, var(--gold), var(--gold-light));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: 800;
+        }
+        header {
+            padding: 60px 20px;
             text-align: center;
         }
-        .container {
-            max-width: 1100px;
+        .video-container {
+            max-width: 1000px;
             margin: 0 auto;
-            padding: 60px 20px;
-        }
-        .player-container {
-            position: relative;
+            aspect-ratio: 16 / 9;
             background: #000;
             border: 2px solid var(--gold);
-            aspect-ratio: 16/9;
+            border-radius: 20px;
             display: flex;
             justify-content: center;
             align-items: center;
+            position: relative;
             box-shadow: 0 0 50px rgba(212, 175, 55, 0.2);
-            margin-bottom: 40px;
+            overflow: hidden;
         }
-        .player-overlay {
+        .video-placeholder {
             text-align: center;
-            color: var(--gold-light);
+            color: var(--gold);
         }
-        .stream-status {
-            display: inline-block;
+        .live-indicator {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background: #ff0000;
+            color: white;
             padding: 5px 15px;
-            background: rgba(212, 175, 55, 0.2);
-            border: 1px solid var(--gold);
-            border-radius: 20px;
-            font-size: 0.8rem;
+            border-radius: 5px;
+            font-weight: bold;
             text-transform: uppercase;
-            margin-bottom: 20px;
+            font-size: 0.8rem;
+            animation: blink 1.5s infinite;
         }
-        .detail-grid {
-            display: grid;
-            grid-template-columns: 1fr 2fr;
-            gap: 40px;
+        @keyframes blink {
+            0% { opacity: 1; }
+            50% { opacity: 0.5; }
+            100% { opacity: 1; }
         }
-        .glass-panel {
-            background: var(--glass);
-            padding: 30px;
-            border: 1px solid #333;
-            backdrop-filter: blur(10px);
-        }
-        footer {
+        .stream-info {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
             text-align: center;
-            padding: 40px 20px;
-            color: #666;
+        }
+        .btn-luxury {
+            padding: 18px 35px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            display: inline-block;
+            margin-top: 20px;
+        }
+        .btn-gold {
+            background: linear-gradient(135deg, var(--gold), #b8860b);
+            color: var(--obsidian);
+        }
+        .status-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        .status-card {
+            background: var(--glass);
+            border: 1px solid var(--glass-border);
+            padding: 20px;
+            border-radius: 20px;
+            text-align: center;
+        }
+        .status-card span {
+            display: block;
+            color: var(--gold);
             font-size: 0.9rem;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+        @media (max-width: 768px) {
+            .status-grid { grid-template-columns: 1fr; }
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="stream-status">Acceso Prioritario</div>
-        <h1>Transmisión en Directo</h1>
-        <p style="text-align: center; color: var(--gold-light); margin-bottom: 40px;">Jordania vs Argentina | 28 de Junio, 2026</p>
-        
-        <div class="player-container">
-            <div class="player-overlay">
-                <svg width="80" height="80" viewBox="0 0 24 24" fill="var(--gold)" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M8 5v14l11-7z"/>
-                </svg>
-                <p>Espere la señal de transmisión premium</p>
-            </div>
+    <div class="luxury-bg"></div>
+    <header>
+        <h1 class="gold-gradient-text">En Vivo: Jordania vs Argentina</h1>
+        <p>Acceso Exclusivo | Calidad de Cine en Casa</p>
+    </header>
+    <div class="video-container">
+        <div class="live-indicator">EN DIRECTO</div>
+        <div class="video-placeholder">
+            <svg width="80" height="80" viewBox="0 0 24 24" fill="currentColor" style="main-bottom: 20px;">
+                <path d="M8 5v14l11-7z"/>
+            </svg>
+            <p style="font-size: 1.2rem;">Cargando Stream de Alta Definición...</p>
+            <p style="font-size: 0.9rem; color: var(--text-muted);">Sintonice la señal oficial 30 minutos antes del pitazo inicial.</p>
         </div>
-
-        <div class="detail-grid">
-            <div class="glass-panel">
-                <h3>Información del Evento</h3>
-                <p><strong>Encuentro:</strong> Jordania vs Argentina</p>
-                <p><strong>Sede:</strong> AT&T Stadium, Texas</p>
-                <p><strong>Estado:</strong> Próximamente</p>
-                <p><strong>Calidad:</strong> UHD 4K</p>
-            </div>
-            <div class="glass-panel">
-                <h3>Análisis de Lujo</h3>
-                <p>Nuestra transmisión no es un simple streaming. Ofrecemos una cobertura multiplataforma con ángulos de cámara exclusivos, análisis tácticos en tiempo real y comentarios de leyendas del fútbol mundial. Disfrute de la tensión y la gloria desde la comodidad de su hogar con una calidad de imagen que captura cada gota de sudor y cada grito de gol.</p>
-            </div>
-        </div>
-
-        <footer>
-            <p>&copy; 2026 Boletos FIFA. Experiencia Digital de Alta Fidelidad.</p>
-        </footer>
     </div>
+    <div class="stream-info">
+        <h2 class="gold-gradient-text">La Élite del Streaming Deportivo</h2>
+        <p>Le ofrecemos una experiencia visual sin compromisos. Nuestra infraestructura de red garantiza que no se pierda ni un segundo de la acción en el AT&T Stadium, con una resolución 4K que captura la emoción real del estadio directamente en su pantalla.</p>
+        <div class="status-grid">
+            <div class="status-card">
+                <span>Resolución</span>
+                <strong>4K UHD</strong>
+            </div>
+            <div class="status-card">
+                <span>Latencia</span>
+                <strong>Mínima / Real-time</strong>
+            </div>
+            <div class="status-card">
+                <span>Audio</span>
+                <strong>Surround 5.1</strong>
+            </div>
+        </div>
+        <a href="/jordan-argentina/boletos" class="btn-luxury btn-gold" title="Comprar Boletos">Asegurar mi Entrada VIP</a>
+    </div>
+    <footer style="text-align: center; padding: 40px; color: var(--text-muted); font-size: 0.8rem;">
+        <p>&copy; 2026 Boletos FIFA Digital. Transmisión para usuarios registrados.</p>
+    </footer>
 </body>
 </html>

@@ -1,122 +1,177 @@
 <!DOCTYPE html>
-<html lang="es-419">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Boletos para Jordania vs Argentina | Acceso VIP y Reservas FIFA 2026</title>
-    <meta name="description" content="Adquiera sus boletos premium para el duelo Jordania vs Argentina. Acceso garantizado al AT&T Stadium con los más altos estándares de hospitalidad.">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <title>Boletos Jordania vs Argentina | Venta Oficial FIFA 2026</title>
+    <meta name="description" content="Venta de boletos para el encuentro Jordania vs Argentina en el AT&T Stadium. Encuentre las mejores ubicaciones y paquetes VIP para el Mundial 2026.">
     <style>
         :root {
             --obsidian: #0a0a0a;
             --gold: #d4af37;
             --gold-light: #f1d592;
-            --glass: rgba(26, 26, 26, 0.8);
-            --text: #e0e0e0;
+            --glass: rgba(255, 255, 255, 0.05);
+            --glass-border: rgba(212, 175, 55, 0.3);
+            --text-main: #e0e0e0;
+            --text-muted: #a0a0a0;
         }
         body {
-            margin: 0;
-            padding: 0;
             background-color: var(--obsidian);
-            color: var(--text);
+            color: var(--text-main);
             font-family: 'Inter', sans-serif;
+            margin: 0;
             line-height: 1.6;
         }
-        h1, h2 {
-            font-family: 'Playfair Display', serif;
-            color: var(--gold);
+        .luxury-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at 50% 50%, #1a1a1a 0%, #0a0a0a 100%);
+            z-index: -1;
+        }
+        .gold-gradient-text {
+            background: linear-gradient(135deg, var(--gold), var(--gold-light));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: 800;
+        }
+        header {
+            padding: 80px 20px 40px;
             text-align: center;
         }
-        .container {
+        .ticket-container {
             max-width: 900px;
             margin: 0 auto;
-            padding: 60px 20px;
+            padding: 0 20px;
         }
         .ticket-card {
             background: var(--glass);
-            border: 1px solid var(--gold);
+            backdrop-filter: blur(20px);
+            border: 1px solid var(--glass-border);
+            border-radius: 30px;
             padding: 40px;
-            text-align: center;
-            backdrop-filter: blur(10px);
-            margin-bottom: 40px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            margin-bottom: 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: transform 0.3s ease;
         }
-        .price-tag {
-            font-size: 2.5rem;
-            color: var(--gold-light);
-            font-family: 'Playfair Display', serif;
-            margin: 20px 0;
-            display: block;
+        .ticket-card:hover {
+            transform: scale(1.02);
+            border-color: var(--gold);
         }
-        .cta-button {
-            display: inline-block;
-            padding: 18px 45px;
-            border: 1px solid var(--gold);
+        .ticket-info h3 {
+            font-size: 1.8rem;
+            margin: 0 0 10px 0;
             color: var(--gold);
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            cursor: pointer;
-            transition: 0.4s;
-            background: transparent;
-            font-size: 1.1rem;
         }
-        .cta-button:hover {
-            background: var(--gold);
+        .ticket-info p {
+            margin: 0;
+            color: var(--text-muted);
+        }
+        .btn-buy {
+            background: linear-gradient(135deg, var(--gold), #b8860b);
             color: var(--obsidian);
+            padding: 15px 30px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+            transition: all 0.3s ease;
         }
-        .info-grid {
+        .btn-buy:hover {
+            box-shadow: 0 0 20px rgba(212, 175, 55, 0.5);
+            transform: translateY(-2px);
+        }
+        .vip-section {
+            text-align: center;
+            margin: 60px 0;
+            padding: 60px 20px;
+            background: linear-gradient(rgba(212, 175, 55, 0.05), transparent);
+            border-radius: 40px;
+        }
+        .vip-section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        .vip-features {
             display: grid;
-            grid-template-columns: 1fr 1fr;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 30px;
             margin-top: 40px;
         }
-        .info-item {
-            background: rgba(255,255,255,0.05);
+        .feature-item {
             padding: 20px;
-            border-left: 2px solid var(--gold);
+            border: 1px solid var(--glass-border);
+            border-radius: 20px;
+            background: var(--glass);
         }
-        footer {
-            text-align: center;
-            padding: 40px 20px;
-            color: #666;
-            font-size: 0.9rem;
+        .feature-item strong {
+            color: var(--gold);
+            display: block;
+            margin-bottom: 10px;
+        }
+        @media (max-width: 600px) {
+            .ticket-card {
+                flex-direction: column;
+                text-align: center;
+                gap: 20px;
+            }
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Reservas de Acceso Premium</h1>
-        <p style="text-align: center; color: var(--gold-light); margin-bottom: 40px;">Jordania vs Argentina | AT&T Stadium, Arlington</p>
-        
+    <div class="luxury-bg"></div>
+    <header>
+        <h1 class="gold-gradient-text">Boletos Jordania vs Argentina</h1>
+        <p>Acceso Prioritario al Duelo de Titanes en el AT&T Stadium</p>
+    </header>
+    <div class="ticket-container">
         <div class="ticket-card">
-            <h2>Categoría Diamante</h2>
-            <p>Acceso total a lounges VIP, catering gourmet y los mejores asientos laterales del estadio.</p>
-            <span class="price-tag">Desde $2,500 USD</span>
-            <button class="cta-button" onclick="window.location.href='https://www.ticketmaster.com/2026-world-cup-tickets/artist/4067734'">Adquirir Ahora</button>
+            <div class="ticket-info">
+                <h3>Boletos Platinum</h3>
+                <p>Vista panorámica y acceso preferente al estadio</p>
+            </div>
+            <a href="https://www.ticketmaster.com/2026-world-cup-tickets/artist/4067734" target="_blank" class="btn-buy">Adquirir Boletos</a>
         </div>
-
         <div class="ticket-card">
-            <h2>Categoría Platino</h2>
-            <p>Asientos preferenciales con acceso a zonas de hospitalidad premium y servicios de concierge.</p>
-            <span class="price-tag">Desde $1,200 USD</span>
-            <button class="cta-button" onclick="window.location.href='https://www.ticketmaster.com/2026-world-cup-tickets/artist/4067734'">Adquirir Ahora</button>
-        </div>
-
-        <div class="info-grid">
-            <div class="info-item">
-                <h3>Garantía de Autenticidad</h3>
-                <p>Cada acceso gestionado a través de nuestra plataforma es verificado y garantizado por nuestro equipo de expertos en hospitalidad deportiva.</p>
+            <div class="ticket-info">
+                <h3>Experiencia VIP All-Inclusive</h3>
+                <p>Acceso exclusivo a suites y gastronomía de alta gama</p>
             </div>
-            <div class="info-item">
-                <h3>Logística Integral</h3>
-                <p>Ofrecemos servicios de traslado privado desde hoteles seleccionados hasta la entrada del estadio para clientes de categoría Diamante.</p>
+            <a href="https://www.ticketmaster.com/2026-world-cup-tickets/artist/4067734" target="_blank" class="btn-buy">Adquirir Boletos</a>
+        </div>
+        <div class="ticket-card">
+            <div class="ticket-info">
+                <h3>Sillas Especiales</h3>
+                <p>Ubicación estratégica para máxima visibilidad táctica</p>
+            </div>
+            <a href="https://www.ticketmaster.com/2026-world-cup-tickets/artist/4067734" target="_blank" class="btn-buy">Adquirir Boletos</a>
+        </div>
+        <div class="vip-section">
+            <h2 class="gold-gradient-text">Exclusividad Imperial</h2>
+            <p>Para los asistentes más exigentes, presentamos el servicio de hospitalidad "Apex World Cup".</p>
+            <div class="vip-features">
+                <div class="feature-item">
+                <strong>Transporte Premium</strong>
+                Traslados en vehículos blindados y escolta privada en Arlington.
+                </div>
+                <div class="feature-item">
+                <strong>Acceso Total</strong>
+                Entrada prioritaria a las zonas VIP y acceso a lounges de lujo.
+                </div>
+                <div class="feature-item">
+                <strong>Asistencia Personal</strong>
+                Conserje dedicado para la gestión de todas sus necesidades durante el evento.
+                </div>
             </div>
         </div>
-
-        <footer>
-            <p>&copy; 2026 Boletos FIFA. Gestión de Acceso Exclusivo.</p>
-        </footer>
     </div>
+    <footer style="text-align: center; padding: 40px; color: var(--text-muted); font-size: 0.8rem;">
+        <p>&copy; 2026 Boletos FIFA. Gestión Oficial de Entradas Premium.</p>
+    </footer>
 </body>
 </html>

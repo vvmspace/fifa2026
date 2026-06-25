@@ -1,40 +1,41 @@
 <!DOCTYPE html>
-<html lang="es-419">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Boletos FIFA 2026: Jordania vs Argentina | Acceso Exclusivo al AT&T Stadium</title>
-    <meta name="description" content="Asegure su lugar en el encuentro épico entre Jordania y Argentina. Boletos premium y servicios de concierge para vivir la Copa del Mundo 2026 en el AT&T Stadium.">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <title>Jordania vs Argentina - Boletos FIFA 2026 | Acceso VIP y Entradas Oficiales</title>
+    <meta name="description" content="Asegure su lugar para el encuentro épico entre Jordania y Argentina en el AT&T Stadium. Venta de boletos premium y experiencias de lujo para el Mundial 2026.">
     <style>
         :root {
             --obsidian: #0a0a0a;
             --gold: #d4af37;
             --gold-light: #f1d592;
-            --glass: rgba(26, 26, 26, 0.8);
-            --text: #e0e0e0;
+            --glass: rgba(255, 255, 255, 0.05);
+            --glass-border: rgba(212, 175, 55, 0.3);
+            --text-main: #e0e0e0;
+            --text-muted: #a0a0a0;
         }
         body {
-            margin: 0;
-            padding: 0;
             background-color: var(--obsidian);
-            color: var(--text);
+            color: var(--text-main);
             font-family: 'Inter', sans-serif;
+            margin: 0;
             line-height: 1.6;
-            overflow-x: hidden;
         }
-        h1, h2, h3 {
-            font-family: 'Playfair Display', serif;
-            color: var(--gold);
-            text-align: center;
+        .luxury-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at 50% -20%, #1a1a1a 0%, #0a0a0a 100%);
+            z-index: -1;
         }
-        a {
-            text-decoration: none;
-            color: inherit;
-            transition: 0.3s;
-        }
-        .luxury-gradient {
-            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 50%, #0a0a0a 100%);
+        .gold-gradient-text {
+            background: linear-gradient(135deg, var(--gold), var(--gold-light));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: 800;
         }
         header {
             height: 100vh;
@@ -44,105 +45,113 @@
             align-items: center;
             text-align: center;
             padding: 0 20px;
-            background: radial-gradient(circle at center, #1a1a1a 0%, #0a0a0a 100%);
-            position: relative;
         }
-        .gold-border {
-            border: 1px solid var(--gold);
-            padding: 40px;
-            backdrop-filter: blur(10px);
+        .hero-glass {
             background: var(--glass);
-            box-shadow: 0 0 30px rgba(212, 175, 55, 0.1);
-            max-width: 800px;
-            border-radius: 2px;
+            backdrop-filter: blur(20px);
+            border: 1px solid var(--glass-border);
+            padding: 60px 40px;
+            border-radius: 40px;
+            max-width: 900px;
+            box-shadow: 0 25px 50px rgba(0,0,0,0.5);
         }
-        .hero-title {
-            font-size: 3.5rem;
-            margin-bottom: 10px;
-            letter-spacing: 2px;
-            text-transform: uppercase;
+        h1 {
+            font-size: 4rem;
+            margin-bottom: 20px;
+            letter-spacing: -2px;
         }
-        .hero-subtitle {
+        .match-details {
             font-size: 1.2rem;
-            letter-spacing: 4px;
-            margin-bottom: 30px;
-            color: var(--gold-light);
+            color: var(--gold);
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            margin-bottom: 40px;
         }
-        .cta-button {
-            display: inline-block;
-            padding: 15px 40px;
+        .cta-container {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .btn-luxury {
+            padding: 18px 35px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+            letter-spacing: 1px;
+        }
+        .btn-gold {
+            background: linear-gradient(135deg, var(--gold), #b8860b);
+            color: var(--obsidian);
+            box-shadow: 0 10px 20px rgba(212, 175, 55, 0.3);
+        }
+        .btn-gold:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 30px rgba(212, 175, 55, 0.5);
+        }
+        .btn-outline {
             border: 1px solid var(--gold);
             color: var(--gold);
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            cursor: pointer;
-            transition: 0.4s;
-            background: transparent;
         }
-        .cta-button:hover {
+        .btn-outline:hover {
             background: var(--gold);
             color: var(--obsidian);
         }
-        .section {
+        section {
             padding: 100px 20px;
-            max-width: 1000px;
+            max-width: 1100px;
             margin: 0 auto;
         }
         .content-grid {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 50px;
+            gap: 60px;
             align-items: center;
         }
         .glass-card {
             background: var(--glass);
-            padding: 30px;
-            border-left: 3px solid var(--gold);
             backdrop-filter: blur(10px);
+            border: 1px solid var(--glass-border);
+            padding: 40px;
+            border-radius: 30px;
         }
-        .match-info {
-            text-align: center;
-            margin-bottom: 60px;
+        h2 {
+            font-size: 2.5rem;
+            margin-bottom: 30px;
         }
-        .match-info span {
-            display: block;
+        p {
+            color: var(--text-muted);
+            margin-bottom: 20px;
             font-size: 1.1rem;
-            color: var(--gold-light);
-            margin-bottom: 5px;
+        }
+        .highlight-box {
+            border-left: 3px solid var(--gold);
+            padding-left: 20px;
+            margin: 30px 0;
+            font-style: italic;
+            color: var(--text-main);
         }
         footer {
-            padding: 50px 20px;
             text-align: center;
-            border-top: 1px solid #222;
+            padding: 60px 20px;
+            border-top: 1px solid var(--glass-border);
+            color: var(--text-muted);
             font-size: 0.9rem;
-            color: #666;
-        }
-        .game-list {
-            list-style: none;
-            padding: 0;
-            margin: 40px 0;
-        }
-        .game-item {
-            display: flex;
-            justify-content: space-between;
-            padding: 20px;
-            border-bottom: 1px solid #222;
-            transition: 0.3s;
-        }
-        .game-item:hover {
-            background: rgba(212, 175, 55, 0.05);
         }
         @media (max-width: 768px) {
-            .hero-title { font-size: 2.2rem; }
+            h1 { font-size: 2.5rem; }
             .content-grid { grid-template-columns: 1fr; }
+            .hero-glass { padding: 40px 20px; }
         }
     </style>
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "Event",
-      "name": "Jordania vs Argentina - FIFA World Cup 2026",
+      "@type": "SportsEvent",
+      "name": "Jordania vs Argentina - Boletos FIFA 2026",
       "startDate": "2026-06-28T06:00:00Z",
       "location": {
         "@type": "Place",
@@ -150,76 +159,60 @@
         "address": {
           "@type": "PostalAddress",
           "addressLocality": "Arlington",
-          "addressRegion": "Texas",
-          "addressCountry": "USA"
+          "addressCountry": "US"
         }
       },
-      "url": "https://boletosfifa.store/jordan-argentina/boletos"
+      "homeTeam": { "@type": "SportsTeam", "name": "Jordania" },
+      "awayTeam": { "@type": "SportsTeam", "name": "Argentina" },
+      "url": "https://boletosfifa.store/jordan-argentina"
     }
     </script>
 </head>
-<body class="luxury-gradient">
-
+<body>
+    <div class="luxury-bg"></div>
     <header>
-        <div class="gold-border">
-            <h1 class="hero-title">Jordania vs Argentina</h1>
-            <p class="hero-subtitle">ESTÁNDAR DE LUJO EN EL AT&T STADIUM</p>
-            <div class="match-info">
-                <span>28 de Junio, 2026 | 06:00 UTC</span>
-                <span>Arlington, Texas, Estados Unidos</span>
+        <div class="hero-glass">
+            <div class="match-details">Encuentro de Élite | Grupo J</div>
+            <h1><span class="gold-gradient-text">Jordania</span> vs <span class="gold-gradient-text">Argentina</span></h1>
+            <p style="font-size: 1.3rem; margin-bottom: 40px; color: var(--text-main);">
+                El prestigio se encuentra con la ambición en el imponente AT&T Stadium. Una cita obligatoria para los conocedores del fútbol.
+            </p>
+            <div class="cta-container">
+                <a href="/jordan-argentina/boletos" class="btn-luxury btn-gold" title="Adquirir Boletos Oficiales">Boletos Premium</a>
+                <a href="/jordan-argentina/vivo" class="btn-luxury btn-outline" title="Acceso a Transmisión">Ver en Vivo</a>
             </div>
-            <a href="/jordan-argentina/boletos" class="cta-button">Adquirir Acceso</a>
         </div>
     </header>
 
-    <section class="section">
-        <h2>Una Experiencia Sin Precedentes</h2>
+    <section>
         <div class="content-grid">
-            <div class="text-block">
-                <p>Bienvenido a la cúspide del deporte mundial. El enfrentamiento entre la ambición de Jordania y la gloria legendaria de Argentina no es simplemente un partido de fútbol; es un evento social de primer orden. En el majestuoso AT&T Stadium, la atmósfera se fusiona con la exclusividad, creando un escenario donde cada detalle ha sido curado para los espectadores más exigentes.</p>
-                <p>Nuestra propuesta se aleja de lo convencional. No ofrecemos simples entradas, sino una llave de acceso a un ecosistema de lujo. Desde el momento de su llegada hasta el pitazo final, cada segundo está diseñado para reflejar el prestigio de la Copa del Mundo 2026. Imagine presenciar la genialidad táctica en un entorno de confort absoluto, donde la pasión del juego se encuentra con el refinamiento más puro.</p>
-            </div>
             <div class="glass-card">
-                <h3>Servicios Concierge</h3>
-                <p>Para aquellos que buscan la perfección, ponemos a su disposición nuestro servicio de gestión integral. Nos encargamos de la logística de transporte privado, reservas en los establecimientos más exclusivos de Arlington y acceso a zonas VIP restringidas. Su única preocupación será disfrutar del espectáculo.</p>
+                <h2 class="gold-gradient-text">Choque de Realidades</h2>
+                <p>Argentina llega con el peso de una historia gloriosa y la responsabilidad de mantener su hegemonía mundial. Enfrentarse a Jordania no es solo un trámite en el Grupo J, sino un desafío táctico donde la precisión argentina deberá superar la disciplina y la energía emergente del equipo jordano.</p>
+                <div class="highlight-box">
+                    "Un duelo donde la mística sudamericana se enfrenta a la determinación asiática en un escenario de proporciones colosales."
+                </div>
+                <p>El AT&T Stadium, conocido por su atmósfera electrizante y tecnología de vanguardia, proporcionará el marco perfecto para este enfrentamiento. La estrategia será la clave: mientras Argentina buscará el control total del balón, Jordania apostará por una estructura defensiva impenetrable y transiciones veloces.</p>
+            </div>
+            <div class="glass-card" style="border-color: var(--gold);">
+                <h2 class="gold-gradient-text">El Estándar del Lujo</h2>
+                <p>Asistir a este partido es sumergirse en una experiencia de hospitalidad sin precedentes. Desde el acceso prioritario hasta las zonas de lounge exclusivas, cada detalle ha sido curado para satisfacer los deseos de quienes no aceptan menos que la perfección.</p>
+                <p>La tensión competitiva se fusionará con la sofisticación del entorno. Ver a las estrellas mundiales de Argentina desplegar su magia frente a la garra de Jordania es un privilegio reservado para unos pocos. La atmósfera en Arlington será un testimonio de la pasión global que solo la Copa Mundial puede generar.</p>
+                <p>Este encuentro promete ser un punto de inflexión en la fase de grupos, donde la eficiencia táctica y la calidad individual decidirán quién domina el camino hacia las rondas finales.</p>
             </div>
         </div>
     </section>
 
-    <section class="section">
-        <h2>El Escenario: AT&T Stadium</h2>
-        <div class="content-grid">
-            <div class="glass-card">
-                <p>El AT&T Stadium, conocido como la "Estrella de Texas", es el templo perfecto para este duelo. Con una arquitectura vanguardista y una capacidad imponente, garantiza que la energía de las aficiones se amplifique sin sacrificar la comodidad. La visibilidad desde cualquier sector es impecable, permitiendo apreciar cada movimiento estratégico en el césped.</p>
-            </div>
-            <div class="text-block">
-                <p>La selección argentina llega con el peso de la historia y el deseo de reafirmar su dominio global. Por otro lado, Jordania representa el espíritu emergente, la lucha y la sorpresa. Este contraste de estilos promete un despliegue de técnica y corazón que quedará grabado en la memoria de quienes tengan el privilegio de estar presentes.</p>
-                <p>Le invitamos a formar parte de esta élite. El acceso es limitado y la demanda es global. Asegurar su presencia hoy es garantizar un lugar en la historia del fútbol moderno.</p>
-            </div>
-        </div>
-    </section>
-
-    <section class="section">
-        <h2>Próximos Encuentros de Élite</h2>
-        <ul class="game-list">
-            <li class="game-item">
-                <span>Uruguay vs España - Estadio Akron, México</span>
-                <a href="/uruguay-spain">Ver Detalles</a>
-            </li>
-            <li class="game-item">
-                <span>Noruega vs Francia - Gillette Stadium, USA</span>
-                <a href="/norway-france">Ver Detalles</a>
-            </li>
-            <li class="game-item">
-                <span>Colombia vs Portugal - Hard Rock Stadium, USA</span>
-                <a href="/colombia-portugal">Ver Detalles</a>
-            </li>
-        </ul>
+    <section style="text-align: center; margin-bottom: 100px;">
+        <h2 class="gold-gradient-text">Concierge Experience FIFA</h2>
+        <p style="max-width: 800px; margin: 0 auto 40px auto;">
+            Elevamos su estancia en Estados Unidos con servicios de conserjería de guante blanco. Coordinación de jets privados, reservas en los restaurantes más exclusivos de Texas y acceso total a las suites presidenciales del AT&T Stadium. El fútbol es el pretexto; la excelencia es la norma.
+        </p>
+        <a href="/jordan-argentina/boletos" class="btn-luxury btn-gold" title="Consultar Disponibilidad VIP">Reservar Acceso Premium</a>
     </section>
 
     <footer>
-        <p>&copy; 2026 Boletos FIFA. Servicio de Acceso Exclusivo y Gestión de Hospitalidad.</p>
+        <p>&copy; 2026 Boletos FIFA. Acceso Exclusivo a Eventos Mundiales. Todos los derechos reservados.</p>
     </footer>
-
 </body>
 </html>
