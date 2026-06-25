@@ -18,11 +18,7 @@
     --emerald: #10b981;
 }
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
+a {\n    text-decoration: none;\n    color: inherit;\n}
 
 body {
     overflow-x: hidden;
@@ -192,22 +188,9 @@ header {
     font-weight: 300;
 }
 
-.match-note a {
-    display: inline-block;
-    font-size: 13px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: var(--gold-solid);
-    text-decoration: none;
-    border-bottom: 1px solid transparent;
-    transition: all 0.3s ease;
-}
+.match-note a {\n    display: inline-block;\n    font-size: 13px;\n    font-weight: 700;\n    text-transform: uppercase;\n    letter-spacing: 1px;\n    color: var(--gold-solid);\n    text-decoration: none;\n    transition: all 0.3s ease;\n}
 
-.match-note a:hover {
-    border-bottom-color: var(--gold-solid);
-    opacity: 0.8;
-}
+.match-note a:hover {\n    opacity: 0.8;\n    transform: scale(1.05);\n}
 /* ------------------------------------------- */
 
 .match-score-card {
