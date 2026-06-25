@@ -1,71 +1,188 @@
 <!DOCTYPE html>
 <html lang="es-419">
- <head>
-  <meta charset="utf-8"/>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-  <title>
-   Boletos Noruega vs Francia Foxborough · FIFA 2026 | boletosfifa.store
-  </title>
-  <meta content="Adquiera sus boletos verificados para Noruega vs Francia en el Gillette Stadium. Acceso garantizado, sectores VIP y servicio de conserjería para el Mundial 2026." name="description"/>
-  <link href="https://boletosfifa.store/norway-france/boletos/" rel="canonical"/>
-  <link href="../style-luxury-v1.css" rel="stylesheet"/>
- </head>
- <body>
-  <header>
-   <div class="header-content">
-    <a class="logo" href="/">
-     BOLETOSFIFA
-     <strong>
-      .STORE
-     </strong>
-    </a>
-   </div>
-  </header>
-  <main>
-   <section class="hero">
-    <h1>
-     Boletos Elite: Noruega vs Francia
-     <small>
-      Garantía de Autenticidad y Lujo
-     </small>
-    </h1>
-    <div class="match-score-card">
-     <span>
-      Entradas
-     </span>
-     <strong>
-      Premium
-     </strong>
-     <span>
-      Garantizadas
-     </span>
-    </div>
-    <p>
-     La adquisición de un boleto para el encuentro Noruega vs Francia es el primer paso para ingresar a un mundo de privilegios. Nos especializamos en la gestión de activos deportivos de alta gama, asegurando que cada entrada sea un pasaporte seguro hacia una de las experiencias más codiciadas del ciclo mundialista en el Gillette Stadium.
-    </p>
-   </section>
-   <section class="seo-content-block">
-    <h2>
-     Estándares de Oro en la Gestión de Entradas
-    </h2>
-    <p>
-     En el mercado de eventos globales, la incertidumbre es el enemigo del lujo. Por ello, boletosfifa.store implementa un sistema de verificación riguroso que elimina cualquier riesgo asociado a la compra de boletos para el Mundial 2026. Cada asiento para el duelo Noruega vs Francia es validado individualmente, asegurando que el cliente reciba un producto genuino, con la tranquilidad de que su ingreso al estadio será impecable y sin contratiempos.
-    </p>
-    <p>
-     Ofrecemos una curaduría de sectores que prioriza la visibilidad y el confort. Ya sea que busque la intensidad de las primeras filas o la perspectiva estratégica de los palcos VIP, nuestra gestión se enfoca en optimizar la experiencia del espectador. No vendemos simples boletos; facilitamos la entrada a un evento donde la excelencia deportiva se encuentra con la hospitalidad de primer nivel en Foxborough.
-    </p>
-    <p>
-     Le recordamos que la disponibilidad de los sectores más privilegiados es extremadamente limitada y fluctúa en tiempo real. Para el choque entre la potencia noruega y la elegancia francesa, la demanda ha superado todas las previsiones. Asegurar su lugar ahora es la única forma de garantizar que su presencia en el Gillette Stadium esté a la altura de sus expectativas de estatus y confort.
-    </p>
-    <div class="c-actions" style="display:flex; gap:15px; justify-content:center; margin-top:20px;">
-     <button class="btn btn-gold" onclick="window.location.href='https://www.ticketmaster.com/event/Z7r9jZ1A74347'">
-      Adquirir Boletos Verificados
-     </button>
-     <a class="btn btn-outline" href="/">
-      Volver al Menú
-     </a>
-    </div>
-   </section>
-  </main>
- </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boletos Noruega vs Francia | Acceso VIP FIFA 2026</title>
+    <meta name="description" content="Adquiera sus entradas exclusivas para Noruega vs Francia. Garantice su asiento en la categoría más alta del Gillette Stadium.">
+    <style>
+        :root {
+            --obsidian: #0a0a0a;
+            --gold: #d4af37;
+            --gold-light: #f9e4b7;
+            --glass: rgba(255, 255, 255, 0.05);
+            --glass-border: rgba(212, 175, 55, 0.3);
+        }
+        body {
+            background-color: var(--obsidian);
+            color: #e0e0e0;
+            font-family: 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            line-height: 1.6;
+        }
+        .luxury-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at 50% -20%, #1a1a1a 0%, #0a0a0a 100%);
+            z-index: -1;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        header {
+            padding: 40px 0;
+            text-align: center;
+            border-bottom: 1px solid var(--glass-border);
+        }
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 800;
+            letter-spacing: 4px;
+            color: var(--gold);
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+        .hero {
+            padding: 80px 0;
+            text-align: center;
+        }
+        h1 {
+            font-size: 3rem;
+            color: var(--gold-light);
+            margin-bottom: 20px;
+            font-weight: 300;
+        }
+        .ticket-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin: 60px 0;
+        }
+        .ticket-card {
+            background: var(--glass);
+            border: 1px solid var(--glass-border);
+            border-radius: 24px;
+            padding: 40px;
+            text-align: center;
+            backdrop-filter: blur(20px);
+            transition: all 0.3s ease;
+        }
+        .ticket-card:hover {
+            border-color: var(--gold);
+            transform: translateY(-10px);
+        }
+        .ticket-card h3 {
+            color: var(--gold);
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            font-weight: 300;
+        }
+        .price {
+            font-size: 2.5rem;
+            color: #fff;
+            margin-bottom: 30px;
+            font-weight: 700;
+        }
+        .btn-gold {
+            background: linear-gradient(135deg, var(--gold), #b8860b);
+            color: var(--obsidian);
+            padding: 15px 30px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 700;
+            text-transform: uppercase;
+            display: inline-block;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+        }
+        .btn-gold:hover {
+            box-shadow: 0 0 20px rgba(212, 175, 55, 0.4);
+        }
+        .info-block {
+            background: var(--glass);
+            border: 1px solid var(--glass-border);
+            padding: 40px;
+            border-radius: 24px;
+            margin-bottom: 60px;
+            color: #aaa;
+        }
+        footer {
+            padding: 60px 0;
+            text-align: center;
+            font-size: 0.8rem;
+            color: #555;
+            border-top: 1px solid var(--glass-border);
+        }
+    </style>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Noruega vs Francia - Boletos VIP",
+      "startDate": "2026-06-26T23:00:00Z",
+      "offers": {
+        "@type": "Offer",
+        "url": "https://boletosfifa.store/norway-france/boletos",
+        "priceCurrency": "USD",
+        "price": "1200.00",
+        "availability": "https://schema.org/InStock"
+      }
+    }
+    </script>
+</head>
+<body>
+    <div class="luxury-bg"></div>
+    <header>
+        <div class="container">
+            <a href="/norway-france" class="logo">Boletos FIFA 2026</a>
+        </div>
+    </header>
+    <main class="container">
+        <section class="hero">
+            <h1>Selección de Asientos Premium</h1>
+            <p style="color: #aaa; font-size: 1.2rem;">Elija el nivel de exclusividad que su presencia merece.</p>
+        </section>
+
+        <div class="ticket-grid">
+            <div class="ticket-card">
+                <h3>Categoría Platino</h3>
+                <div class="price">$850 USD</div>
+                <p style="color: #888; margin-bottom: 30px;">Vista panorámica del campo, acceso rápido al estadio y programa oficial del encuentro.</p>
+                <button onclick="window.open('https://www.ticketmaster.com/2026-world-cup-tickets/artist/4067734', '_blank')" class="btn-gold">Reservar Platino</button>
+            </div>
+            <div class="ticket-card" style="border-color: var(--gold);">
+                <h3>Experiencia Oro VIP</h3>
+                <div class="price">$2,400 USD</div>
+                <p style="color: #888; margin-bottom: 30px;">Asientos en primera línea, acceso al Lounge VIP con catering gourmet y transporte privado.</p>
+                <button onclick="window.open('https://www.ticketmaster.com/2026-world-cup-tickets/artist/4067734', '_blank')" class="btn-gold">Reservar Oro</button>
+            </div>
+            <div class="ticket-card">
+                <h3>Acceso Legendario</h3>
+                <div class="price">$5,000 USD</div>
+                <p style="color: #888; margin-bottom: 30px;">El máximo nivel de lujo. Acceso a zonas restringidas, cena privada y concierge personal 24/7.</p>
+                <button onclick="window.open('https://www.ticketmaster.com/2026-world-cup-tickets/artist/4067734', '_blank')" class="btn-gold">Reservar Legendario</button>
+            </div>
+        </div>
+
+        <div class="info-block">
+            <h2 style="color: var(--gold); font-weight: 300;">Garantía de Autenticidad y Lujo</h2>
+            <p>
+                Cada boleto adquirido a través de nuestro servicio de concierge cuenta con una certificación de autenticidad absoluta. Entendemos que para nuestros clientes, el tiempo es el recurso más valioso; por ello, gestionamos cada detalle logístico para que su única preocupación sea disfrutar de la genialidad futbolística de Noruega y Francia.
+                <br><br>
+                Desde la coordinación de traslados en helicóptero hasta la reserva en los restaurantes más exclusivos de Foxborough, el estándar es la perfección. El Gillette Stadium se transformará en el epicentro del lujo deportivo, y nosotros somos la llave que abre esas puertas.
+            </p>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            &copy; 2026 Boletos FIFA. Gestión de Activos Deportivos de Lujo.
+        </div>
+    </footer>
+</body>
 </html>

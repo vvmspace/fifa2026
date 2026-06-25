@@ -1,71 +1,188 @@
 <!DOCTYPE html>
 <html lang="es">
- <head>
-  <meta charset="utf-8"/>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-  <title>
-   Entradas Noruega vs Francia Foxborough · FIFA 2026 | copa26.store
-  </title>
-  <meta content="Obtenga sus entradas exclusivas para el encuentro Noruega vs Francia en el Gillette Stadium. Acceso VIP, seguridad garantizada y servicio premium." name="description"/>
-  <link href="https://copa26.store/norway-france/entradas/" rel="canonical"/>
-  <link href="../style-luxury-v1.css" rel="stylesheet"/>
- </head>
- <body>
-  <header>
-   <div class="header-content">
-    <a class="logo" href="/">
-     COPA26
-     <strong>
-      .STORE
-     </strong>
-    </a>
-   </div>
-  </header>
-  <main>
-   <section class="hero">
-    <h1>
-     Entradas Elite: Noruega vs Francia
-     <small>
-      Acceso Privilegiado al Espectáculo Mundial
-     </small>
-    </h1>
-    <div class="match-score-card">
-     <span>
-      Entradas
-     </span>
-     <strong>
-      Premium
-     </strong>
-     <span>
-      Garantizadas
-     </span>
-    </div>
-    <p>
-     La adquisición de una entrada para el encuentro Noruega vs Francia es la llave de entrada a una experiencia de distinción. Nos especializamos en la gestión de accesos de alta gama, asegurando que cada entrada sea un pasaporte seguro hacia uno de los eventos más codiciados del ciclo mundialista en el Gillette Stadium.
-    </p>
-   </section>
-   <section class="seo-content-block">
-    <h2>
-     El Estándar de Oro en la Gestión de Accesos
-    </h2>
-    <p>
-     En el entorno de los eventos globales, la seguridad es la base del lujo. En copa26.store, implementamos un protocolo de verificación de entradas que elimina cualquier riesgo asociado a la compra de accesos para el Mundial 2026. Cada entrada para el duelo Noruega vs Francia es auditada minuciosamente, asegurando que el cliente reciba un producto genuino y que su ingreso al estadio sea un proceso fluido y elegante.
-    </p>
-    <p>
-     Nuestra curaduría de sectores prioriza la visibilidad y la comodidad absoluta. Ya sea que busque la intensidad de las primeras filas o la perspectiva estratégica de los palcos VIP, nuestra gestión se enfoca en optimizar la experiencia del espectador. No ofrecemos simples entradas; facilitamos el ingreso a un evento donde el talento deportivo se encuentra con la hospitalidad de primer nivel en Foxborough.
-    </p>
-    <p>
-     Le informamos que la disponibilidad de los sectores más exclusivos es sumamente limitada y varía en tiempo real. Para el choque entre la potencia noruega y la elegancia francesa, la demanda ha superado todas las previsiones. Asegurar su plaza ahora es la única forma de garantizar que su presencia en el Gillette Stadium esté a la altura de sus expectativas de estatus y confort.
-    </p>
-    <div class="c-actions" style="display:flex; gap:15px; justify-content:center; margin-top:20px;">
-     <button class="btn btn-gold" onclick="window.location.href='https://www.ticketmaster.com/event/Z7r9jZ1A74347'">
-      Obtener Acceso Elite
-     </button>
-     <a class="btn btn-outline" href="/">
-      Volver al Menú
-     </a>
-    </div>
-   </section>
-  </main>
- </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entradas Noruega vs Francia | Acceso Exclusivo Copa 2026</title>
+    <meta name="description" content="Garantice su asiento para el duelo Noruega vs Francia. Entradas VIP y servicios de concierge para la élite del fútbol.">
+    <style>
+        :root {
+            --obsidian: #0a0a0a;
+            --gold: #d4af37;
+            --gold-light: #f9e4b7;
+            --glass: rgba(255, 255, 255, 0.05);
+            --glass-border: rgba(212, 175, 55, 0.3);
+        }
+        body {
+            background-color: var(--obsidian);
+            color: #e0e0e0;
+            font-family: 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            line-height: 1.6;
+        }
+        .luxury-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at 50% -20%, #1a1a1a 0%, #0a0a0a 100%);
+            z-index: -1;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        header {
+            padding: 40px 0;
+            text-align: center;
+            border-bottom: 1px solid var(--glass-border);
+        }
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 800;
+            letter-spacing: 4px;
+            color: var(--gold);
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+        .hero {
+            padding: 80px 0;
+            text-align: center;
+        }
+        h1 {
+            font-size: 3rem;
+            color: var(--gold-light);
+            margin-bottom: 20px;
+            font-weight: 300;
+        }
+        .ticket-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin: 60px 0;
+        }
+        .ticket-card {
+            background: var(--glass);
+            border: 1px solid var(--glass-border);
+            border-radius: 24px;
+            padding: 40px;
+            text-align: center;
+            backdrop-filter: blur(20px);
+            transition: all 0.3s ease;
+        }
+        .ticket-card:hover {
+            border-color: var(--gold);
+            transform: translateY(-10px);
+        }
+        .ticket-card h3 {
+            color: var(--gold);
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            font-weight: 300;
+        }
+        .price {
+            font-size: 2.5rem;
+            color: #fff;
+            margin-bottom: 30px;
+            font-weight: 700;
+        }
+        .btn-gold {
+            background: linear-gradient(135deg, var(--gold), #b8860b);
+            color: var(--obsidian);
+            padding: 15px 30px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 700;
+            text-transform: uppercase;
+            display: inline-block;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+        }
+        .btn-gold:hover {
+            box-shadow: 0 0 20px rgba(212, 175, 55, 0.4);
+        }
+        .info-box {
+            background: var(--glass);
+            border: 1px solid var(--glass-border);
+            padding: 40px;
+            border-radius: 24px;
+            margin-bottom: 60px;
+            color: #aaa;
+        }
+        footer {
+            padding: 60px 0;
+            text-align: center;
+            font-size: 0.8rem;
+            color: #555;
+            border-top: 1px solid var(--glass-border);
+        }
+    </style>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Entradas Noruega vs Francia - Copa Mundial 2026",
+      "startDate": "2026-06-26T23:00:00Z",
+      "offers": {
+        "@type": "Offer",
+        "url": "https://copa26.store/norway-france/entradas",
+        "priceCurrency": "USD",
+        "price": "1100.00",
+        "availability": "https://schema.org/InStock"
+      }
+    }
+    </script>
+</head>
+<body>
+    <div class="luxury-bg"></div>
+    <header>
+        <div class="container">
+            <a href="/norway-france" class="logo">Copa Mundial 2026</a>
+        </div>
+    </header>
+    <main class="container">
+        <section class="hero">
+            <h1>Acceso Preferencial</h1>
+            <p style="color: #aaa; font-size: 1.2rem;">Asegure su lugar en la historia del fútbol mundial.</p>
+        </section>
+
+        <div class="ticket-grid">
+            <div class="ticket-card">
+                <h3>Silla Premium</h3>
+                <div class="price">$700 USD</div>
+                <p style="color: #888; margin-bottom: 30px;">Ubicación privilegiada con acceso a servicios VIP básicos y programa oficial.</p>
+                <button onclick="window.open('https://www.ticketmaster.com/2026-world-cup-tickets/artist/4067734', '_blank')" class="btn-gold">Reservar Premium</button>
+            </div>
+            <div class="ticket-card" style="border-color: var(--gold);">
+                <h3>Elite Lounge</h3>
+                <div class="price">$2,100 USD</div>
+                <p style="color: #888; margin-bottom: 30px;">Acceso al Lounge exclusivo, catering de alta cocina y asientos con vistas inmejorables.</p>
+                <button onclick="window.open('https://www.ticketmaster.com/2026-world-cup-tickets/artist/4067734', '_blank')" class="btn-gold">Reservar Elite</button>
+            </div>
+            <div class="ticket-card">
+                <h3>Presidential Box</h3>
+                <div class="price">$4,500 USD</div>
+                <p style="color: #888; margin-bottom: 30px;">El pináculo del lujo. Suite privada, servicio de champagne y atención personalizada.</p>
+                <button onclick="window.open('https://www.ticketmaster.com/2026-world-cup-tickets/artist/4067734', '_blank')" class="btn-gold">Reservar Presidential</button>
+            </div>
+        </div>
+
+        <div class="info-box">
+            <h2 style="color: var(--gold); font-weight: 300;">Compromiso de Exclusividad</h2>
+            <p>
+                En Copa Mundial 2026, no vendemos simples entradas; proporcionamos la llave a una experiencia transformadora. Para el duelo Noruega vs Francia, hemos diseñado un protocolo de acceso que minimiza la espera y maximiza el confort. 
+                <br><br>
+                Entendemos que nuestros clientes buscan la perfección. Por ello, cada asiento ha sido seleccionado para ofrecer la perspectiva táctica ideal del encuentro. Desde el despliegue físico noruego hasta la magia técnica francesa, usted tendrá la mejor vista del planeta.
+            </p>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            &copy; 2026 Copa Mundial. Gestión de Experiencias de Lujo.
+        </div>
+    </footer>
+</body>
 </html>
