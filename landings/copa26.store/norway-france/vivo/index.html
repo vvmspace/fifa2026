@@ -1,159 +1,71 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Noruega vs Francia en Vivo | Transmisión Premium Copa 2026</title>
-    <meta name="description" content="Siga el encuentro Noruega vs Francia en tiempo real. Calidad 4K, análisis experto y acceso exclusivo a la señal oficial del Mundial.">
-    <style>
-        :root {
-            --obsidian: #0a0a0a;
-            --gold: #d4af37;
-            --gold-light: #f1d592;
-            --glass: rgba(255, 255, 255, 0.05);
-            --glass-border: rgba(212, 175, 55, 0.3);
-        }
-        body {
-            background-color: var(--obsidian);
-            color: #e0e0e0;
-            font-family: 'Inter', 'Segoe UI', Roboto, sans-serif;
-            margin: 0;
-            padding: 0;
-            line-height: 1.6;
-        }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-        header {
-            padding: 60px 0;
-            text-align: center;
-        }
-        .hero-title {
-            font-size: 3rem;
-            color: var(--gold);
-            text-transform: uppercase;
-            letter-spacing: 2px;
-        }
-        .player-placeholder {
-            width: 100%;
-            aspect-ratio: 16 / 9;
-            background: #111;
-            border: 2px solid var(--gold);
-            border-radius: 20px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            position: relative;
-            overflow: hidden;
-            box-shadow: 0 0 50px rgba(212, 175, 55, 0.2);
-        }
-        .play-button {
-            width: 80px;
-            height: 80px;
-            background: var(--gold);
-            border-radius: 50%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            cursor: pointer;
-            transition: transform 0.3s ease;
-            box-shadow: 0 0 20px var(--gold);
-        }
-        .play-button:hover {
-            transform: scale(1.1);
-        }
-        .play-icon {
-            width: 0;
-            height: 0;
-            border-top: 15px solid transparent;
-            border-bottom: 15px solid transparent;
-            border-left: 25px solid var(--obsidian);
-            margin-left: 5px;
-        }
-        .live-indicator {
-            position: absolute;
-            top: 20px;
-            left: 20px;
-            background: #ff0000;
-            color: white;
-            padding: 5px 15px;
-            border-radius: 5px;
-            font-weight: bold;
-            text-transform: uppercase;
-            font-size: 0.8rem;
-            animation: blink 1.5s infinite;
-        }
-        @keyframes blink {
-            0% { opacity: 1; }
-            50% { opacity: 0.5; }
-            100% { opacity: 1; }
-        }
-        .stream-details {
-            margin-top: 40px;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 40px;
-        }
-        .glass-card {
-            background: var(--glass);
-            border: 1px solid var(--glass-border);
-            border-radius: 20px;
-            padding: 30px;
-        }
-        .btn-access {
-            display: inline-block;
-            padding: 15px 30px;
-            background: linear-gradient(135deg, var(--gold), #b8860b);
-            color: var(--obsidian);
-            font-weight: bold;
-            border-radius: 50px;
-            text-transform: uppercase;
-            text-decoration: none;
-            margin-top: 20px;
-        }
-        @media (max-width: 768px) {
-            .stream-details { grid-template-columns: 1fr; }
-            .hero-title { font-size: 2rem; }
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <header>
-            <h1 class="hero-title">Señal en Vivo</h1>
-            <p style="color: #aaa; font-size: 1.2rem;">Noruega vs Francia | Copa Mundial 2026</p>
-        </header>
-
-        <div class="player-placeholder">
-            <div class="live-indicator">EN VIVO</div>
-            <div class="play-button">
-                <div class="play-icon"></div>
-            </div>
-        </div>
-
-        <div class="stream-details">
-            <div class="glass-card">
-                <h3 style="color: var(--gold); font-size: 1.5rem; margin-bottom: 15px;">Calidad de Transmisión</h3>
-                <p style="color: #ccc;">
-                    Acceda a la experiencia visual más avanzada del torneo. Nuestra señal premium ofrece resolución 4K Ultra HD, sonido envolvente y una latencia mínima para que no se pierda ni un segundo de la acción.
-                    <br><br>
-                    La elegancia del juego se traduce en la calidad de la imagen. Desde el primer pase hasta el gol decisivo, cada detalle es capturado con una precisión cristalina.
-                </p>
-            </div>
-            <div class="glass-card">
-                <h3 style="color: var(--gold); font-size: 1.5rem; margin-bottom: 15px;">Comentarios Expertos</h3>
-                <p style="color: #ccc;">
-                    Acompañe la transmisión con un análisis táctico en tiempo real realizado por leyendas del fútbol y analistas de prestigio internacional. Una visión profunda del juego que eleva la experiencia de visionado.
-                </p>
-                <a href="/norway-france/entradas" class="btn-access">Obtener Entradas VIP</a>
-            </div>
-        </div>
-
-        <footer style="text-align: center; padding: 60px 0; color: #666; font-size: 0.9rem;">
-            &copy; 2026 Copa Mundial Experience. Transmisión Oficial.
-        </footer>
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Noruega vs Francia en Vivo · FIFA 2026 | copa26.store
+  </title>
+  <meta content="Siga la transmisión en vivo de Noruega vs Francia con calidad premium. Acceso exclusivo y cobertura en tiempo real desde Foxborough." name="description"/>
+  <link href="https://copa26.store/norway-france/vivo/" rel="canonical"/>
+  <link href="../style-luxury-v1.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <header>
+   <div class="header-content">
+    <a class="logo" href="/">
+     COPA26
+     <strong>
+      .STORE
+     </strong>
+    </a>
+   </div>
+  </header>
+  <main>
+   <section class="hero">
+    <h1>
+     Noruega vs Francia: Señal Premium
+     <small>
+      Transmisión de Alta Gama para el Espectador Exigente
+     </small>
+    </h1>
+    <div class="match-score-card">
+     <span>
+      NOR
+     </span>
+     <strong>
+      en Directo
+     </strong>
+     <span>
+      FRA
+     </span>
     </div>
-</body>
+    <p>
+     Para quienes buscan la excelencia desde la comodidad de su entorno privado. Le ofrecemos el acceso a la señal más nítida y estable del encuentro Noruega vs Francia, diseñada para quienes no aceptan compromisos en la calidad de la imagen ni en la fluidez de la transmisión.
+    </p>
+   </section>
+   <section class="seo-content-block">
+    <h2>
+     La Vanguardia Tecnológica en la Transmisión Mundialista
+    </h2>
+    <p>
+     La experiencia de ver el fútbol en vivo ha sido transformada por la tecnología. En copa26.store, facilitamos el acceso a una transmisión que traslada la atmósfera vibrante del Gillette Stadium directamente a su pantalla. Mediante el uso de servidores de alta capacidad y protocolos de baja latencia, garantizamos que la intensidad del duelo entre Noruega y Francia sea capturada con una fidelidad asombrosa.
+    </p>
+    <p>
+     Entendemos que la calidad es un estándar no negociable. Nuestra infraestructura digital asegura que la señal se mantenga impecable, sin degradaciones ni interrupciones, permitiendo que el espectador se sumerja en la tensión y la gloria del Mundial 2026. Ya sea que siga el partido desde un despacho en Ginebra o un salón en Buenos Aires, la nitidez de la imagen reflejará la sofisticación que usted acostumbra.
+    </p>
+    <p>
+     Acceda a la transmisión en vivo con la garantía de un respaldo técnico de primer nivel. La pasión del fútbol se encuentra con la ingeniería de vanguardia para ofrecerle un asiento virtual en la primera fila del evento deportivo más importante del mundo. La maestría francesa y la potencia noruega, ahora disponibles bajo los estándares de calidad que solo copa26.store puede proveer.
+    </p>
+    <div class="c-actions" style="display:flex; gap:15px; justify-content:center; margin-top:20px;">
+     <button class="btn btn-gold" onclick="window.location.href='https://www.ticketmaster.com/event/Z7r9jZ1A74347'">
+      Acceder a la Señal Elite
+     </button>
+     <a class="btn btn-outline" href="/">
+      Volver al Menú
+     </a>
+    </div>
+   </section>
+  </main>
+ </body>
 </html>
