@@ -1,66 +1,122 @@
 <!DOCTYPE html>
 <html lang="es-419">
- <head>
-  <meta charset="utf-8"/>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-  <title>Jordania vs Argentina · Señal VIP | boletosfifa.store</title>
-  <meta content="Acceso exclusivo a la transmisión en vivo de Jordania vs Argentina. Calidad Ultra-HD y entorno digital privado para el Mundial 2026." name="description"/>
-  <link href="https://boletosfifa.store/jordan-argentina/vivo/" rel="canonical"/>
-  <link href="../../index.css" rel="stylesheet"/>
-  <link href="../style-luxury-v3.css" rel="stylesheet"/>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
- </head>
- <body>
-  <header>
-   <div class="header-content">
-    <a class="logo" href="/">
-     BOLETOSFIFA
-     <strong>
-      .STORE
-     </strong>
-    </a>
-   </div>
-  </header>
-  <main>
-   <section class="hero">
-    <h1>
-     Transmisión de Élite
-     <small>
-      Digital Sovereignty
-     </small>
-    </h1>
-    <div class="match-score-card">
-     <span>JOR</span>
-     <strong>EN VIVO</strong>
-     <span>ARG</span>
-    </div>
-    <p>
-     La intensidad del AT&T Stadium transmitida con una pureza visual absoluta. Para quienes el lujo no conoce fronteras geográficas.
-    </p>
-   </section>
-   <section class="seo-content-block">
-    <h2>Inmersión Digital de Alta Fidelidad</h2>
-    <p>
-     Para el espectador exigente, la distancia no es una barrera, sino una oportunidad de observar el juego desde una perspectiva analítica y privada. Nuestra señal VIP para el encuentro entre Jordania y Argentina ofrece una calidad de imagen Ultra-HD que captura cada gota de sudor y cada gesto técnico, proporcionando una experiencia sensorial que rivaliza con la presencia física en el estadio.
-    </p>
-    <p>
-     Entendemos que la privacidad es el lujo definitivo. Por ello, nuestro entorno de transmisión está diseñado para evitar cualquier interrupción, ofreciendo un flujo de datos optimizado y una estabilidad impecable. No se trata de una simple transmisión; es un acceso privilegiado a una señal de grado profesional, donde la claridad del audio y la nitidez de la imagen permiten apreciar la maestría de la selección argentina y la garra de la jordana en tiempo real.
-    </p>
-    <p>
-     Este servicio digital está pensado para quienes integran la tecnología de vanguardia en su estilo de vida. Desde la comodidad de su residencia o suite ejecutiva, podrá vivir la tensión del Mundial 2026 con una fidelidad asombrosa. La narrativa del partido, desde la táctica desplegada en el césped hasta la pasión en las gradas, se despliega ante sus ojos con una fluidez absoluta.
-    </p>
-    <p>
-     El acceso a nuestra señal premium es estrictamente limitado para garantizar la máxima calidad de servicio y estabilidad del servidor. Le instamos a asegurar su credencial de acceso hoy mismo para evitar cualquier complicación técnica y sumergirse en la gloria del fútbol mundial desde la cima de la sofisticación digital.
-    </p>
-    <div class="c-actions">
-     <button class="btn btn-gold" onclick="window.location.href='https://www.ticketmaster.com/event/Z7r9jZ1A7434a'">
-      Activar Señal VIP
-     </button>
-     <a class="btn btn-outline" href="../">
-      Volver al Partido
-     </a>
-    </div>
-   </section>
-  </main>
- </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ver Jordan vs Argentina en Vivo | Transmisión Premium Mundial 2026</title>
+    <meta name="description" content="No se pierda ni un segundo del choque entre Jordania y Argentina. Transmisión en vivo en alta definición con análisis en tiempo real.">
+    <style>
+        :root {
+            --obsidian: #0b0b0b;
+            --gold: #d4af37;
+            --glass: rgba(255, 255, 255, 0.05);
+            --gold-gradient: linear-gradient(135deg, #d4af37 0%, #f9e29c 50%, #b8860b 100%);
+        }
+        body {
+            background-color: var(--obsidian);
+            color: #e0e0e0;
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            margin: 0;
+            line-height: 1.6;
+        }
+        .luxury-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        header {
+            text-align: center;
+            padding: 80px 0;
+            background: radial-gradient(circle at center, #1a1a1a 0%, var(--obsidian) 100%);
+        }
+        h1 {
+            font-size: 3rem;
+            font-weight: 800;
+            background: var(--gold-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+        }
+        .video-placeholder {
+            width: 100%;
+            aspect-ratio: 16/9;
+            background: #1a1a1a;
+            border: 2px solid var(--gold);
+            border-radius: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 0 40px rgba(212, 175, 55, 0.2);
+        }
+        .play-button {
+            width: 80px;
+            height: 80px;
+            background: var(--gold-gradient);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+            z-index: 2;
+        }
+        .play-button:hover {
+            transform: scale(1.2);
+        }
+        .play-icon {
+            width: 0;
+            height: 0;
+            border-top: 15px solid transparent;
+            border-bottom: 15px solid transparent;
+            border-left: 25px solid var(--obsidian);
+            margin-left: 5px;
+        }
+        .glass-card {
+            background: var(--glass);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(212, 175, 55, 0.2);
+            border-radius: 24px;
+            padding: 40px;
+            margin-top: 40px;
+            text-align: center;
+        }
+        .btn-luxury {
+            display: inline-block;
+            padding: 18px 36px;
+            background: var(--gold-gradient);
+            color: var(--obsidian);
+            text-decoration: none;
+            font-weight: 700;
+            border-radius: 12px;
+            text-transform: uppercase;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="luxury-container">
+            <h1>Transmisión en Vivo</h1>
+            <p style="color: #a0a0a0; font-size: 1.2rem;">Jordania vs Argentina - Copa del Mundo 2026</p>
+        </div>
+    </header>
+    <main class="luxury-container">
+        <div class="video-placeholder">
+            <div class="play-button">
+                <div class="play-icon"></div>
+            </div>
+            <div style="position: absolute; bottom: 20px; right: 20px; color: var(--gold); font-weight: 700;">LIVE HD</div>
+        </div>
+        <div class="glass-card">
+            <h2>Acceso a la Señal Premium</h2>
+            <p>Para acceder a la transmisión oficial en alta definición, por favor verifique su suscripción de acceso premium.</p>
+            <a href="/jordan-argentina/boletos" class="btn-luxury">Ver Opciones de Acceso</a>
+        </div>
+    </main>
+</body>
 </html>
