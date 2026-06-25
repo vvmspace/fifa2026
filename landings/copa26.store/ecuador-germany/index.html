@@ -1,70 +1,187 @@
 <!DOCTYPE html>
 <html lang="es">
- <head>
-  <meta charset="utf-8"/>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-  <title>
-   Ecuador vs Alemania Acceso Exclusivo · Copa 26 | copa26.store
-  </title>
-  <meta content="Siga la emoción de Ecuador vs Alemania en East Rutherford. Acceso exclusivo a entradas VIP y la mejor ubicación en el MetLife Stadium para el Mundial 2026." name="description"/>
-  <link href="../../index.css" rel="stylesheet"/>
- </head>
- <body>
-  <header>
-   <div class="header-content">
-    <a class="logo" href="/">
-     COPA26
-     <strong>
-      .STORE
-     </strong>
-    </a>
-   </div>
-  </header>
-  <main>
-   <section class="hero">
-    <h1>
-     Ecuador vs Alemania Acceso Exclusivo · Copa 26
-     <small>
-      Acceso Exclusivo - Copa 26
-     </small>
-    </h1>
-    <div class="match-score-card">
-     <span>
-      ECU
-     </span>
-     <strong>
-      vs
-     </strong>
-     <span>
-      GER
-     </span>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecuador vs Alemania - Copa Mundial 2026 | Entrada Exclusiva</title>
+    <meta name="description" content="Vea la previa y asegure sus entradas para Ecuador vs Alemania. La máxima gloria del fútbol mundial en el MetLife Stadium. Acceso VIP y entradas premium.">
+    <style>
+        :root {
+            --obsidian: #0a0a0a;
+            --gold: #d4af37;
+            --gold-light: #f9e4b7;
+            --glass: rgba(255, 255, 255, 0.05);
+            --glass-border: rgba(212, 175, 55, 0.3);
+        }
+        body {
+            background-color: var(--obsidian);
+            color: #e0e0e0;
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            line-height: 1.6;
+        }
+        .luxury-bg {
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: radial-gradient(circle at 50% -20%, #1a1a1a 0%, var(--obsidian) 70%);
+            z-index: -1;
+        }
+        header {
+            padding: 4rem 2rem;
+            text-align: center;
+            border-bottom: 1px solid var(--glass-border);
+        }
+        .gold-text {
+            color: var(--gold);
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            font-size: 0.9rem;
+            display: block;
+            margin-bottom: 1rem;
+        }
+        h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            margin: 0;
+            background: linear-gradient(to right, var(--gold-light), var(--gold), var(--gold-light));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+        .glass-card {
+            background: var(--glass);
+            backdrop-filter: blur(12px);
+            border: 1px solid var(--glass-border);
+            border-radius: 24px;
+            padding: 3rem;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+        }
+        .match-details {
+            display: grid;
+            grid-template-columns: 1fr auto 1fr;
+            align-items: center;
+            text-align: center;
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+        .team {
+            font-size: 2rem;
+            font-weight: 600;
+        }
+        .vs {
+            font-size: 1.2rem;
+            color: var(--gold);
+            border: 1px solid var(--gold);
+            padding: 0.5rem 1rem;
+            border-radius: 50px;
+        }
+        .content-section {
+            font-size: 1.1rem;
+            color: #b0b0b0;
+            text-align: justify;
+        }
+        .content-section h2 {
+            color: var(--gold);
+            font-weight: 400;
+            font-size: 1.8rem;
+            margin-bottom: 1.5rem;
+        }
+        .cta-group {
+            display: flex;
+            gap: 2rem;
+            justify-content: center;
+            margin-top: 3rem;
+        }
+        .btn {
+            padding: 1.2rem 2.5rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+        }
+        .btn-primary {
+            background: linear-gradient(135deg, var(--gold), #b8860b);
+            color: var(--obsidian);
+        }
+        .btn-outline {
+            border: 1px solid var(--gold);
+            color: var(--gold);
+        }
+        footer {
+            text-align: center;
+            padding: 4rem 2rem;
+            color: #555;
+            font-size: 0.8rem;
+        }
+        @media (max-width: 768px) {
+            h1 { font-size: 2.2rem; }
+            .match-details { grid-template-columns: 1fr; }
+            .cta-group { flex-direction: column; }
+        }
+    </style>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Ecuador vs Alemania - Copa Mundial 2026",
+      "startDate": "2026-06-26T00:00:00Z",
+      "location": {
+        "@type": "Place",
+        "name": "MetLife Stadium",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "East Rutherford",
+          "addressRegion": "NJ",
+          "addressCountry": "USA"
+        }
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://copa26.store/ecuador-germany/tickets",
+        "availability": "https://schema.org/InStock"
+      }
+    }
+    </script>
+</head>
+<body>
+    <div class="luxury-bg"></div>
+    <header>
+        <span class="gold-text">Copa Mundial 2026 &bull; Match 56</span>
+        <h1>Ecuador vs Alemania</h1>
+    </header>
+    <div class="container">
+        <div class="glass-card">
+            <div class="match-details">
+                <div class="team">Ecuador 🇪🇨</div>
+                <div class="vs">VS</div>
+                <div class="team">Alemania 🇩🇪</div>
+            </div>
+            <div class="content-section">
+                <h2>La Gloria Eterna en el MetLife</h2>
+                <p>
+                    El camino hacia la Copa Mundial 2026 nos conduce a un enfrentamiento de magnitudes legendarias. Ecuador y Alemania se citan en el MetLife Stadium para un duelo que promete redefinir la historia del fútbol contemporáneo. La garra sudamericana se enfrenta a la precisión europea en un escenario donde solo los mejores prevalecen.
+                </p>
+                <p>
+                    Este encuentro es la culminación de meses de preparación y la esperanza de millones. Ver a la selección ecuatoriana luchar contra la potencia alemana es presenciar el deporte en su estado más puro y sofisticado. Para el espectador que busca exclusividad, este partido es el evento imperdible del torneo, combinando la tensión competitiva con un entorno de lujo absoluto.
+                </p>
+                <p>
+                    Desde el primer pitido, la intensidad será máxima. La estrategia alemana contra el ímpetu ecuatoriano creará una narrativa de suspense y genialidad. No se limite a seguir el resultado; viva la experiencia desde la primera línea, donde cada grito de gol resuena como un trueno en la catedral del fútbol moderno.
+                </p>
+            </div>
+            <div class="cta-group">
+                <a href="/ecuador-germany/tickets" class="btn btn-primary" title="Adquirir entradas premium para Ecuador vs Alemania">Entradas VIP</a>
+                <a href="/ecuador-germany/vivo" class="btn btn-outline" title="Ver transmisión en vivo de Ecuador vs Alemania">Ver en Directo</a>
+            </div>
+        </div>
     </div>
-    <p>
-     El MetLife Stadium se prepara para un choque de titanes. La disciplina táctica y la jerarquía histórica de la selección alemana se enfrentan a la explosividad y el corazón indomable de Ecuador en una noche donde el fútbol alcanza su máxima expresión de prestigio.
-    </p>
-   </section>
-   <section class="seo-content-block">
-    <h2>
-     Experiencia VIP en East Rutherford
-    </h2>
-    <p>
-     Vivir este encuentro en el corazón de New Jersey es sumergirse en una atmósfera de competitividad absoluta. El MetLife Stadium, con su capacidad imponente y tecnología de vanguardia, es el escenario ideal para presenciar la lucha por la supremacía en el grupo. Nuestra gestión exclusiva le permite evitar las complicaciones logísticas habituales, asegurando que su llegada al estadio sea tan fluida como la ejecución táctica en el campo.
-    </p>
-    <p>
-     Le ofrecemos acceso a las suites más privilegiadas y zonas de hospitalidad premium, donde el lujo se manifiesta en cada detalle. Desde la atención personalizada de nuestro equipo de conserjería hasta la visibilidad inmejorable del terreno de juego, nos encargamos de que su única preocupación sea disfrutar del duelo entre la técnica alemana y la garra ecuatoriana.
-    </p>
-    <p>
-     La demanda para este partido es extraordinaria, dada la trayectoria de Alemania en los mundiales. Asegurar sus entradas con antelación es la única vía para garantizar una ubicación que esté a la altura de un evento de esta magnitud. Le invitamos a reservar su lugar en la élite del fútbol mundial y vivir la Copa 26 desde la máxima exclusividad.
-    </p>
-    <div class="c-actions" style="display:flex; gap:15px; justify-content:center; margin-top:20px;">
-     <button class="btn btn-gold" onclick="window.location.href='https://www.ticketmaster.com/event/Z7r9jZ1A7434A'">
-      Reservar Entradas
-     </button>
-     <a class="btn btn-outline" href="/">
-      Volver
-     </a>
-    </div>
-   </section>
-  </main>
- </body>
+    <footer>
+        &copy; 2026 Copa Mundial. Acceso Exclusivo y Premium.
+    </footer>
+</body>
 </html>
