@@ -1,18 +1,14 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>
-            Boletos Mundial 2026 | Venta de Entradas Copa del Mundo, England vs Croatia, Portugal vs Congo DR, Uzbekistan vs Colombia
-        </title>
-        <meta
-            name="description"
-            content="Compra tus boletos para la Copa Mundial de la FIFA 2026™. Alta demanda: asegura tu lugar en los estadios de EE. UU., México y Canadá antes de que se agoten."
-        />
-
-        <script type="application/ld+json">
-            [
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Boletos Mundial 2026 | Venta de Entradas Copa del Mundo, England vs Croatia, Portugal vs Congo DR, Uzbekistan vs Colombia
+  </title>
+  <meta content="Compra tus boletos para la Copa Mundial de la FIFA 2026™. Alta demanda: asegura tu lugar en los estadios de EE. UU., México y Canadá antes de que se agoten." name="description"/>
+  <script type="application/ld+json">
+   [
                 {
                     "@context": "https://schema.org",
                     "@type": "SportsEvent",
@@ -129,449 +125,469 @@
                     }
                 }
             ]
-        </script>
-
-        <link rel="stylesheet" href="index.css" />
-        <!-- Google tag (gtag.js) -->
-        <script
-            async
-            src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"
-        ></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
+  </script>
+  <link href="index.css?v=1.0.1" rel="stylesheet"/>
+  <!-- Google tag (gtag.js) -->
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX">
+  </script>
+  <script>
+   window.dataLayer = window.dataLayer || [];
             function gtag() {
                 dataLayer.push(arguments);
             }
             gtag("js", new Date());
 
             gtag("config", "G-XXXXXXXXXX");
-        </script>
-    </head>
-    <body>
-        <div class="premium-ticker">
-            🔥 Alta demanda. Tiempo para el inicio del torneo:
-            <span id="countdown">Calculando...</span>
-        </div>
-
-        <header>
-            <div class="header-content">
-                <div class="logo">FIFA 2026™ | Boletos</div>
-                <div
-                    style="
+  </script>
+ </head>
+ <body>
+  <div class="premium-ticker">
+   🔥 Alta demanda. Tiempo para el inicio del torneo:
+   <span id="countdown">
+    Calculando...
+   </span>
+  </div>
+  <header>
+   <div class="header-content">
+    <div class="logo">
+     FIFA 2026™ | Boletos
+    </div>
+    <div style="
                         font-size: 13px;
                         color: var(--text-muted);
                         display: flex;
                         align-items: center;
                         gap: 6px;
-                    "
-                >
-                    <div
-                        style="
+                    ">
+     <div style="
                             width: 8px;
                             height: 8px;
                             background: var(--emerald);
                             border-radius: 50%;
                             box-shadow: 0 0 10px var(--emerald);
-                        "
-                    ></div>
-                    Boletos disponibles
-                </div>
-            </div>
-        </header>
-
-        <section class="hero">
-            <h1>Boletos para la <span>Copa Mundial 2026™</span></h1>
-            <p>
-                Asegura tu lugar en la historia. Compra tus boletos ahora y no
+                        ">
+     </div>
+     Boletos disponibles
+    </div>
+   </div>
+  </header>
+  <section class="hero">
+   <h1>
+    Boletos para la
+    <span>
+     Copa Mundial 2026™
+    </span>
+   </h1>
+   <p>
+    Asegura tu lugar en la historia. Compra tus boletos ahora y no
                 te pierdas el evento deportivo más grande del mundo. Inventario
                 limitado.
-            </p>
-        </section>
-
-        <div class="filters" role="tablist" aria-label="Filtros de partidos">
-            <button
-                class="tab active"
-                role="tab"
-                aria-selected="true"
-                onclick="filter('all')"
-            >
-                Todos los Partidos
-            </button>
-            <button
-                class="tab"
-                role="tab"
-                aria-selected="false"
-                onclick="filter('grupos')"
-            >
-                Fase de Grupos
-            </button>
-            <button
-                class="tab"
-                role="tab"
-                aria-selected="false"
-                onclick="filter('playoffs')"
-            >
-                Fases Finales
-            </button>
-        </div>
-
-            <article class="card" data-stage="grupos">
-                <div class="c-time">
-                    <span class="c-date" data-utc="2026-06-18T16:00:00Z">18 jun</span>
-                    <span class="c-venue">Mercedes-Benz Stadium, Atlanta, Georgia</span>
-                </div>
-                <div class="c-teams">
-                    <div class="team">
-                        <span class="flag" role="img" aria-label="Bandera de South Africa">🇿🇦</span>
-                        South Africa
-                    </div>
-                    <div class="team">
-                        <span class="flag" role="img" aria-label="Bandera de Czechia">🇨🇿</span>
-                        Czechia
-                    </div>
-                </div>
-                <div class="c-text">
-                    ¡Directo a Atlanta! Boletos disponibles para el choque Sudáfrica vs Rep. Checa. Asegura tu asiento.
-                </div>
-                <div class="c-actions">
-                    <button class="btn btn-gold" onclick="route('tickets', 'Z7r9jZ1A743fo')" aria-label="Comprar boletos para South Africa vs Czechia">
-                        Comprar Boletos
-                    </button>
-                    <button class="btn btn-outline" onclick="route('info', 'Z7r9jZ1A743fo')" aria-label="Ver detalles del estadio">
-                        Info del Estadio
-                    </button>
-                </div>
-            </article>
-
-            <article class="card" data-stage="grupos">
-                <div class="c-time">
-                    <span class="c-date" data-utc="2026-06-18T19:00:00Z">18 jun</span>
-                    <span class="c-venue">SoFi Stadium, Inglewood, California</span>
-                </div>
-                <div class="c-teams">
-                    <div class="team">
-                        <span class="flag" role="img" aria-label="Bandera de Switzerland">🇨🇭</span>
-                        Switzerland
-                    </div>
-                    <div class="team">
-                        <span class="flag" role="img" aria-label="Bandera de Bosnia-Herzegovina">🇧🇦</span>
-                        Bosnia-Herzegovina
-                    </div>
-                </div>
-                <div class="c-text">
-                    Suiza y Bosnia se enfrentan en el SoFi Stadium. Encuentra aquí tus entradas verificadas.
-                </div>
-                <div class="c-actions">
-                    <button class="btn btn-gold" onclick="route('tickets', 'Z7r9jZ1A743f3')" aria-label="Comprar boletos para Switzerland vs Bosnia-Herzegovina">
-                        Comprar Boletos
-                    </button>
-                    <button class="btn btn-outline" onclick="route('info', 'Z7r9jZ1A743f3')" aria-label="Ver detalles del estadio">
-                        Info del Estadio
-                    </button>
-                </div>
-            </article>
-
-            <article class="card" data-stage="grupos">
-                <div class="c-time">
-                    <span class="c-date" data-utc="2026-06-18T22:00:00Z">18 jun</span>
-                    <span class="c-venue">BC Place Stadium, Vancouver, British Columbia</span>
-                </div>
-                <div class="c-teams">
-                    <div class="team">
-                        <span class="flag" role="img" aria-label="Bandera de Qatar">🇶🇦</span>
-                        Qatar
-                    </div>
-                    <div class="team">
-                        <span class="flag" role="img" aria-label="Bandera de Canada">🇨🇦</span>
-                        Canada
-                    </div>
-                </div>
-                <div class="c-text">
-                    ¡Apoya a Canadá en Vancouver! Entradas disponibles para el duelo contra Qatar en el BC Place.
-                </div>
-                <div class="c-actions">
-                    <button class="btn btn-gold" onclick="route('tickets', 'Z7r9jZ1A743fK')" aria-label="Comprar boletos para Qatar vs Canada">
-                        Comprar Boletos
-                    </button>
-                    <button class="btn btn-outline" onclick="route('info', 'Z7r9jZ1A743fK')" aria-label="Ver detalles del estadio">
-                        Info del Estadio
-                    </button>
-                </div>
-            </article>
-
-            <article class="card" data-stage="grupos">
-                <div class="c-time">
-                    <span class="c-date" data-utc="2026-06-19T01:00:00Z">18 jun</span>
-                    <span class="c-venue">Estadio Akron, Zapopan, Jalisco</span>
-                </div>
-                <div class="c-teams">
-                    <div class="team">
-                        <span class="flag" role="img" aria-label="Bandera de Mexico">🇲🇽</span>
-                        Mexico
-                    </div>
-                    <div class="team">
-                        <span class="flag" role="img" aria-label="Bandera de Korea">🇰🇷</span>
-                        Korea
-                    </div>
-                </div>
-                <div class="c-text">
-                    México recibe a Corea en el Estadio Akron. No te pierdas este partidazo, boletos disponibles.
-                </div>
-                <div class="c-actions">
-                    <button class="btn btn-gold" onclick="route('tickets', 'Z7r9jZ1A7bd06')" aria-label="Comprar boletos para Mexico vs Korea">
-                        Comprar Boletos
-                    </button>
-                    <button class="btn btn-outline" onclick="route('info', 'Z7r9jZ1A7bd06')" aria-label="Ver detalles del estadio">
-                        Info del Estadio
-                    </button>
-                </div>
-            </article>
-
-            <article class="card" data-stage="grupos">
-                <div class="c-time">
-                    <span class="c-date" data-utc="2026-06-19T19:00:00Z">19 jun</span>
-                    <span class="c-venue">Lumen Field, Seattle, Washington</span>
-                </div>
-                <div class="c-teams">
-                    <div class="team">
-                        <span class="flag" role="img" aria-label="Bandera de USA">🇺🇸</span>
-                        USA
-                    </div>
-                    <div class="team">
-                        <span class="flag" role="img" aria-label="Bandera de Australia">🇦🇺</span>
-                        Australia
-                    </div>
-                </div>
-                <div class="c-text">
-                    ¡Llegó el momento de apoyar a USA en Seattle! Entradas disponibles para el duelo contra Australia.
-                </div>
-                <div class="c-actions">
-                    <button class="btn btn-gold" onclick="route('tickets', 'Z7r9jZ1A743f9')" aria-label="Comprar boletos para USA vs Australia">
-                        Comprar Boletos
-                    </button>
-                    <button class="btn btn-outline" onclick="route('info', 'Z7r9jZ1A743f9')" aria-label="Ver detalles del estadio">
-                        Info del Estadio
-                    </button>
-                </div>
-            </article>
-
-            <article class="card" data-stage="grupos">
-                <div class="c-time">
-                    <span class="c-date" data-utc="2026-06-19T22:00:00Z">19 jun</span>
-                    <span class="c-venue">Gillette Stadium, Foxborough, Massachusetts</span>
-                </div>
-                <div class="c-teams">
-                    <div class="team">
-                        <span class="flag" role="img" aria-label="Bandera de Scotland">🏴󠁧󠁢󠁳󠁣󠁴󠁿</span>
-                        Scotland
-                    </div>
-                    <div class="team">
-                        <span class="flag" role="img" aria-label="Bandera de Morocco">🇲🇦</span>
-                        Morocco
-                    </div>
-                </div>
-                <div class="c-text">
-                    Escocia vs Marruecos en Foxborough. Consigue tus accesos y vive el mundial.
-                </div>
-                <div class="c-actions">
-                    <button class="btn btn-gold" onclick="route('tickets', 'Z7r9jZ1A743f4')" aria-label="Comprar boletos para Scotland vs Morocco">
-                        Comprar Boletos
-                    </button>
-                    <button class="btn btn-outline" onclick="route('info', 'Z7r9jZ1A743f4')" aria-label="Ver detalles del estadio">
-                        Info del Estadio
-                    </button>
-                </div>
-            </article>
-
-            <article class="card" data-stage="grupos">
-                <div class="c-time">
-                    <span class="c-date" data-utc="2026-06-20T00:30:00Z">19 jun</span>
-                    <span class="c-venue">Lincoln Financial Field, Philadelphia, Pennsylvania</span>
-                </div>
-                <div class="c-teams">
-                    <div class="team">
-                        <span class="flag" role="img" aria-label="Bandera de Brazil">🇧🇷</span>
-                        Brazil
-                    </div>
-                    <div class="team">
-                        <span class="flag" role="img" aria-label="Bandera de Haiti">🇭🇹</span>
-                        Haiti
-                    </div>
-                </div>
-                <div class="c-text">
-                    Brasil llega a Filadelfia para enfrentar a Haití. Asegura tu entrada al Lincoln Financial Field.
-                </div>
-                <div class="c-actions">
-                    <button class="btn btn-gold" onclick="route('tickets', 'Z7r9jZ1A743ff')" aria-label="Comprar boletos para Brazil vs Haiti">
-                        Comprar Boletos
-                    </button>
-                    <button class="btn btn-outline" onclick="route('info', 'Z7r9jZ1A743ff')" aria-label="Ver detalles del estadio">
-                        Info del Estadio
-                    </button>
-                </div>
-            </article>
-
-            <article class="card" data-stage="grupos">
-                <div class="c-time">
-                    <span class="c-date" data-utc="2026-06-20T04:00:00Z">19 jun</span>
-                    <span class="c-venue">Levi's Stadium, Santa Clara, California</span>
-                </div>
-                <div class="c-teams">
-                    <div class="team">
-                        <span class="flag" role="img" aria-label="Bandera de Paraguay">🇵🇾</span>
-                        Paraguay
-                    </div>
-                    <div class="team">
-                        <span class="flag" role="img" aria-label="Bandera de Turkey">🇹🇷</span>
-                        Turkey
-                    </div>
-                </div>
-                <div class="c-text">
-                    Paraguay y Turquía se ven las caras en Santa Clara. Entradas disponibles para el Levi's Stadium.
-                </div>
-                <div class="c-actions">
-                    <button class="btn btn-gold" onclick="route('tickets', 'Z7r9jZ1A743fp')" aria-label="Comprar boletos para Paraguay vs Turkey">
-                        Comprar Boletos
-                    </button>
-                    <button class="btn btn-outline" onclick="route('info', 'Z7r9jZ1A743fp')" aria-label="Ver detalles del estadio">
-                        Info del Estadio
-                    </button>
-                </div>
-            </article>
-        </main>
-
-            <article class="card" data-stage="grupos">
-                <div class="c-time">
-                    <span class="c-date" data-utc="2026-06-17T19:00:00Z"
-                        >17 Jun</span
-                    >
-                    <span class="c-venue">🇺🇸 Miami, Hard Rock Stadium</span>
-                </div>
-                <div class="c-teams">
-                    <div class="team">
-                        <span
-                            class="flag"
-                            role="img"
-                            aria-label="Bandera de Francia"
-                            >🇫🇷</span
-                        >
-                        Francia
-                    </div>
-                    <div class="team">
-                        <span
-                            class="flag"
-                            role="img"
-                            aria-label="Bandera de TBD"
-                            >❓</span
-                        >
-                        TBD
-                    </div>
-                </div>
-                <div class="c-text">
-                    Vive la pasión en Miami. <strong>Entradas premium</strong>
-                    y paquetes de hospitalidad para este choque estelar.
-                </div>
-                <div class="c-actions">
-                    <button
-                        class="btn btn-gold"
-                        onclick="route('tickets', 'fra-match')"
-                        aria-label="Comprar boletos para Francia vs TBD"
-                    >
-                        Comprar Boletos
-                    </button>
-                </div>
-            </article>
-
-            <article class="card" data-stage="grupos">
-                <div class="c-time">
-                    <span class="c-date" data-utc="2026-06-20T19:00:00Z"
-                        >20 Jun</span
-                    >
-                    <span class="c-venue">🇺🇸 Seattle, Lumen Field</span>
-                </div>
-                <div class="c-teams">
-                    <div class="team">
-                        <span
-                            class="flag"
-                            role="img"
-                            aria-label="Bandera de Inglaterra"
-                            >🏴󠁧󠁢󠁥󠁮󠁧󠁿</span
-                        >
-                        Inglaterra
-                    </div>
-                    <div class="team">
-                        <span
-                            class="flag"
-                            role="img"
-                            aria-label="Bandera de TBD"
-                            >❓</span
-                        >
-                        TBD
-                    </div>
-                </div>
-                <div class="c-text">
-                    Disfruta de la acción en la Costa Oeste.
-                    <strong>Asientos generales</strong>
-                    y pases VIP disponibles para este duelo.
-                </div>
-                <div class="c-actions">
-                    <button
-                        class="btn btn-gold"
-                        onclick="route('tickets', 'eng-match')"
-                        aria-label="Comprar boletos para Inglaterra vs TBD"
-                    >
-                        Comprar Boletos
-                    </button>
-                </div>
-            </article>
-
-            <article
-                class="card"
-                data-stage="playoffs"
-                style="
+   </p>
+  </section>
+  <div aria-label="Filtros de partidos" class="filters" role="tablist">
+   <button aria-selected="true" class="tab active" onclick="filter('all')" role="tab">
+    Todos los Partidos
+   </button>
+   <button aria-selected="false" class="tab" onclick="filter('grupos')" role="tab">
+    Fase de Grupos
+   </button>
+   <button aria-selected="false" class="tab" onclick="filter('playoffs')" role="tab">
+    Fases Finales
+   </button>
+  </div>
+  <article class="card" data-stage="grupos">
+   <div class="c-time">
+    <span class="c-date" data-utc="2026-06-18T16:00:00Z">
+     18 jun
+    </span>
+    <span class="c-venue">
+     Mercedes-Benz Stadium, Atlanta, Georgia
+    </span>
+   </div>
+   <div class="c-teams">
+    <div class="team">
+     <span aria-label="Bandera de South Africa" class="flag" role="img">
+      🇿🇦
+     </span>
+     South Africa
+    </div>
+    <div class="team">
+     <span aria-label="Bandera de Czechia" class="flag" role="img">
+      🇨🇿
+     </span>
+     Czechia
+    </div>
+   </div>
+   <div class="c-text">
+    ¡Directo a Atlanta! Boletos disponibles para el choque Sudáfrica vs Rep. Checa. Asegura tu asiento.
+   </div>
+   <div class="c-actions">
+    <button aria-label="Comprar boletos para South Africa vs Czechia" class="btn btn-gold" onclick="route('tickets', 'Z7r9jZ1A743fo')">
+     Comprar Boletos
+    </button>
+    <button aria-label="Ver detalles del estadio" class="btn btn-outline" onclick="route('info', 'Z7r9jZ1A743fo')">
+     Info del Estadio
+    </button>
+   </div>
+  </article>
+  <article class="card" data-stage="grupos">
+   <div class="c-time">
+    <span class="c-date" data-utc="2026-06-18T19:00:00Z">
+     18 jun
+    </span>
+    <span class="c-venue">
+     SoFi Stadium, Inglewood, California
+    </span>
+   </div>
+   <div class="c-teams">
+    <div class="team">
+     <span aria-label="Bandera de Switzerland" class="flag" role="img">
+      🇨🇭
+     </span>
+     Switzerland
+    </div>
+    <div class="team">
+     <span aria-label="Bandera de Bosnia-Herzegovina" class="flag" role="img">
+      🇧🇦
+     </span>
+     Bosnia-Herzegovina
+    </div>
+   </div>
+   <div class="c-text">
+    Suiza y Bosnia se enfrentan en el SoFi Stadium. Encuentra aquí tus entradas verificadas.
+   </div>
+   <div class="c-actions">
+    <button aria-label="Comprar boletos para Switzerland vs Bosnia-Herzegovina" class="btn btn-gold" onclick="route('tickets', 'Z7r9jZ1A743f3')">
+     Comprar Boletos
+    </button>
+    <button aria-label="Ver detalles del estadio" class="btn btn-outline" onclick="route('info', 'Z7r9jZ1A743f3')">
+     Info del Estadio
+    </button>
+   </div>
+  </article>
+  <article class="card" data-stage="grupos">
+   <div class="c-time">
+    <span class="c-date" data-utc="2026-06-18T22:00:00Z">
+     18 jun
+    </span>
+    <span class="c-venue">
+     BC Place Stadium, Vancouver, British Columbia
+    </span>
+   </div>
+   <div class="c-teams">
+    <div class="team">
+     <span aria-label="Bandera de Qatar" class="flag" role="img">
+      🇶🇦
+     </span>
+     Qatar
+    </div>
+    <div class="team">
+     <span aria-label="Bandera de Canada" class="flag" role="img">
+      🇨🇦
+     </span>
+     Canada
+    </div>
+   </div>
+   <div class="c-text">
+    ¡Apoya a Canadá en Vancouver! Entradas disponibles para el duelo contra Qatar en el BC Place.
+   </div>
+   <div class="c-actions">
+    <button aria-label="Comprar boletos para Qatar vs Canada" class="btn btn-gold" onclick="route('tickets', 'Z7r9jZ1A743fK')">
+     Comprar Boletos
+    </button>
+    <button aria-label="Ver detalles del estadio" class="btn btn-outline" onclick="route('info', 'Z7r9jZ1A743fK')">
+     Info del Estadio
+    </button>
+   </div>
+  </article>
+  <article class="card" data-stage="grupos">
+   <div class="c-time">
+    <span class="c-date" data-utc="2026-06-19T01:00:00Z">
+     18 jun
+    </span>
+    <span class="c-venue">
+     Estadio Akron, Zapopan, Jalisco
+    </span>
+   </div>
+   <div class="c-teams">
+    <div class="team">
+     <span aria-label="Bandera de Mexico" class="flag" role="img">
+      🇲🇽
+     </span>
+     Mexico
+    </div>
+    <div class="team">
+     <span aria-label="Bandera de Korea" class="flag" role="img">
+      🇰🇷
+     </span>
+     Korea
+    </div>
+   </div>
+   <div class="c-text">
+    México recibe a Corea en el Estadio Akron. No te pierdas este partidazo, boletos disponibles.
+   </div>
+   <div class="c-actions">
+    <button aria-label="Comprar boletos para Mexico vs Korea" class="btn btn-gold" onclick="route('tickets', 'Z7r9jZ1A7bd06')">
+     Comprar Boletos
+    </button>
+    <button aria-label="Ver detalles del estadio" class="btn btn-outline" onclick="route('info', 'Z7r9jZ1A7bd06')">
+     Info del Estadio
+    </button>
+   </div>
+  </article>
+  <article class="card" data-stage="grupos">
+   <div class="c-time">
+    <span class="c-date" data-utc="2026-06-19T19:00:00Z">
+     19 jun
+    </span>
+    <span class="c-venue">
+     Lumen Field, Seattle, Washington
+    </span>
+   </div>
+   <div class="c-teams">
+    <div class="team">
+     <span aria-label="Bandera de USA" class="flag" role="img">
+      🇺🇸
+     </span>
+     USA
+    </div>
+    <div class="team">
+     <span aria-label="Bandera de Australia" class="flag" role="img">
+      🇦🇺
+     </span>
+     Australia
+    </div>
+   </div>
+   <div class="c-text">
+    ¡Llegó el momento de apoyar a USA en Seattle! Entradas disponibles para el duelo contra Australia.
+   </div>
+   <div class="c-actions">
+    <button aria-label="Comprar boletos para USA vs Australia" class="btn btn-gold" onclick="route('tickets', 'Z7r9jZ1A743f9')">
+     Comprar Boletos
+    </button>
+    <button aria-label="Ver detalles del estadio" class="btn btn-outline" onclick="route('info', 'Z7r9jZ1A743f9')">
+     Info del Estadio
+    </button>
+   </div>
+  </article>
+  <article class="card" data-stage="grupos">
+   <div class="c-time">
+    <span class="c-date" data-utc="2026-06-19T22:00:00Z">
+     19 jun
+    </span>
+    <span class="c-venue">
+     Gillette Stadium, Foxborough, Massachusetts
+    </span>
+   </div>
+   <div class="c-teams">
+    <div class="team">
+     <span aria-label="Bandera de Scotland" class="flag" role="img">
+      🏴󠁧󠁢󠁳󠁣󠁴󠁿
+     </span>
+     Scotland
+    </div>
+    <div class="team">
+     <span aria-label="Bandera de Morocco" class="flag" role="img">
+      🇲🇦
+     </span>
+     Morocco
+    </div>
+   </div>
+   <div class="c-text">
+    Escocia vs Marruecos en Foxborough. Consigue tus accesos y vive el mundial.
+   </div>
+   <div class="c-actions">
+    <button aria-label="Comprar boletos para Scotland vs Morocco" class="btn btn-gold" onclick="route('tickets', 'Z7r9jZ1A743f4')">
+     Comprar Boletos
+    </button>
+    <button aria-label="Ver detalles del estadio" class="btn btn-outline" onclick="route('info', 'Z7r9jZ1A743f4')">
+     Info del Estadio
+    </button>
+   </div>
+  </article>
+  <article class="card" data-stage="grupos">
+   <div class="c-time">
+    <span class="c-date" data-utc="2026-06-20T00:30:00Z">
+     19 jun
+    </span>
+    <span class="c-venue">
+     Lincoln Financial Field, Philadelphia, Pennsylvania
+    </span>
+   </div>
+   <div class="c-teams">
+    <div class="team">
+     <span aria-label="Bandera de Brazil" class="flag" role="img">
+      🇧🇷
+     </span>
+     Brazil
+    </div>
+    <div class="team">
+     <span aria-label="Bandera de Haiti" class="flag" role="img">
+      🇭🇹
+     </span>
+     Haiti
+    </div>
+   </div>
+   <div class="c-text">
+    Brasil llega a Filadelfia para enfrentar a Haití. Asegura tu entrada al Lincoln Financial Field.
+   </div>
+   <div class="c-actions">
+    <button aria-label="Comprar boletos para Brazil vs Haiti" class="btn btn-gold" onclick="route('tickets', 'Z7r9jZ1A743ff')">
+     Comprar Boletos
+    </button>
+    <button aria-label="Ver detalles del estadio" class="btn btn-outline" onclick="route('info', 'Z7r9jZ1A743ff')">
+     Info del Estadio
+    </button>
+   </div>
+  </article>
+  <article class="card" data-stage="grupos">
+   <div class="c-time">
+    <span class="c-date" data-utc="2026-06-20T04:00:00Z">
+     19 jun
+    </span>
+    <span class="c-venue">
+     Levi's Stadium, Santa Clara, California
+    </span>
+   </div>
+   <div class="c-teams">
+    <div class="team">
+     <span aria-label="Bandera de Paraguay" class="flag" role="img">
+      🇵🇾
+     </span>
+     Paraguay
+    </div>
+    <div class="team">
+     <span aria-label="Bandera de Turkey" class="flag" role="img">
+      🇹🇷
+     </span>
+     Turkey
+    </div>
+   </div>
+   <div class="c-text">
+    Paraguay y Turquía se ven las caras en Santa Clara. Entradas disponibles para el Levi's Stadium.
+   </div>
+   <div class="c-actions">
+    <button aria-label="Comprar boletos para Paraguay vs Turkey" class="btn btn-gold" onclick="route('tickets', 'Z7r9jZ1A743fp')">
+     Comprar Boletos
+    </button>
+    <button aria-label="Ver detalles del estadio" class="btn btn-outline" onclick="route('info', 'Z7r9jZ1A743fp')">
+     Info del Estadio
+    </button>
+   </div>
+  </article>
+  <article class="card" data-stage="grupos">
+   <div class="c-time">
+    <span class="c-date" data-utc="2026-06-17T19:00:00Z">
+     17 Jun
+    </span>
+    <span class="c-venue">
+     🇺🇸 Miami, Hard Rock Stadium
+    </span>
+   </div>
+   <div class="c-teams">
+    <div class="team">
+     <span aria-label="Bandera de Francia" class="flag" role="img">
+      🇫🇷
+     </span>
+     Francia
+    </div>
+    <div class="team">
+     <span aria-label="Bandera de TBD" class="flag" role="img">
+      ❓
+     </span>
+     TBD
+    </div>
+   </div>
+   <div class="c-text">
+    Vive la pasión en Miami.
+    <strong>
+     Entradas premium
+    </strong>
+    y paquetes de hospitalidad para este choque estelar.
+   </div>
+   <div class="c-actions">
+    <button aria-label="Comprar boletos para Francia vs TBD" class="btn btn-gold" onclick="route('tickets', 'fra-match')">
+     Comprar Boletos
+    </button>
+   </div>
+  </article>
+  <article class="card" data-stage="grupos">
+   <div class="c-time">
+    <span class="c-date" data-utc="2026-06-20T19:00:00Z">
+     20 Jun
+    </span>
+    <span class="c-venue">
+     🇺🇸 Seattle, Lumen Field
+    </span>
+   </div>
+   <div class="c-teams">
+    <div class="team">
+     <span aria-label="Bandera de Inglaterra" class="flag" role="img">
+      🏴󠁧󠁢󠁥󠁮󠁧󠁿
+     </span>
+     Inglaterra
+    </div>
+    <div class="team">
+     <span aria-label="Bandera de TBD" class="flag" role="img">
+      ❓
+     </span>
+     TBD
+    </div>
+   </div>
+   <div class="c-text">
+    Disfruta de la acción en la Costa Oeste.
+    <strong>
+     Asientos generales
+    </strong>
+    y pases VIP disponibles para este duelo.
+   </div>
+   <div class="c-actions">
+    <button aria-label="Comprar boletos para Inglaterra vs TBD" class="btn btn-gold" onclick="route('tickets', 'eng-match')">
+     Comprar Boletos
+    </button>
+   </div>
+  </article>
+  <article class="card" data-stage="playoffs" style="
                     border-color: rgba(212, 175, 55, 0.5);
                     background: rgba(30, 25, 10, 0.4);
-                "
-            >
-                <div class="c-time">
-                    <span class="c-date" data-utc="2026-07-19T19:00:00Z"
-                        >19 Jul</span
-                    >
-                    <span class="c-venue">🇺🇸 New York, MetLife Stadium</span>
-                </div>
-                <div class="c-teams">
-                    <div class="team">
-                        <span class="flag" role="img" aria-label="Trofeo"
-                            >🏆</span
-                        >
-                        Finalista 1
-                    </div>
-                    <div class="team">
-                        <span class="flag" role="img" aria-label="Trofeo"
-                            >🏆</span
-                        >
-                        Finalista 2
-                    </div>
-                </div>
-                <div class="c-text">
-                    El partido más importante de la década. Reserva tus
-                    <strong>boletos para la Gran Final de la FIFA 2026™</strong
-                    >. Últimos lugares disponibles.
-                </div>
-                <div class="c-actions">
-                    <button
-                        class="btn btn-gold"
-                        onclick="route('tickets', 'final')"
-                        aria-label="Comprar boletos para la Gran Final"
-                    >
-                        Boletos para la Final
-                    </button>
-                </div>
-            </article>
-        </main>
-
-        <script>
-            document.addEventListener("DOMContentLoaded", () => {
+                ">
+   <div class="c-time">
+    <span class="c-date" data-utc="2026-07-19T19:00:00Z">
+     19 Jul
+    </span>
+    <span class="c-venue">
+     🇺🇸 New York, MetLife Stadium
+    </span>
+   </div>
+   <div class="c-teams">
+    <div class="team">
+     <span aria-label="Trofeo" class="flag" role="img">
+      🏆
+     </span>
+     Finalista 1
+    </div>
+    <div class="team">
+     <span aria-label="Trofeo" class="flag" role="img">
+      🏆
+     </span>
+     Finalista 2
+    </div>
+   </div>
+   <div class="c-text">
+    El partido más importante de la década. Reserva tus
+    <strong>
+     boletos para la Gran Final de la FIFA 2026™
+    </strong>
+    . Últimos lugares disponibles.
+   </div>
+   <div class="c-actions">
+    <button aria-label="Comprar boletos para la Gran Final" class="btn btn-gold" onclick="route('tickets', 'final')">
+     Boletos para la Final
+    </button>
+   </div>
+  </article>
+  <script>
+   document.addEventListener("DOMContentLoaded", () => {
                 const timeElements = document.querySelectorAll("[data-utc]");
                 const dateFormatter = new Intl.DateTimeFormat("es-ES", {
                     month: "short",
@@ -647,6 +663,6 @@
                     ticker.textContent = `${d}d ${h.toString().padStart(2, "0")}h ${m.toString().padStart(2, "0")}m ${s.toString().padStart(2, "0")}s`;
                 }, 1000);
             }
-        </script>
-    </body>
+  </script>
+ </body>
 </html>
