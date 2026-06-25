@@ -1,80 +1,169 @@
 <!DOCTYPE html>
 <html lang="es">
- <head>
-  <meta charset="utf-8"/>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-  <title>
-   Uruguay vs España Guadalajara · Copa 26 en Vivo | copa26.store
-  </title>
-  <meta content="Transmisión de élite de Uruguay vs España en alta definición. Siga el encuentro en tiempo real con la mejor señal digital desde el Estadio Akron." name="description"/>
-  <link href="https://copa26.store/uruguay-spain/vivo/" rel="canonical"/>
-  <link href="../../style-luxury-v1.css" rel="stylesheet"/>
- </head>
- <body>
-  <header>
-   <div class="header-content">
-    <a class="logo" href="/">
-     COPA26
-     <strong>
-      .STORE
-     </strong>
-    </a>
-   </div>
-  </header>
-  <main>
-   <section class="hero">
-    <h1>
-     Streaming de Clase Mundial
-     <small>
-      Uruguay vs España · Vivo desde Guadalajara
-     </small>
-    </h1>
-    <div class="match-score-card">
-     <span>
-      URU
-     </span>
-     <strong>
-      vs
-     </strong>
-     <span>
-      ESP
-     </span>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ver Uruguay vs España en Vivo | Transmisión Premium Copa 2026</title>
+    <meta name="description" content="Acceda a la transmisión en alta definición del encuentro Uruguay vs España. Calidad 4K, análisis en tiempo real y cobertura exclusiva desde el Estadio Akron.">
+    <style>
+        :root {
+            --obsidian: #0a0a0a;
+            --gold: #d4af37;
+            --gold-light: #f1d592;
+            --glass: rgba(255, 255, 255, 0.05);
+            --glass-border: rgba(212, 175, 55, 0.3);
+            --text-main: #e0e0e0;
+            --text-muted: #a0a0a0;
+        }
+        body {
+            background-color: var(--obsidian);
+            color: var(--text-main);
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            line-height: 1.6;
+        }
+        .luxury-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at 50% 50%, #111 0%, #0a0a0a 100%);
+            z-index: -1;
+        }
+        .gold-gradient-text {
+            background: linear-gradient(135deg, var(--gold), var(--gold-light));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: 800;
+        }
+        header {
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .video-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            aspect-ratio: 16 / 9;
+            background: #000;
+            border: 2px solid var(--gold);
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            box-shadow: 0 0 50px rgba(212, 175, 55, 0.2);
+            overflow: hidden;
+        }
+        .video-placeholder {
+            text-align: center;
+            color: var(--gold);
+        }
+        .live-indicator {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background: #ff0000;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 5px;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.8rem;
+            animation: blink 1.5s infinite;
+        }
+        @keyframes blink {
+            0% { opacity: 1; }
+            50% { opacity: 0.5; }
+            100% { opacity: 1; }
+        }
+        .stream-info {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+            text-align: center;
+        }
+        .btn-luxury {
+            padding: 18px 35px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            display: inline-block;
+            margin-top: 20px;
+        }
+        .btn-gold {
+            background: linear-gradient(135deg, var(--gold), #b8860b);
+            color: var(--obsidian);
+        }
+        .status-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        .status-card {
+            background: var(--glass);
+            border: 1px solid var(--glass-border);
+            padding: 20px;
+            border-radius: 20px;
+            text-align: center;
+        }
+        .status-card span {
+            display: block;
+            color: var(--gold);
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+        @media (max-width: 768px) {
+            .status-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <div class="luxury-bg"></div>
+    <header>
+        <h1 class="gold-gradient-text">Transmisión en Directo: Uruguay vs España</h1>
+        <p>Calidad Ultra HD | Cobertura Global Exclusiva</p>
+    </header>
+
+    <div class="video-container">
+        <div class="live-indicator">EN VIVO</div>
+        <div class="video-placeholder">
+            <svg width="80" height="80" viewBox="0 0 24 24" fill="currentColor" style="margin-bottom: 20px;">
+                <path d="M8 5v14l11-7z"/>
+            </svg>
+            <p style="font-size: 1.2rem;">Sintonizando Señal Satelital de Alta Fidelidad...</p>
+            <p style="font-size: 0.9rem; color: var(--text-muted);">El acceso se habilitará 30 minutos antes del inicio del encuentro.</p>
+        </div>
     </div>
-    <p>
-     Sintonice la señal oficial en resolución Ultra HD. Le proporcionamos una experiencia de visualización inmersiva, diseñada para capturar cada detalle técnico y la intensidad emocional de este duelo en el Estadio Akron.
-    </p>
-   </section>
-   <div class="grid">
-    <article class="card" style="grid-template-columns: 1fr; text-align: center; max-width: 700px; margin: 0 auto;">
-     <div class="c-time">
-      <span class="c-date">
-       Señal Digital de Alta Gama
-      </span>
-     </div>
-     <div class="c-teams">
-      <h3>
-       Cobertura Global en 4K y Calidad Profesional
-      </h3>
-      <p class="c-text" style="border:none; padding:0;">
-       Acceso a la transmisión digital oficial con la máxima resolución disponible. Nuestra infraestructura garantiza una señal sin interrupciones, permitiéndole apreciar la maestría de España y la garra de Uruguay en tiempo real, con una nitidez que emula la presencia física en el estadio.
-      </p>
-      <p class="c-text" style="border:none; padding:0; margin-top:10px;">
-       Seguir este encuentro requiere un estándar de calidad que solo el streaming de élite puede proporcionar. Olvide las señales deficientes; acceda a un flujo de datos optimizado que transforme su pantalla en una ventana directa al corazón de Guadalajara, asegurando que cada jugada sea capturada con perfección.
-      </p>
-      <p class="c-text" style="border:none; padding:0; margin-top:10px;">
-       Para quienes buscan la experiencia definitiva, recomendamos complementar la transmisión con la adquisición de Entradas VIP, asegurando su presencia física en el recinto. Nuestra señal es el reflejo del estándar de excelencia que promovemos para los aficionados más exigentes.
-      </p>
-     </div>
-     <div class="c-actions">
-      <button class="btn btn-gold" onclick="window.location.href='https://www.ticketmaster.com/event/Z7r9jZ1A7bd0a'">
-       Ver Encuentro en Vivo
-      </button>
-      <a class="btn btn-outline" href="/uruguay-spain/">
-       Volver a la Previa
-      </a>
-     </div>
-    </article>
-   </div>
-  </main>
- </body>
+
+    <div class="stream-info">
+        <h2 class="gold-gradient-text">Experiencia de Visualización Sin Precedentes</h2>
+        <p>Olvide las transmisiones convencionales. Nuestra plataforma ofrece una latencia cero y una resolución 4K nativa, permitiéndole apreciar cada detalle técnico del encuentro en el Estadio Akron. Desde el movimiento más sutil de la defensa española hasta la potencia bruta del ataque uruguayo.</p>
+        <div class="status-grid">
+            <div class="status-card">
+                <span>Calidad</span>
+                <strong>4K Ultra HD</strong>
+            </div>
+            <div class="status-card">
+                <span>Audio</span>
+                <strong>Dolby Atmos</strong>
+            </div>
+            <div class="status-card">
+                <span>Señal</span>
+                <strong>Estable / Directa</strong>
+            </div>
+        </div>
+        <a href="/uruguay-spain/entradas" class="btn-luxury btn-gold" title="Adquirir Entradas">Asegurar mi Lugar en el Estadio</a>
+    </div>
+
+    <footer style="text-align: center; padding: 40px; color: var(--text-muted); font-size: 0.8rem;">
+        <p>&copy; 2026 Copa Mundial Digital. Transmisión autorizada para usuarios Premium.</p>
+    </footer>
+</body>
 </html>

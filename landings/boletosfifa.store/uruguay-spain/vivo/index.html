@@ -1,66 +1,169 @@
 <!DOCTYPE html>
-<html lang="es-419">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ver Uruguay vs España en Vivo | Transmisión VIP FIFA 2026</title>
-    <meta name="description" content="Acceso exclusivo a la transmisión en vivo de Uruguay vs España. Calidad 4K, sin interrupciones y con comentarios de élite. Viva la pasión desde cualquier lugar.">
-    <link rel="stylesheet" href="../style-luxury-v1.css">
+    <title>Ver Uruguay vs España en Vivo | Señal Premium Boletos FIFA</title>
+    <meta name="description" content="Sintonice el partido Uruguay vs España en vivo. Transmisión de alta gama con calidad 4K y análisis experto desde el Estadio Akron.">
+    <style>
+        :root {
+            --obsidian: #0a0a0a;
+            --gold: #d4af37;
+            --gold-light: #f1d592;
+            --glass: rgba(255, 255, 255, 0.05);
+            --glass-border: rgba(212, 175, 55, 0.3);
+            --text-main: #e0e0e0;
+            --text-muted: #a0a0a0;
+        }
+        body {
+            background-color: var(--obsidian);
+            color: var(--text-main);
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            line-height: 1.6;
+        }
+        .luxury-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at 50% 50%, #111 0%, #0a0a0a 100%);
+            z-index: -1;
+        }
+        .gold-gradient-text {
+            background: linear-gradient(135deg, var(--gold), var(--gold-light));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: 800;
+        }
+        header {
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .video-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            aspect-ratio: 16 / 9;
+            background: #000;
+            border: 2px solid var(--gold);
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            box-shadow: 0 0 50px rgba(212, 175, 55, 0.2);
+            overflow: hidden;
+        }
+        .video-placeholder {
+            text-align: center;
+            color: var(--gold);
+        }
+        .live-indicator {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background: #ff0000;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 5px;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.8rem;
+            animation: blink 1.5s infinite;
+        }
+        @keyframes blink {
+            0% { opacity: 1; }
+            50% { opacity: 0.5; }
+            100% { opacity: 1; }
+        }
+        .stream-info {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+            text-align: center;
+        }
+        .btn-luxury {
+            padding: 18px 35px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            display: inline-block;
+            margin-top: 20px;
+        }
+        .btn-gold {
+            background: linear-gradient(135deg, var(--gold), #b8860b);
+            color: var(--obsidian);
+        }
+        .status-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        .status-card {
+            background: var(--glass);
+            border: 1px solid var(--glass-border);
+            padding: 20px;
+            border-radius: 20px;
+            text-align: center;
+        }
+        .status-card span {
+            display: block;
+            color: var(--gold);
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+        @media (max-width: 768px) {
+            .status-grid { grid-template-columns: 1fr; }
+        }
+    </style>
 </head>
 <body>
+    <div class="luxury-bg"></div>
     <header>
-        <div class="header-content">
-            <a href="/" class="logo">BOLETOS FIFA</a>
-            <div class="nav-links">
-                <a href="/uruguay-spain" class="btn btn-outline" style="padding: 8px 16px; font-size: 12px;">Volver al Inicio</a>
-            </div>
-        </div>
+        <h1 class="gold-gradient-text">En Vivo: Uruguay vs España</h1>
+        <p>Acceso Exclusivo | Calidad de Cine en Casa</p>
     </header>
 
-    <div class="premium-ticker">
-        SINAL EN VIVO <span>Transmisión en Alta Definición desde el Estadio Akron</span>
-    </div>
-
-    <section class="hero">
-        <h1>
-            <small>Cine en Casa</small>
-            Uruguay vs España en Vivo
-        </h1>
-        <p>Para quienes no pueden estar en Guadalajara, ofrecemos el acceso más sofisticado a la transmisión oficial. Sienta la tensión y el júbilo en una calidad visual sin precedentes.</p>
-    </section>
-
-    <div class="match-score-card" style="opacity: 0.9; filter: drop-shadow(0 0 20px var(--gold-muted));">
-        <span>🇺🇾 Uruguay</span>
-        <strong>EN VIVO</strong>
-        <span>🇪🇸 España</span>
-    </div>
-
-    <section class="seo-content-block">
-        <h2>La Ventana al Espectáculo</h2>
-        <p>Nuestra plataforma de streaming premium elimina las barreras entre usted y el campo de juego. Con una latencia mínima y una resolución que captura cada gota de sudor y cada expresión de victoria, la experiencia de ver a Uruguay y España es totalmente inmersiva.</p>
-        <p>La elegancia de la técnica española frente a la resistencia uruguaya se despliega en su pantalla. No se pierda ni un segundo de este choque de estilos, donde la táctica se convierte en arte y el resultado es impredecible.</p>
-    </section>
-
-    <div class="grid" style="display: flex; justify-content: center;">
-        <div class="card" style="width: 100%; max-width: 600px; grid-template-columns: 1fr auto 1fr;">
-            <div class="c-time">
-                <span class="c-date">SISTEMA VIP</span>
-                <span class="c-venue">Acceso Global</span>
-            </div>
-            <div class="c-actions">
-                <button class="btn btn-gold" onclick="window.location.href='https://www.ticketmaster.com/2026-world-cup-tickets/artist/4067733'">ACCEDER AL STREAMING</button>
-            </div>
+    <div class="video-container">
+        <div class="live-indicator">EN DIRECTO</div>
+        <div class="video-placeholder">
+            <svg width="80" height="80" viewBox="0 0 24 24" fill="currentColor" style="margin-bottom: 20px;">
+                <path d="M8 5v14l11-7z"/>
+            </svg>
+            <p style="font-size: 1.2rem;">Cargando Stream de Alta Definición...</p>
+            <p style="font-size: 0.9rem; color: var(--text-muted);">Sintonice la señal oficial 30 minutos antes del pitazo inicial.</p>
         </div>
     </div>
 
-    <section class="seo-content-block">
-        <h2>Técnica y Pasión en Digital</h2>
-        <p>La Copa Mundial 2026 redefine la forma de consumir deporte. Al elegir nuestra transmisión de lujo, usted accede a un flujo de datos optimizado para evitar cualquier interrupción, asegurando que el clímax del partido sea disfrutado en toda su gloria.</p>
-        <p>Desde la primera jugada hasta el pitido final, la calidad de nuestra señal es el reflejo del estándar de excelencia que exigimos. Sea testigo del destino de estas dos potencias mundiales desde la comodidad de su entorno más exclusivo.</p>
-    </section>
+    <div class="stream-info">
+        <h2 class="gold-gradient-text">La Élite del Streaming Deportivo</h2>
+        <p>Le ofrecemos una experiencia visual sin compromisos. Nuestra infraestructura de red garantiza que no se pierda ni un segundo de la acción en el Estadio Akron, con una resolución 4K que captura la emoción real del estadio directamente en su pantalla.</p>
+        <div class="status-grid">
+            <div class="status-card">
+                <span>Resolución</span>
+                <strong>4K UHD</strong>
+            </div>
+            <div class="status-card">
+                <span>Latencia</span>
+                <strong>Mínima / Real-time</strong>
+            </div>
+            <div class="status-card">
+                <span>Audio</span>
+                <strong>Surround 5.1</strong>
+            </div>
+        </div>
+        <a href="/uruguay-spain/boletos" class="btn-luxury btn-gold" title="Comprar Boletos">Asegurar mi Entrada VIP</a>
+    </div>
 
-    <footer style="text-align: center; padding: 40px 0; color: var(--text-muted); font-size: 14px;">
-        &copy; 2026 BOLETOS FIFA - Servicio de Acceso Premium
+    <footer style="text-align: center; padding: 40px; color: var(--text-muted); font-size: 0.8rem;">
+        <p>&copy; 2026 Boletos FIFA Digital. Transmisión para usuarios registrados.</p>
     </footer>
 </body>
 </html>

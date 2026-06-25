@@ -50,6 +50,21 @@ node index.js events.md -> check events.md -> events -> ... -> dates -> ...
 - информация о стадионе, как добраться 1000-3000 знаков
 - афиша стадиона
 
+Структура файлов:
+- landings
+- landings/copa26.store
+- - index.html - главка для copa26.store
+- - index.css - стили для главки copa26.store
+- - [some-page]
+- - - index.html - [some-page]
+- - - [index.css] - optional: стили для [some-page]
+- landings/boletosfifa.store
+- - index.html - главка для boletosfifa.store
+- - index.css - стили для главки boletosfifa.store
+- - [some-page]
+- - - index.html - [some-page]
+- - - [index.css] - optional: стили для [some-page]
+
 IMPORTANT: Избегай автоматического обновления.
 Используй скрипты ТОЛЬКО для подгрузки контекста.
 Текстовые блоки и тексты на страницах не должны повторяться.
