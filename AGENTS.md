@@ -40,7 +40,7 @@ node index.js events.md -> check events.md -> events -> ... -> dates -> ...
 - Keywords: Copa Mundial 2026, Entradas, ver en vivo en linea, ver en directo
 - Lang code: es
 
-Кнопка покупки билетов должна открывать https://www.ticketmaster.com/2026-world-cup-tickets/artist/4067734
+Кнопка покупки билетов должна открывать (не через ссылку) https://www.ticketmaster.com/2026-world-cup-tickets/artist/4067734, упоминание тикетмастера запрещено.
 
 
 
