@@ -1,0 +1,89 @@
+{
+  "redirects": [
+    {
+      "source": "/match76-brazil-2f/",
+      "destination": "/brazil-2f/",
+      "permanent": true
+    },
+    {
+      "source": "/match62-senegal-iraq/",
+      "destination": "/senegal-iraq/",
+      "permanent": true
+    },
+    {
+      "source": "/match104-final/",
+      "destination": "/final/",
+      "permanent": true
+    },
+    {
+      "source": "/match63-egypt-iran/",
+      "destination": "/egypt-iran/",
+      "permanent": true
+    },
+    {
+      "source": "/match57-japan-sweden/",
+      "destination": "/japan-sweden/",
+      "permanent": true
+    },
+    {
+      "source": "/match71-colombia-portugal/",
+      "destination": "/colombia-portugal/",
+      "permanent": true
+    },
+    {
+      "source": "/match56-ecuador-germany/",
+      "destination": "/ecuador-germany/",
+      "permanent": true
+    },
+    {
+      "source": "/match68-croatia-ghana/",
+      "destination": "/croatia-ghana/",
+      "permanent": true
+    },
+    {
+      "source": "/match58-tunisia-netherlands/",
+      "destination": "/tunisia-netherlands/",
+      "permanent": true
+    },
+    {
+      "source": "/match66-uruguay-spain/",
+      "destination": "/uruguay-spain/",
+      "permanent": true
+    },
+    {
+      "source": "/match69-algeria-austria/",
+      "destination": "/algeria-austria/",
+      "permanent": true
+    },
+    {
+      "source": "/match61-norway-france/",
+      "destination": "/norway-france/",
+      "permanent": true
+    },
+    {
+      "source": "/match65-caboverde-saudiarabia/",
+      "destination": "/caboverde-saudiarabia/",
+      "permanent": true
+    },
+    {
+      "source": "/match70-jordan-argentina/",
+      "destination": "/jordan-argentina/",
+      "permanent": true
+    },
+    {
+      "source": "/match60-paraguay-australia/",
+      "destination": "/paraguay-australia/",
+      "permanent": true
+    },
+    {
+      "source": "/match59-usa-turkey/",
+      "destination": "/usa-turkey/",
+      "permanent": true
+    },
+    {
+      "source": "/match67-panama-england/",
+      "destination": "/panama-england/",
+      "permanent": true
+    }
+  ]
+}
