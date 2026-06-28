@@ -7,7 +7,350 @@
    Cuarto de final 2SoFi Stadium — Inglewood, California | copa26.store
   </title>
   <link href="../../index.css" rel="stylesheet"/>
- </head>
+ <style>
+:root {
+  --obsidian: #0a0a0a;
+  --obsidian-light: #161616;
+  --gold: #d4af37;
+  --gold-dark: #aa8a2e;
+  --gold-light: #f9e4b7;
+  --text-main: #e0e0e0;
+  --text-muted: #a0a0a0;
+  --glass: rgba(255, 255, 255, 0.03);
+  --glass-border: rgba(212, 175, 55, 0.2);
+  --transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--obsidian);
+  color: var(--text-main);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: var(--transition);
+}
+
+/* --- Luxury Background --- */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at 50% -20%, #1a1a1a 0%, var(--obsidian) 70%);
+  z-index: -1;
+}
+
+/* --- Header --- */
+header {
+  padding: 2rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid var(--glass-border);
+  background: rgba(10, 10, 10, 0.8);
+  backdrop-filter: blur(10px);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header-content {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: var(--text-main);
+}
+
+.logo strong {
+  color: var(--gold);
+  font-weight: 700;
+}
+
+.nav-subtitle {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* --- Hero Section --- */
+.hero {
+  padding: 6rem 1rem;
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  font-weight: 200;
+  margin-bottom: 1.5rem;
+  color: var(--text-main);
+  letter-spacing: -1px;
+}
+
+.hero h1 small {
+  display: block;
+  font-size: 1.2rem;
+  color: var(--gold);
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  margin-top: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: var(--text-muted);
+  max-width: 700px;
+  margin: 0 auto;
+  font-weight: 300;
+}
+
+.hero strong {
+  color: var(--gold);
+}
+
+/* --- Match List Section --- */
+.schedule-section {
+  padding: 4rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 3rem;
+  color: var(--text-main);
+  position: relative;
+}
+
+.section-title::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 2px;
+  background: var(--gold);
+  margin: 1rem auto;
+}
+
+.filters {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+
+.tab {
+  background: var(--glass);
+  border: 1px solid var(--glass-border);
+  color: var(--text-muted);
+  padding: 0.6rem 1.5rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: var(--transition);
+  backdrop-filter: blur(5px);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.tab.active, .tab:hover {
+  color: var(--gold);
+  border-color: var(--gold);
+  background: rgba(212, 175, 55, 0.05);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 2rem;
+}
+
+.card {
+  background: var(--glass);
+  border: 1px solid var(--glass-border);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  backdrop-filter: blur(15px);
+  transition: var(--transition);
+  position: relative;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  border-color: var(--gold);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4), 0 0 20px rgba(212, 175, 55, 0.1);
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--gold), transparent);
+  opacity: 0;
+  transition: var(--transition);
+}
+
+.card:hover::before {
+  opacity: 1;
+}
+
+.c-time {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.c-teams {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.team {
+  font-size: 1.2rem;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.team span {
+  font-size: 1.4rem;
+}
+
+.vs-divider {
+  font-size: 0.8rem;
+  color: var(--gold);
+  font-weight: 700;
+  opacity: 0.5;
+}
+
+.c-text {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  margin-bottom: 2rem;
+  font-weight: 300;
+  min-height: 3rem;
+}
+
+.c-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: auto;
+}
+
+.btn {
+  flex: 1;
+  padding: 0.8rem;
+  text-align: center;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: var(--transition);
+  font-weight: 500;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 1px solid var(--glass-border);
+  color: var(--text-main);
+}
+
+.btn-outline:hover {
+  border-color: var(--gold);
+  color: var(--gold);
+}
+
+.btn-gold {
+  background: linear-gradient(135deg, var(--gold), var(--gold-dark));
+  border: none;
+  color: var(--obsidian);
+  font-weight: 700;
+}
+
+.btn-gold:hover {
+  filter: brightness(1.2);
+  box-shadow: 0 0 15px rgba(212, 175, 55, 0.4);
+}
+
+.final-card {
+  border-color: var(--gold);
+  background: rgba(212, 175, 55, 0.05);
+}
+
+.final-card .vs-divider {
+  color: var(--gold);
+  opacity: 1;
+}
+
+/* --- Ticker --- */
+.premium-ticker {
+  background: var(--gold);
+  color: var(--obsidian);
+  padding: 0.5rem;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.premium-ticker strong {
+  text-transform: uppercase;
+  margin-right: 10px;
+}
+
+/* --- Mobile Responsive --- */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  .header-content {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+
+</style>
+</head>
  <body>
   <header>
    <div class="header-content">

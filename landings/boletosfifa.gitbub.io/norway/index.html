@@ -6,6 +6,339 @@
   <title>Boletos para Noruega - FIFA 2026</title>
   <meta content="Acceso exclusivo a boletos para la selección de Noruega en el Mundial 2026. Ubicaciones VIP y seguridad garantizada." name="description"/>
   <link href="/index.css" rel="stylesheet"/>
+<style>
+:root {
+    --obsidian: #050505;
+    --charcoal: #121212;
+    --gold-gradient: linear-gradient(
+        135deg,
+        #bf953f,
+        #fcf6ba,
+        #b38728,
+        #fbf5b7,
+        #aa771c
+    );
+    --gold-solid: #d4af37;
+    --text-main: #f4f4f5;
+    --text-muted: #a1a1aa;
+    --glass-bg: rgba(20, 20, 20, 0.6);
+    --glass-border: rgba(255, 255, 255, 0.08);
+    --emerald: #10b981;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--obsidian);
+    color: var(--text-main);
+    font-family:
+        -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto,
+        Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.6;
+    background-image:
+        radial-gradient(
+            circle at 15% 50%,
+            rgba(212, 175, 55, 0.03),
+            transparent 25%
+        ),
+        radial-gradient(
+            circle at 85% 30%,
+            rgba(255, 255, 255, 0.02),
+            transparent 25%
+        );
+    background-attachment: fixed;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: rgba(5, 5, 5, 0.7);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-bottom: 1px solid var(--glass-border);
+    padding: 16px 24px;
+}
+
+.header-content {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    background: var(--gold-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+}
+
+.premium-ticker {
+    background: var(--charcoal);
+    border-bottom: 1px solid var(--glass-border);
+    padding: 10px 24px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+.premium-ticker span {
+    color: var(--gold-solid);
+    font-weight: 700;
+    margin-left: 8px;
+    font-variant-numeric: tabular-nums;
+}
+
+.hero {
+    max-width: 800px;
+    margin: 80px auto 60px;
+    text-align: center;
+    padding: 0 24px;
+    animation: fadeUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.hero h1 {
+    font-size: clamp(40px, 5vw, 64px);
+    font-weight: 800;
+    line-height: 1.1;
+    letter-spacing: -1.5px;
+    margin-bottom: 20px;
+}
+
+.hero h1 span {
+    background: var(--gold-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero p {
+    font-size: 18px;
+    color: var(--text-muted);
+    max-width: 500px;
+    margin: 0 auto;
+    font-weight: 400;
+}
+
+.seo-section-title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 32px;
+    letter-spacing: -0.5px;
+}
+
+/* Фильтры */
+.filters {
+    max-width: 1100px;
+    margin: 0 auto 40px;
+    padding: 0 24px;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    overflow-x: auto;
+    scrollbar-width: none;
+}
+.filters::-webkit-scrollbar {
+    display: none;
+}
+
+.tab {
+    background: transparent;
+    color: var(--text-muted);
+    border: 1px solid var(--glass-border);
+    border-radius: 30px;
+    padding: 10px 24px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+}
+.tab:hover {
+    border-color: rgba(212, 175, 55, 0.4);
+    color: var(--text-main);
+}
+.tab.active {
+    background: var(--text-main);
+    color: var(--obsidian);
+    border-color: var(--text-main);
+}
+
+.grid {
+    max-width: 1100px;
+    margin: 0 auto 80px;
+    padding: 0 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.card {
+    background: var(--glass-bg);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid var(--glass-border);
+    border-radius: 16px;
+    padding: 24px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1.5fr auto;
+    gap: 24px;
+    align-items: center;
+    transition:
+        transform 0.3s ease,
+        border-color 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    border-color: rgba(212, 175, 55, 0.3);
+    box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.5);
+}
+
+.c-time {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.c-date {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--gold-solid);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.c-venue {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--text-main);
+}
+
+.c-teams {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.team {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.flag {
+    font-size: 20px;
+}
+
+.c-text {
+    font-size: 14px;
+    color: var(--text-muted);
+    line-height: 1.5;
+    border-left: 1px solid var(--glass-border);
+    padding-left: 24px;
+}
+.c-text strong {
+    color: var(--text-main);
+    font-weight: 500;
+}
+
+.c-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-width: 160px;
+}
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.btn-gold {
+    background: var(--gold-gradient);
+    color: var(--obsidian);
+    box-shadow: 0 4px 15px rgba(212, 175, 55, 0.2);
+}
+.btn-gold:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 20px rgba(212, 175, 55, 0.4);
+}
+
+.btn-outline {
+    background: transparent;
+    color: var(--text-main);
+    border: 1px solid var(--glass-border);
+}
+.btn-outline:hover {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 992px) {
+    .card {
+        grid-template-columns: 1fr 1.5fr auto;
+    }
+    .c-text {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .card {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 16px;
+        padding: 20px;
+    }
+    .c-text {
+        display: block;
+        border-left: none;
+        padding-left: 0;
+        border-top: 1px solid var(--glass-border);
+        padding-top: 16px;
+    }
+    .c-actions {
+        min-width: 100%;
+    }
+    .hero h1 {
+        font-size: 36px;
+    }
+    .team {
+        justify-content: center;
+    }
+}
+
+</style>
 </head>
 <body>
   <header>
