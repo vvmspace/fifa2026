@@ -20,7 +20,27 @@
         .premium-cta { display: block; width: fit-content; margin: 3rem auto; padding: 1.2rem 3rem; background: linear-gradient(135deg, #d4af37, #aa8a2e); color: #0a0a0a; text-transform: uppercase; font-weight: 700; letter-spacing: 2px; text-align: center; }
         .glass-card { background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(212, 175, 55, 0.2); padding: 3rem; backdrop-filter: blur(15px); }
         @media (max-width: 768px) { .exclusive-grid { grid-template-columns: 1fr; } .hero-exclusive h1 { font-size: 2.5rem; } }
-    </style>
+    
+.btn-back {
+    color: var(--text-dim);
+    text-decoration: none;
+    font-size: 0.8rem;
+    margin-right: 20px;
+    transition: color 0.3s;
+}
+.btn-back:hover {
+    color: var(--gold-primary);
+}
+.btn-cta {
+    padding: 1.5rem 4rem !important;
+    font-size: 1.2rem !important;
+    display: block !important;
+    width: fit-content !important;
+    margin: 2rem auto !important;
+    text-align: center;
+}
+
+</style>
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -388,11 +408,31 @@ header {
   }
 }
 
+
+.btn-back {
+    color: var(--text-dim);
+    text-decoration: none;
+    font-size: 0.8rem;
+    margin-right: 20px;
+    transition: color 0.3s;
+}
+.btn-back:hover {
+    color: var(--gold-primary);
+}
+.btn-cta {
+    padding: 1.5rem 4rem !important;
+    font-size: 1.2rem !important;
+    display: block !important;
+    width: fit-content !important;
+    margin: 2rem auto !important;
+    text-align: center;
+}
+
 </style>
 </head>
 <body>
     <header>
-        <div class="header-content">
+        <div class="header-content"><a href="/index.html" class="btn-back">← Volver al Inicio</a>
             <div class="logo">FIFA <strong>2026</strong></div>
             <div class="nav-subtitle">Hospitalidad de Élite</div>
         </div>

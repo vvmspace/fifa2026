@@ -19,7 +19,27 @@
         .ticket-card p { color: #a0a0a0; margin-bottom: 2rem; font-weight: 300; }
         .buy-btn { display: block; width: 100%; padding: 1rem; background: linear-gradient(135deg, #d4af37, #aa8a2e); color: #0a0a0a; text-transform: uppercase; font-weight: 700; letter-spacing: 1px; text-decoration: none; transition: all 0.4s ease; }
         .buy-btn:hover { filter: brightness(1.2); box-shadow: 0 0 20px rgba(212, 175, 55, 0.4); }
-    </style>
+    
+.btn-back {
+    color: var(--text-dim);
+    text-decoration: none;
+    font-size: 0.8rem;
+    margin-right: 20px;
+    transition: color 0.3s;
+}
+.btn-back:hover {
+    color: var(--gold-primary);
+}
+.btn-cta {
+    padding: 1.5rem 4rem !important;
+    font-size: 1.2rem !important;
+    display: block !important;
+    width: fit-content !important;
+    margin: 2rem auto !important;
+    text-align: center;
+}
+
+</style>
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -375,11 +395,31 @@ header {
   }
 }
 
+
+.btn-back {
+    color: var(--text-dim);
+    text-decoration: none;
+    font-size: 0.8rem;
+    margin-right: 20px;
+    transition: color 0.3s;
+}
+.btn-back:hover {
+    color: var(--gold-primary);
+}
+.btn-cta {
+    padding: 1.5rem 4rem !important;
+    font-size: 1.2rem !important;
+    display: block !important;
+    width: fit-content !important;
+    margin: 2rem auto !important;
+    text-align: center;
+}
+
 </style>
 </head>
 <body>
     <header>
-        <div class="header-content">
+        <div class="header-content"><a href="/index.html" class="btn-back">← Volver al Inicio</a>
             <div class="logo">FIFA <strong>2026</strong></div>
             <div class="nav-subtitle">Gestión de Entradas de Lujo</div>
         </div>
