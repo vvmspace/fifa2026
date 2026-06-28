@@ -1,294 +1,50 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="utf-8"/>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-  <title>Boletos para Brasil - FIFA 2026</title>
-  <meta content="Acceso exclusivo a boletos para la selección de Brasil en el Mundial 2026. Ubicaciones VIP y seguridad garantizada." name="description"/>
-  <link href="/index.css" rel="stylesheet"/>
-<style>
-
-:root {
-    --obsidian: #050505;
-    --obsidian-deep: #000000;
-    --gold-primary: #d4af37;
-    --gold-glow: #f9e498;
-    --gold-dark: #b8860b;
-    --gold-gradient: linear-gradient(135deg, #d4af37 0%, #f9e498 50%, #b8860b 100%);
-    --glass: rgba(255, 255, 255, 0.03);
-    --glass-border: rgba(212, 175, 55, 0.2);
-    --text-main: #f0f0f0;
-    --text-dim: #a0a0a0;
-    --font-serif: 'Playfair Display', serif;
-    --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
-}
-
-body {
-    background-color: var(--obsidian);
-    color: var(--text-main);
-    font-family: var(--font-sans);
-    margin: 0;
-    line-height: 1.7;
-    overflow-x: hidden;
-}
-
-header {
-    padding: 2rem;
-    background: linear-gradient(to bottom, rgba(0,0,0,0.9), transparent);
-    position: absolute;
-    width: 100%;
-    z-index: 100;
-    top: 0;
-    box-sizing: border-box;
-}
-
-.header-content {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logo {
-    color: var(--gold-primary);
-    text-decoration: none;
-    font-weight: 800;
-    font-size: 1.4rem;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-}
-
-.logo strong {
-    color: white;
-    font-weight: 300;
-    opacity: 0.8;
-}
-
-main {
-    padding-top: 6rem;
-}
-
-.hero {
-    text-align: center;
-    padding: 8rem 2rem 6rem;
-    background: 
-        radial-gradient(circle at 20% 30%, rgba(212, 175, 55, 0.05) 0%, transparent 40%),
-        radial-gradient(circle at 80% 70%, rgba(212, 175, 55, 0.05) 0%, transparent 40%),
-        var(--obsidian);
-    position: relative;
-    border-bottom: 1px solid var(--glass-border);
-}
-
-.hero h1 {
-    font-family: var(--font-serif);
-    font-size: 4.5rem;
-    margin-bottom: 1.5rem;
-    background: var(--gold-gradient);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: 700;
-    line-height: 1.1;
-}
-
-.hero h1 small {
-    display: block;
-    font-family: var(--font-sans);
-    font-size: 1rem;
-    text-transform: uppercase;
-    letter-spacing: 6px;
-    color: var(--text-dim);
-    -webkit-text-fill-color: var(--text-dim);
-    margin-top: 2rem;
-    font-weight: 400;
-}
-
-.match-score-card {
-    display: inline-flex;
-    align-items: center;
-    gap: 4rem;
-    background: var(--glass);
-    backdrop-filter: blur(20px);
-    border: 1px solid var(--glass-border);
-    padding: 2.5rem 5rem;
-    border-radius: 100px;
-    margin: 4rem 0;
-    box-shadow: 0 30px 60px rgba(0,0,0,0.8);
-}
-
-.match-score-card span {
-    font-size: 3rem;
-    font-weight: 800;
-    color: white;
-    font-family: var(--font-serif);
-    letter-spacing: 2px;
-}
-
-.match-score-card strong {
-    font-size: 1.2rem;
-    color: var(--gold-primary);
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    font-weight: 600;
-}
-
-.hero p {
-    max-width: 800px;
-    margin: 0 auto;
-    font-size: 1.3rem;
-    color: var(--text-dim);
-    font-style: italic;
-    font-weight: 300;
-}
-
-.seo-content-block {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 8rem 2rem;
-}
-
-.seo-content-block h2 {
-    font-family: var(--font-serif);
-    font-size: 3rem;
-    text-align: center;
-    margin-bottom: 4rem;
-    color: var(--gold-primary);
-}
-
-.seo-content-block p {
-    margin-bottom: 2.5rem;
-    font-size: 1.15rem;
-    text-align: justify;
-    color: var(--text-main);
-    opacity: 0.85;
-}
-
-.c-actions {
-    display: flex;
-    gap: 25px;
-    justify-content: center;
-    margin-top: 5rem;
-}
-
-.btn {
-    padding: 1.4rem 3rem;
-    border-radius: 0;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    cursor: pointer;
-    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
-    text-decoration: none;
-    display: inline-block;
-    font-size: 0.85rem;
-    border: 1px solid transparent;
-}
-
-.btn-gold {
-    background: var(--gold-gradient);
-    color: var(--obsidian-deep);
-    border: none;
-    box-shadow: 0 15px 30px rgba(212, 175, 55, 0.15);
-}
-
-.btn-gold:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 20px 40px rgba(212, 175, 55, 0.3);
-    filter: brightness(1.1);
-}
-
-.btn-outline {
-    background: transparent;
-    color: var(--gold-primary);
-    border: 1px solid var(--gold-primary);
-}
-
-.btn-outline:hover {
-    background: var(--gold-primary);
-    color: var(--obsidian-deep);
-}
-
-@media (max-width: 768px) {
-    .hero h1 { font-size: 2.8rem; }
-    .match-score-card { gap: 2rem; padding: 2rem 3rem; }
-    .match-score-card span { font-size: 2rem; }
-    .c-actions { flex-direction: column; align-items: center; }
-    .btn { width: 100%; text-align: center; }
-}
-
-
-.btn-back {
-    color: var(--text-dim);
-    text-decoration: none;
-    font-size: 0.8rem;
-    margin-right: 20px;
-    transition: color 0.3s;
-}
-.btn-back:hover {
-    color: var(--gold-primary);
-}
-.btn-cta {
-    padding: 1.5rem 4rem !important;
-    font-size: 1.2rem !important;
-    display: block !important;
-    width: fit-content !important;
-    margin: 2rem auto !important;
-    text-align: center;
-}
-
-
-<style>
-.btn-back {
-    color: #aaa;
-    text-decoration: none;
-    font-size: 0.9rem;
-    font-family: sans-serif;
-    transition: color 0.3s;
-}
-.btn-back:hover {
-    color: #d4af37;
-}
-.btn-cta {
-    padding: 1.5rem 4rem !important;
-    font-size: 1.2rem !important;
-    display: block !important;
-    width: fit-content !important;
-    margin: 2rem auto !important;
-    text-align: center;
-}
-</style>
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boletos Selección Brasil | Acceso VIP FIFA 2026</title>
+    <style>
+        :root { --gold: #d4af37; --gold-light: #f9e076; --black: #0a0a0a; }
+        body { background-color: var(--black); color: white; font-family: 'Playfair Display', serif; text-align: center; margin: 0; padding: 0; }
+        .header { display: flex; justify-content: space-between; align-items: center; padding: 20px; max-width: 1200px; margin: 0 auto; }
+        .btn-back { color: #aaa; text-decoration: none; font-size: 0.9rem; }
+        .logo { color: white; font-size: 1.5rem; font-weight: bold; }
+        .logo strong { color: var(--gold); }
+        h1 { color: var(--gold); font-size: 3.5rem; margin: 60px 0; }
+        h2 { color: var(--gold-light); font-size: 2rem; margin-top: 40px; }
+        .btn-cta { background: linear-gradient(45deg, var(--gold), var(--gold-light)); color: black !important; padding: 1.5rem 4rem; font-size: 1.2rem; font-weight: bold; text-decoration: none; border-radius: 5px; display: inline-block; margin: 30px 0; box-shadow: 0 10px 20px rgba(212,175,55,0.3); }
+        .content { max-width: 800px; margin: 0 auto; line-height: 1.8; color: #aaa; padding: 0 20px 100px 20px; }
+        .nav-footer { margin-top: 50px; padding-bottom: 50px; }
+        .btn-secondary { color: var(--gold); text-decoration: none; font-size: 1rem; font-weight: bold; border: 1px solid var(--gold); padding: 10px 20px; border-radius: 5px; }
+    </style>
 </head>
 <body>
-  <header>
-    <div class="header-content"><a href="/index.html" class="btn-back">← Volver al Inicio</a>
-      <span class="logo">BOLETOS<strong>FIFA.STORE</strong></span></span>
-      <span class="nav-subtitle">Conserjería de Boletos de Élite</span>
+    <div class="header">
+        <a href="/index.html" class="btn-back">← Volver al Inicio</a>
+        <div class="logo">BOLETOS<strong>FIFA.STORE</strong></div>
     </div>
-  </header>
-  <main>
-    <section class="hero">
-      <h1>Selección de Brasil</h1>
-      <p class="subtitle">Acceso Preferencial y Localidades de Élite</p>
+    <h1>Selección de Brasil</h1>
+    <a href="/brasil/boletos/index.html" class="btn-cta">RESERVAR BOLETOS VIP</a>
+    <div class="content">
+        
+    <section class="seo-content-block">
+        <h2>La Gloria de Brasil: El Arte del Joga Bonito en el Escenario Mundial</h2>
+        <p>La selección de Brasil no representa simplemente a una nación; representa el ideal mismo del fútbol. El 'Joga Bonito' es más que una táctica, es una manifestación cultural de creatividad, ritmo y genialidad que ha cautivado al mundo durante décadas. Para el espectador sofisticado, asistir a un encuentro de la 'Canarinha' es presenciar la cúspide del arte deportivo, donde cada toque de balón es una pincelada en un lienzo de gloria. Acceder a estos partidos requiere una gestión que esté a la altura de tal leyenda: un servicio de concierge que transforme la logística en un placer.</p>
+        <p>Nuestra plataforma se especializa en la curaduría de accesos para aquellos que no aceptan compromisos en su experiencia. Entendemos que la demanda por ver jugar a Brasil es la más alta del planeta, lo que a menudo convierte la búsqueda de entradas en un proceso caótico. Nosotros eliminamos esa fricción, ofreciendo un sistema de reserva prioritaria donde la discreción, la seguridad y la exclusividad son los pilares fundamentales. No vendemos entradas; facilitamos el acceso a la historia del fútbol.</p>
+        
+        <h2>Hospitalidad de Élite y el Esplendor de 2026</h2>
+        <p>El Mundial 2026 en Estados Unidos ofrece la oportunidad de fusionar la exuberancia brasileña con la infraestructura más avanzada del deporte global. Nos enfocamos en proporcionar una experiencia de hospitalidad superior: desde palcos privados con servicios de catering gourmet hasta zonas de lounge exclusivas donde la atmósfera es de absoluta distinción. El objetivo es que la pasión por Brasil sea complementada por un entorno de lujo, asegurando que cada segundo de la estancia sea impecable.</p>
+        <p>La visibilidad es la clave del prestigio. Gestionamos el acceso a las localidades más privilegiadas, aquellas que permiten apreciar la danza táctica de Brasil desde la mejor perspectiva posible. Nuestra red de contactos globales nos permite acceder a inventarios restringidos, garantizando que nuestros clientes mantengan su estatus de prioridad absoluta, independientemente de la magnitud del evento o la escasez de boletos.</p>
+        
+        <h2>Seguridad Soberana y Compromiso de Autenticidad</h2>
+        <p>En un mercado donde la especulación es constante, la transparencia es el lujo más valorado. Implementamos protocolos de verificación exhaustivos para cada entrada, asegurando que cada boleto sea legítimo, verificado y registrado oficialmente. Nuestra garantía de autenticidad es absoluta, eliminando cualquier riesgo y proporcionando la tranquilidad necesaria para que el cliente se concentre únicamente en el espectáculo.</p>
+        <p>El servicio de concierge de BOLETOSFIFA.STORE acompaña a sus clientes con soporte prioritario 24/7, coordinando cada detalle logístico desde el transporte privado hasta el ingreso rápido al recinto. Para el verdadero conocedor, la diferencia entre ser un espectador y un invitado de honor radica en la calidad del acceso. Nosotros le brindamos la llave al círculo más restringido del torneo, donde la excelencia es la única norma.</p>
     </section>
-    <section class="content">
-      <div class="luxury-text">
-        <h2>La Gloria de Brasil</h2>
-        <p>Brasil representa la cúspide del arte futbolístico. La 'Canarinha' no juega fútbol, crea poesía en el campo. Para los coleccionistas de experiencias deportivas, asistir a un partido de Brasil es presenciar la evolución del juego. Desde la magia de sus delanteros hasta la solidez de su defensa, Brasil es el estándar de oro del fútbol mundial.</p>
-        <p>Nuestra curaduría de boletos para Brasil se enfoca en proporcionar una experiencia sin fricciones. Sabemos que el aficionado de élite busca más que un asiento; busca una perspectiva privilegiada del juego. Por ello, ofrecemos acceso a los sectores más exclusivos de los estadios, donde la comodidad y la visibilidad se fusionan.</p>
-        <p>La trayectoria de Brasil en las Copas del Mundo es un testimonio de resiliencia y talento. En 2026, la expectativa es máxima. Asegurar su entrada con antelación es la única forma de garantizar su presencia en los momentos que definirán la historia del deporte.</p>
-        <p>Le invitamos a explorar la disponibilidad de boletos para los próximos encuentros. Cada transacción está respaldada por nuestros protocolos de seguridad soberana, asegurando que su inversión se traduzca en una experiencia impecable.</p>
-      </div>
-      <div class="schedule-box">
-        <h3>Próximos Encuentros</h3>
-        <div class="matches-list">
-          <div class="match-item">
-      <span>29 Jun 2026 · Brasil vs Japón</span>
-      <a href="/brazil-japan/" class="btn-small">Detalles</a>
+
     </div>
-        </div>
-      </div>
-    </section>
-  </main>
+    <div class="nav-footer">
+        <a href="/index.html" class="btn-secondary">VOLVER AL INICIO</a>
+    </div>
 </body>
 </html>
