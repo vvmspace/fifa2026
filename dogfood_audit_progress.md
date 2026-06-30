@@ -111,138 +111,138 @@ Criteria: Branding, Luxury Design, CTA, Navigation, Content Volume (1k+ chars)
 - [x] http://localhost:8001/jordan-argentina/boletos/index.html
 - [x] http://localhost:8001/jordan-argentina/index.html
 - [x] http://localhost:8001/jordan-argentina/vivo/index.html
-- [ ] http://localhost:8001/match1/boletos/index.html
-- [ ] http://localhost:8001/match1/index.html
-- [ ] http://localhost:8001/match1/vivo/index.html
-- [ ] http://localhost:8001/match10/boletos/index.html
-- [ ] http://localhost:8001/match10/index.html
-- [ ] http://localhost:8001/match10/vivo/index.html
-- [ ] http://localhost:8001/match100-w95-w96/boletos/index.html
-- [ ] http://localhost:8001/match100-w95-w96/index.html
-- [ ] http://localhost:8001/match100-w95-w96/vivo/index.html
-- [ ] http://localhost:8001/match101-w97-w98/boletos/index.html
-- [ ] http://localhost:8001/match101-w97-w98/index.html
-- [ ] http://localhost:8001/match101-w97-w98/vivo/index.html
+- [x] http://localhost:8001/match1/boletos/index.html
+- [x] http://localhost:8001/match1/index.html
+- [x] http://localhost:8001/match1/vivo/index.html
+- [x] http://localhost:8001/match10/boletos/index.html
+- [x] http://localhost:8001/match10/index.html
+- [x] http://localhost:8001/match10/vivo/index.html
+- [x] http://localhost:8001/match100-w95-w96/boletos/index.html
+- [x] http://localhost:8001/match100-w95-w96/index.html
+- [x] http://localhost:8001/match100-w95-w96/vivo/index.html
+- [x] http://localhost:8001/match101-w97-w98/boletos/index.html
+- [x] http://localhost:8001/match101-w97-w98/index.html
+- [x] http://localhost:8001/match101-w97-w98/vivo/index.html
 - [ ] http://localhost:8001/match102-w99-w100/boletos/index.html
 - [ ] http://localhost:8001/match102-w99-w100/index.html
 - [ ] http://localhost:8001/match102-w99-w100/vivo/index.html
-- [ ] http://localhost:8001/match103-third-place/boletos/index.html
-- [ ] http://localhost:8001/match103-third-place/index.html
-- [ ] http://localhost:8001/match103-third-place/vivo/index.html
-- [ ] http://localhost:8001/match103/boletos/index.html
-- [ ] http://localhost:8001/match103/index.html
-- [ ] http://localhost:8001/match103/vivo/index.html
-- [ ] http://localhost:8001/match104-final/boletos/index.html
-- [ ] http://localhost:8001/match104-final/index.html
-- [ ] http://localhost:8001/match104-final/vivo/index.html
-- [ ] http://localhost:8001/match11/boletos/index.html
-- [ ] http://localhost:8001/match11/index.html
-- [ ] http://localhost:8001/match11/vivo/index.html
-- [ ] http://localhost:8001/match12/boletos/index.html
-- [ ] http://localhost:8001/match12/index.html
-- [ ] http://localhost:8001/match12/vivo/index.html
-- [ ] http://localhost:8001/match13/boletos/index.html
-- [ ] http://localhost:8001/match13/index.html
-- [ ] http://localhost:8001/match13/vivo/index.html
-- [ ] http://localhost:8001/match14/boletos/index.html
-- [ ] http://localhost:8001/match14/index.html
-- [ ] http://localhost:8001/match14/vivo/index.html
-- [ ] http://localhost:8001/match15/boletos/index.html
-- [ ] http://localhost:8001/match15/index.html
-- [ ] http://localhost:8001/match15/vivo/index.html
-- [ ] http://localhost:8001/match16/boletos/index.html
-- [ ] http://localhost:8001/match16/index.html
-- [ ] http://localhost:8001/match16/vivo/index.html
-- [ ] http://localhost:8001/match17/boletos/index.html
-- [ ] http://localhost:8001/match17/index.html
-- [ ] http://localhost:8001/match17/vivo/index.html
-- [ ] http://localhost:8001/match18/boletos/index.html
-- [ ] http://localhost:8001/match18/index.html
-- [ ] http://localhost:8001/match18/vivo/index.html
-- [ ] http://localhost:8001/match19/boletos/index.html
-- [ ] http://localhost:8001/match19/index.html
-- [ ] http://localhost:8001/match19/vivo/index.html
-- [ ] http://localhost:8001/match2/boletos/index.html
-- [ ] http://localhost:8001/match2/index.html
-- [ ] http://localhost:8001/match2/vivo/index.html
-- [ ] http://localhost:8001/match20/boletos/index.html
-- [ ] http://localhost:8001/match20/index.html
-- [ ] http://localhost:8001/match20/vivo/index.html
-- [ ] http://localhost:8001/match21/boletos/index.html
-- [ ] http://localhost:8001/match21/index.html
-- [ ] http://localhost:8001/match21/vivo/index.html
-- [ ] http://localhost:8001/match22/boletos/index.html
-- [ ] http://localhost:8001/match22/index.html
-- [ ] http://localhost:8001/match22/vivo/index.html
-- [ ] http://localhost:8001/match23/boletos/index.html
-- [ ] http://localhost:8001/match23/index.html
-- [ ] http://localhost:8001/match23/vivo/index.html
-- [ ] http://localhost:8001/match24/boletos/index.html
-- [ ] http://localhost:8001/match24/index.html
-- [ ] http://localhost:8001/match24/vivo/index.html
-- [ ] http://localhost:8001/match25/boletos/index.html
-- [ ] http://localhost:8001/match25/index.html
-- [ ] http://localhost:8001/match25/vivo/index.html
-- [ ] http://localhost:8001/match26/boletos/index.html
-- [ ] http://localhost:8001/match26/index.html
-- [ ] http://localhost:8001/match26/vivo/index.html
-- [ ] http://localhost:8001/match27/boletos/index.html
-- [ ] http://localhost:8001/match27/index.html
-- [ ] http://localhost:8001/match27/vivo/index.html
-- [ ] http://localhost:8001/match28/boletos/index.html
-- [ ] http://localhost:8001/match28/index.html
-- [ ] http://localhost:8001/match28/vivo/index.html
-- [ ] http://localhost:8001/match29/boletos/index.html
-- [ ] http://localhost:8001/match29/index.html
-- [ ] http://localhost:8001/match29/vivo/index.html
-- [ ] http://localhost:8001/match3/boletos/index.html
-- [ ] http://localhost:8001/match3/index.html
-- [ ] http://localhost:8001/match3/vivo/index.html
-- [ ] http://localhost:8001/match30/boletos/index.html
-- [ ] http://localhost:8001/match30/index.html
-- [ ] http://localhost:8001/match30/vivo/index.html
-- [ ] http://localhost:8001/match31/boletos/index.html
-- [ ] http://localhost:8001/match31/index.html
-- [ ] http://localhost:8001/match31/vivo/index.html
-- [ ] http://localhost:8001/match32/boletos/index.html
-- [ ] http://localhost:8001/match32/index.html
-- [ ] http://localhost:8001/match32/vivo/index.html
-- [ ] http://localhost:8001/match33/boletos/index.html
-- [ ] http://localhost:8001/match33/index.html
-- [ ] http://localhost:8001/match33/vivo/index.html
-- [ ] http://localhost:8001/match34/boletos/index.html
-- [ ] http://localhost:8001/match34/index.html
-- [ ] http://localhost:8001/match34/vivo/index.html
-- [ ] http://localhost:8001/match35/boletos/index.html
-- [ ] http://localhost:8001/match35/index.html
-- [ ] http://localhost:8001/match35/vivo/index.html
-- [ ] http://localhost:8001/match36/boletos/index.html
-- [ ] http://localhost:8001/match36/index.html
-- [ ] http://localhost:8001/match36/vivo/index.html
-- [ ] http://localhost:8001/match37/boletos/index.html
-- [ ] http://localhost:8001/match37/index.html
-- [ ] http://localhost:8001/match37/vivo/index.html
-- [ ] http://localhost:8001/match38/boletos/index.html
-- [ ] http://localhost:8001/match38/index.html
-- [ ] http://localhost:8001/match38/vivo/index.html
-- [ ] http://localhost:8001/match39/boletos/index.html
-- [ ] http://localhost:8001/match39/index.html
-- [ ] http://localhost:8001/match39/vivo/index.html
-- [ ] http://localhost:8001/match4/boletos/index.html
-- [ ] http://localhost:8001/match4/index.html
-- [ ] http://localhost:8001/match4/vivo/index.html
-- [ ] http://localhost:8001/match40/boletos/index.html
-- [ ] http://localhost:8001/match40/index.html
-- [ ] http://localhost:8001/match40/vivo/index.html
-- [ ] http://localhost:8001/match41/boletos/index.html
-- [ ] http://localhost:8001/match41/index.html
-- [ ] http://localhost:8001/match41/vivo/index.html
-- [ ] http://localhost:8001/match42/boletos/index.html
-- [ ] http://localhost:8001/match42/index.html
-- [ ] http://localhost:8001/match42/vivo/index.html
-- [ ] http://localhost:8001/match5/boletos/index.html
-- [ ] http://localhost:8001/match5/index.html
-- [ ] http://localhost:8001/match5/vivo/index.html
+- [x] http://localhost:8001/match103-third-place/boletos/index.html
+- [x] http://localhost:8001/match103-third-place/index.html
+- [x] http://localhost:8001/match103-third-place/vivo/index.html
+- [x] http://localhost:8001/match103/boletos/index.html
+- [x] http://localhost:8001/match103/index.html
+- [x] http://localhost:8001/match103/vivo/index.html
+- [x] http://localhost:8001/match104-final/boletos/index.html
+- [x] http://localhost:8001/match104-final/index.html
+- [x] http://localhost:8001/match104-final/vivo/index.html
+- [x] http://localhost:8001/match11/boletos/index.html
+- [x] http://localhost:8001/match11/index.html
+- [x] http://localhost:8001/match11/vivo/index.html
+- [x] http://localhost:8001/match12/boletos/index.html
+- [x] http://localhost:8001/match12/index.html
+- [x] http://localhost:8001/match12/vivo/index.html
+- [x] http://localhost:8001/match13/boletos/index.html
+- [x] http://localhost:8001/match13/index.html
+- [x] http://localhost:8001/match13/vivo/index.html
+- [x] http://localhost:8001/match14/boletos/index.html
+- [x] http://localhost:8001/match14/index.html
+- [x] http://localhost:8001/match14/vivo/index.html
+- [x] http://localhost:8001/match15/boletos/index.html
+- [x] http://localhost:8001/match15/index.html
+- [x] http://localhost:8001/match15/vivo/index.html
+- [x] http://localhost:8001/match16/boletos/index.html
+- [x] http://localhost:8001/match16/index.html
+- [x] http://localhost:8001/match16/vivo/index.html
+- [x] http://localhost:8001/match17/boletos/index.html
+- [x] http://localhost:8001/match17/index.html
+- [x] http://localhost:8001/match17/vivo/index.html
+- [x] http://localhost:8001/match18/boletos/index.html
+- [x] http://localhost:8001/match18/index.html
+- [x] http://localhost:8001/match18/vivo/index.html
+- [x] http://localhost:8001/match19/boletos/index.html
+- [x] http://localhost:8001/match19/index.html
+- [x] http://localhost:8001/match19/vivo/index.html
+- [x] http://localhost:8001/match2/boletos/index.html
+- [x] http://localhost:8001/match2/index.html
+- [x] http://localhost:8001/match2/vivo/index.html
+- [x] http://localhost:8001/match20/boletos/index.html
+- [x] http://localhost:8001/match20/index.html
+- [x] http://localhost:8001/match20/vivo/index.html
+- [x] http://localhost:8001/match21/boletos/index.html
+- [x] http://localhost:8001/match21/index.html
+- [x] http://localhost:8001/match21/vivo/index.html
+- [x] http://localhost:8001/match22/boletos/index.html
+- [x] http://localhost:8001/match22/index.html
+- [x] http://localhost:8001/match22/vivo/index.html
+- [x] http://localhost:8001/match23/boletos/index.html
+- [x] http://localhost:8001/match23/index.html
+- [x] http://localhost:8001/match23/vivo/index.html
+- [x] http://localhost:8001/match24/boletos/index.html
+- [x] http://localhost:8001/match24/index.html
+- [x] http://localhost:8001/match24/vivo/index.html
+- [x] http://localhost:8001/match25/boletos/index.html
+- [x] http://localhost:8001/match25/index.html
+- [x] http://localhost:8001/match25/vivo/index.html
+- [x] http://localhost:8001/match26/boletos/index.html
+- [x] http://localhost:8001/match26/index.html
+- [x] http://localhost:8001/match26/vivo/index.html
+- [x] http://localhost:8001/match27/boletos/index.html
+- [x] http://localhost:8001/match27/index.html
+- [x] http://localhost:8001/match27/vivo/index.html
+- [x] http://localhost:8001/match28/boletos/index.html
+- [x] http://localhost:8001/match28/index.html
+- [x] http://localhost:8001/match28/vivo/index.html
+- [x] http://localhost:8001/match29/boletos/index.html
+- [x] http://localhost:8001/match29/index.html
+- [x] http://localhost:8001/match29/vivo/index.html
+- [x] http://localhost:8001/match3/boletos/index.html
+- [x] http://localhost:8001/match3/index.html
+- [x] http://localhost:8001/match3/vivo/index.html
+- [x] http://localhost:8001/match30/boletos/index.html
+- [x] http://localhost:8001/match30/index.html
+- [x] http://localhost:8001/match30/vivo/index.html
+- [x] http://localhost:8001/match31/boletos/index.html
+- [x] http://localhost:8001/match31/index.html
+- [x] http://localhost:8001/match31/vivo/index.html
+- [x] http://localhost:8001/match32/boletos/index.html
+- [x] http://localhost:8001/match32/index.html
+- [x] http://localhost:8001/match32/vivo/index.html
+- [x] http://localhost:8001/match33/boletos/index.html
+- [x] http://localhost:8001/match33/index.html
+- [x] http://localhost:8001/match33/vivo/index.html
+- [x] http://localhost:8001/match34/boletos/index.html
+- [x] http://localhost:8001/match34/index.html
+- [x] http://localhost:8001/match34/vivo/index.html
+- [x] http://localhost:8001/match35/boletos/index.html
+- [x] http://localhost:8001/match35/index.html
+- [x] http://localhost:8001/match35/vivo/index.html
+- [x] http://localhost:8001/match36/boletos/index.html
+- [x] http://localhost:8001/match36/index.html
+- [x] http://localhost:8001/match36/vivo/index.html
+- [x] http://localhost:8001/match37/boletos/index.html
+- [x] http://localhost:8001/match37/index.html
+- [x] http://localhost:8001/match37/vivo/index.html
+- [x] http://localhost:8001/match38/boletos/index.html
+- [x] http://localhost:8001/match38/index.html
+- [x] http://localhost:8001/match38/vivo/index.html
+- [x] http://localhost:8001/match39/boletos/index.html
+- [x] http://localhost:8001/match39/index.html
+- [x] http://localhost:8001/match39/vivo/index.html
+- [x] http://localhost:8001/match4/boletos/index.html
+- [x] http://localhost:8001/match4/index.html
+- [x] http://localhost:8001/match4/vivo/index.html
+- [x] http://localhost:8001/match40/boletos/index.html
+- [x] http://localhost:8001/match40/index.html
+- [x] http://localhost:8001/match40/vivo/index.html
+- [x] http://localhost:8001/match41/boletos/index.html
+- [x] http://localhost:8001/match41/index.html
+- [x] http://localhost:8001/match41/vivo/index.html
+- [x] http://localhost:8001/match42/boletos/index.html
+- [x] http://localhost:8001/match42/index.html
+- [x] http://localhost:8001/match42/vivo/index.html
+- [x] http://localhost:8001/match5/boletos/index.html
+- [x] http://localhost:8001/match5/index.html
+- [x] http://localhost:8001/match5/vivo/index.html
 - [ ] http://localhost:8001/match55-curacao-ivorycoast/boletos/index.html
 - [ ] http://localhost:8001/match55-curacao-ivorycoast/index.html
 - [ ] http://localhost:8001/match55-curacao-ivorycoast/vivo/index.html
@@ -261,84 +261,84 @@ Criteria: Branding, Luxury Design, CTA, Navigation, Content Volume (1k+ chars)
 - [ ] http://localhost:8001/match59-usa-turkey/boletos/index.html
 - [ ] http://localhost:8001/match59-usa-turkey/index.html
 - [ ] http://localhost:8001/match59-usa-turkey/vivo/index.html
-- [ ] http://localhost:8001/match6/boletos/index.html
-- [ ] http://localhost:8001/match6/index.html
-- [ ] http://localhost:8001/match6/vivo/index.html
-- [ ] http://localhost:8001/match60-paraguay-australia/boletos/index.html
-- [ ] http://localhost:8001/match60-paraguay-australia/index.html
-- [ ] http://localhost:8001/match60-paraguay-australia/vivo/index.html
-- [ ] http://localhost:8001/match61-norway-france/boletos/index.html
-- [ ] http://localhost:8001/match61-norway-france/index.html
-- [ ] http://localhost:8001/match61-norway-france/vivo/index.html
-- [ ] http://localhost:8001/match62-senegal-iraq/boletos/index.html
-- [ ] http://localhost:8001/match62-senegal-iraq/index.html
-- [ ] http://localhost:8001/match62-senegal-iraq/vivo/index.html
-- [ ] http://localhost:8001/match63-egypt-iran/boletos/index.html
-- [ ] http://localhost:8001/match63-egypt-iran/index.html
-- [ ] http://localhost:8001/match63-egypt-iran/vivo/index.html
-- [ ] http://localhost:8001/match64-nz-belgium/boletos/index.html
-- [ ] http://localhost:8001/match64-nz-belgium/index.html
-- [ ] http://localhost:8001/match64-nz-belgium/vivo/index.html
-- [ ] http://localhost:8001/match65-caboverde-saudi/boletos/index.html
-- [ ] http://localhost:8001/match65-caboverde-saudi/index.html
-- [ ] http://localhost:8001/match65-caboverde-saudi/vivo/index.html
-- [ ] http://localhost:8001/match65-caboverde-saudiarabia/boletos/index.html
-- [ ] http://localhost:8001/match65-caboverde-saudiarabia/index.html
-- [ ] http://localhost:8001/match65-caboverde-saudiarabia/vivo/index.html
-- [ ] http://localhost:8001/match66-uruguay-spain/boletos/index.html
-- [ ] http://localhost:8001/match66-uruguay-spain/index.html
-- [ ] http://localhost:8001/match66-uruguay-spain/vivo/index.html
-- [ ] http://localhost:8001/match67-panama-england/boletos/index.html
-- [ ] http://localhost:8001/match67-panama-england/index.html
-- [ ] http://localhost:8001/match67-panama-england/vivo/index.html
-- [ ] http://localhost:8001/match68-croatia-ghana/boletos/index.html
-- [ ] http://localhost:8001/match68-croatia-ghana/index.html
-- [ ] http://localhost:8001/match68-croatia-ghana/vivo/index.html
-- [ ] http://localhost:8001/match69-algeria-austria/boletos/index.html
-- [ ] http://localhost:8001/match69-algeria-austria/index.html
-- [ ] http://localhost:8001/match69-algeria-austria/vivo/index.html
-- [ ] http://localhost:8001/match7/boletos/index.html
-- [ ] http://localhost:8001/match7/index.html
-- [ ] http://localhost:8001/match7/vivo/index.html
-- [ ] http://localhost:8001/match70-jordan-argentina/boletos/index.html
-- [ ] http://localhost:8001/match70-jordan-argentina/index.html
-- [ ] http://localhost:8001/match70-jordan-argentina/vivo/index.html
-- [ ] http://localhost:8001/match71-colombia-portugal/boletos/index.html
-- [ ] http://localhost:8001/match71-colombia-portugal/index.html
-- [ ] http://localhost:8001/match71-colombia-portugal/vivo/index.html
-- [ ] http://localhost:8001/match72-uzbekistan-congo/boletos/index.html
-- [ ] http://localhost:8001/match72-uzbekistan-congo/index.html
-- [ ] http://localhost:8001/match72-uzbekistan-congo/vivo/index.html
-- [ ] http://localhost:8001/match73-2a-canada/boletos/index.html
-- [ ] http://localhost:8001/match73-2a-canada/index.html
-- [ ] http://localhost:8001/match73-2a-canada/vivo/index.html
-- [ ] http://localhost:8001/match73-canada/boletos/index.html
-- [ ] http://localhost:8001/match73-canada/index.html
-- [ ] http://localhost:8001/match73-canada/vivo/index.html
-- [ ] http://localhost:8001/match74-germany-tbd/boletos/index.html
-- [ ] http://localhost:8001/match74-germany-tbd/index.html
-- [ ] http://localhost:8001/match74-germany-tbd/vivo/index.html
-- [ ] http://localhost:8001/match75-1f-2c/boletos/index.html
-- [ ] http://localhost:8001/match75-1f-2c/index.html
-- [ ] http://localhost:8001/match75-1f-2c/vivo/index.html
-- [ ] http://localhost:8001/match76-brazil-2f/boletos/index.html
-- [ ] http://localhost:8001/match76-brazil-2f/index.html
-- [ ] http://localhost:8001/match76-brazil-2f/vivo/index.html
-- [ ] http://localhost:8001/match77-1i-tbd/boletos/index.html
-- [ ] http://localhost:8001/match77-1i-tbd/index.html
-- [ ] http://localhost:8001/match77-1i-tbd/vivo/index.html
-- [ ] http://localhost:8001/match78-2e-2i/boletos/index.html
-- [ ] http://localhost:8001/match78-2e-2i/index.html
-- [ ] http://localhost:8001/match78-2e-2i/vivo/index.html
-- [ ] http://localhost:8001/match79-1a-tbd/boletos/index.html
-- [ ] http://localhost:8001/match79-1a-tbd/index.html
-- [ ] http://localhost:8001/match79-1a-tbd/vivo/index.html
+- [x] http://localhost:8001/match6/boletos/index.html
+- [x] http://localhost:8001/match6/index.html
+- [x] http://localhost:8001/match6/vivo/index.html
+- [x] http://localhost:8001/match60-paraguay-australia/boletos/index.html
+- [x] http://localhost:8001/match60-paraguay-australia/index.html
+- [x] http://localhost:8001/match60-paraguay-australia/vivo/index.html
+- [x] http://localhost:8001/match61-norway-france/boletos/index.html
+- [x] http://localhost:8001/match61-norway-france/index.html
+- [x] http://localhost:8001/match61-norway-france/vivo/index.html
+- [x] http://localhost:8001/match62-senegal-iraq/boletos/index.html
+- [x] http://localhost:8001/match62-senegal-iraq/index.html
+- [x] http://localhost:8001/match62-senegal-iraq/vivo/index.html
+- [x] http://localhost:8001/match63-egypt-iran/boletos/index.html
+- [x] http://localhost:8001/match63-egypt-iran/index.html
+- [x] http://localhost:8001/match63-egypt-iran/vivo/index.html
+- [x] http://localhost:8001/match64-nz-belgium/boletos/index.html
+- [x] http://localhost:8001/match64-nz-belgium/index.html
+- [x] http://localhost:8001/match64-nz-belgium/vivo/index.html
+- [x] http://localhost:8001/match65-caboverde-saudi/boletos/index.html
+- [x] http://localhost:8001/match65-caboverde-saudi/index.html
+- [x] http://localhost:8001/match65-caboverde-saudi/vivo/index.html
+- [x] http://localhost:8001/match65-caboverde-saudiarabia/boletos/index.html
+- [x] http://localhost:8001/match65-caboverde-saudiarabia/index.html
+- [x] http://localhost:8001/match65-caboverde-saudiarabia/vivo/index.html
+- [x] http://localhost:8001/match66-uruguay-spain/boletos/index.html
+- [x] http://localhost:8001/match66-uruguay-spain/index.html
+- [x] http://localhost:8001/match66-uruguay-spain/vivo/index.html
+- [x] http://localhost:8001/match67-panama-england/boletos/index.html
+- [x] http://localhost:8001/match67-panama-england/index.html
+- [x] http://localhost:8001/match67-panama-england/vivo/index.html
+- [x] http://localhost:8001/match68-croatia-ghana/boletos/index.html
+- [x] http://localhost:8001/match68-croatia-ghana/index.html
+- [x] http://localhost:8001/match68-croatia-ghana/vivo/index.html
+- [x] http://localhost:8001/match69-algeria-austria/boletos/index.html
+- [x] http://localhost:8001/match69-algeria-austria/index.html
+- [x] http://localhost:8001/match69-algeria-austria/vivo/index.html
+- [x] http://localhost:8001/match7/boletos/index.html
+- [x] http://localhost:8001/match7/index.html
+- [x] http://localhost:8001/match7/vivo/index.html
+- [x] http://localhost:8001/match70-jordan-argentina/boletos/index.html
+- [x] http://localhost:8001/match70-jordan-argentina/index.html
+- [x] http://localhost:8001/match70-jordan-argentina/vivo/index.html
+- [x] http://localhost:8001/match71-colombia-portugal/boletos/index.html
+- [x] http://localhost:8001/match71-colombia-portugal/index.html
+- [x] http://localhost:8001/match71-colombia-portugal/vivo/index.html
+- [x] http://localhost:8001/match72-uzbekistan-congo/boletos/index.html
+- [x] http://localhost:8001/match72-uzbekistan-congo/index.html
+- [x] http://localhost:8001/match72-uzbekistan-congo/vivo/index.html
+- [x] http://localhost:8001/match73-2a-canada/boletos/index.html
+- [x] http://localhost:8001/match73-2a-canada/index.html
+- [x] http://localhost:8001/match73-2a-canada/vivo/index.html
+- [x] http://localhost:8001/match73-canada/boletos/index.html
+- [x] http://localhost:8001/match73-canada/index.html
+- [x] http://localhost:8001/match73-canada/vivo/index.html
+- [x] http://localhost:8001/match74-germany-tbd/boletos/index.html
+- [x] http://localhost:8001/match74-germany-tbd/index.html
+- [x] http://localhost:8001/match74-germany-tbd/vivo/index.html
+- [x] http://localhost:8001/match75-1f-2c/boletos/index.html
+- [x] http://localhost:8001/match75-1f-2c/index.html
+- [x] http://localhost:8001/match75-1f-2c/vivo/index.html
+- [x] http://localhost:8001/match76-brazil-2f/boletos/index.html
+- [x] http://localhost:8001/match76-brazil-2f/index.html
+- [x] http://localhost:8001/match76-brazil-2f/vivo/index.html
+- [x] http://localhost:8001/match77-1i-tbd/boletos/index.html
+- [x] http://localhost:8001/match77-1i-tbd/index.html
+- [x] http://localhost:8001/match77-1i-tbd/vivo/index.html
+- [x] http://localhost:8001/match78-2e-2i/boletos/index.html
+- [x] http://localhost:8001/match78-2e-2i/index.html
+- [x] http://localhost:8001/match78-2e-2i/vivo/index.html
+- [x] http://localhost:8001/match79-1a-tbd/boletos/index.html
+- [x] http://localhost:8001/match79-1a-tbd/index.html
+- [x] http://localhost:8001/match79-1a-tbd/vivo/index.html
 - [ ] http://localhost:8001/match8/boletos/index.html
 - [ ] http://localhost:8001/match8/index.html
 - [ ] http://localhost:8001/match8/vivo/index.html
-- [ ] http://localhost:8001/match80-1l-tbd/boletos/index.html
-- [ ] http://localhost:8001/match80-1l-tbd/index.html
-- [ ] http://localhost:8001/match80-1l-tbd/vivo/index.html
+- [x] http://localhost:8001/match80-1l-tbd/boletos/index.html
+- [x] http://localhost:8001/match80-1l-tbd/index.html
+- [x] http://localhost:8001/match80-1l-tbd/vivo/index.html
 - [ ] http://localhost:8001/match81-usa-tbd/boletos/index.html
 - [ ] http://localhost:8001/match81-usa-tbd/index.html
 - [ ] http://localhost:8001/match81-usa-tbd/vivo/index.html
@@ -595,9 +595,9 @@ Criteria: Branding, Luxury Design, CTA, Navigation, Content Volume (1k+ chars)
 - [ ] http://localhost:8002/final/vivo/index.html
 - [ ] http://localhost:8002/france-sweden/index.html
 - [ ] http://localhost:8002/france/index.html
-- [ ] http://localhost:8002/germany-match74/boletos/index.html
-- [ ] http://localhost:8002/germany-match74/index.html
-- [ ] http://localhost:8002/germany-match74/vivo/index.html
+- [x] http://localhost:8002/germany-match74/boletos/index.html
+- [x] http://localhost:8002/germany-match74/index.html
+- [x] http://localhost:8002/germany-match74/vivo/index.html
 - [ ] http://localhost:8002/germany-paraguay/index.html
 - [ ] http://localhost:8002/germany/index.html
 - [ ] http://localhost:8002/ghana-panama-en-vivo/entradas/index.html
@@ -674,9 +674,9 @@ Criteria: Branding, Luxury Design, CTA, Navigation, Content Volume (1k+ chars)
 - [ ] http://localhost:8002/match19/boletos/index.html
 - [ ] http://localhost:8002/match19/index.html
 - [ ] http://localhost:8002/match19/vivo/index.html
-- [ ] http://localhost:8002/match2/boletos/index.html
-- [ ] http://localhost:8002/match2/index.html
-- [ ] http://localhost:8002/match2/vivo/index.html
+- [x] http://localhost:8002/match2/boletos/index.html
+- [x] http://localhost:8002/match2/index.html
+- [x] http://localhost:8002/match2/vivo/index.html
 - [ ] http://localhost:8002/match20/boletos/index.html
 - [ ] http://localhost:8002/match20/index.html
 - [ ] http://localhost:8002/match20/vivo/index.html
@@ -706,9 +706,9 @@ Criteria: Branding, Luxury Design, CTA, Navigation, Content Volume (1k+ chars)
 - [ ] http://localhost:8002/match29/boletos/index.html
 - [ ] http://localhost:8002/match29/index.html
 - [ ] http://localhost:8002/match29/vivo/index.html
-- [ ] http://localhost:8002/match3/boletos/index.html
-- [ ] http://localhost:8002/match3/index.html
-- [ ] http://localhost:8002/match3/vivo/index.html
+- [x] http://localhost:8002/match3/boletos/index.html
+- [x] http://localhost:8002/match3/index.html
+- [x] http://localhost:8002/match3/vivo/index.html
 - [ ] http://localhost:8002/match30/boletos/index.html
 - [ ] http://localhost:8002/match30/index.html
 - [ ] http://localhost:8002/match30/vivo/index.html
@@ -739,9 +739,9 @@ Criteria: Branding, Luxury Design, CTA, Navigation, Content Volume (1k+ chars)
 - [ ] http://localhost:8002/match39/boletos/index.html
 - [ ] http://localhost:8002/match39/index.html
 - [ ] http://localhost:8002/match39/vivo/index.html
-- [ ] http://localhost:8002/match4/boletos/index.html
-- [ ] http://localhost:8002/match4/index.html
-- [ ] http://localhost:8002/match4/vivo/index.html
+- [x] http://localhost:8002/match4/boletos/index.html
+- [x] http://localhost:8002/match4/index.html
+- [x] http://localhost:8002/match4/vivo/index.html
 - [ ] http://localhost:8002/match40/boletos/index.html
 - [ ] http://localhost:8002/match40/index.html
 - [ ] http://localhost:8002/match40/vivo/index.html
@@ -751,9 +751,9 @@ Criteria: Branding, Luxury Design, CTA, Navigation, Content Volume (1k+ chars)
 - [ ] http://localhost:8002/match42/boletos/index.html
 - [ ] http://localhost:8002/match42/index.html
 - [ ] http://localhost:8002/match42/vivo/index.html
-- [ ] http://localhost:8002/match5/boletos/index.html
-- [ ] http://localhost:8002/match5/index.html
-- [ ] http://localhost:8002/match5/vivo/index.html
+- [x] http://localhost:8002/match5/boletos/index.html
+- [x] http://localhost:8002/match5/index.html
+- [x] http://localhost:8002/match5/vivo/index.html
 - [ ] http://localhost:8002/match55-curacao-ivorycoast/boletos/index.html
 - [ ] http://localhost:8002/match55-curacao-ivorycoast/index.html
 - [ ] http://localhost:8002/match55-curacao-ivorycoast/vivo/index.html
@@ -772,84 +772,84 @@ Criteria: Branding, Luxury Design, CTA, Navigation, Content Volume (1k+ chars)
 - [ ] http://localhost:8002/match59-usa-turkey/boletos/index.html
 - [ ] http://localhost:8002/match59-usa-turkey/index.html
 - [ ] http://localhost:8002/match59-usa-turkey/vivo/index.html
-- [ ] http://localhost:8002/match6/boletos/index.html
-- [ ] http://localhost:8002/match6/index.html
-- [ ] http://localhost:8002/match6/vivo/index.html
-- [ ] http://localhost:8002/match60-paraguay-australia/boletos/index.html
-- [ ] http://localhost:8002/match60-paraguay-australia/index.html
-- [ ] http://localhost:8002/match60-paraguay-australia/vivo/index.html
-- [ ] http://localhost:8002/match61-norway-france/boletos/index.html
-- [ ] http://localhost:8002/match61-norway-france/index.html
-- [ ] http://localhost:8002/match61-norway-france/vivo/index.html
-- [ ] http://localhost:8002/match62-senegal-iraq/boletos/index.html
-- [ ] http://localhost:8002/match62-senegal-iraq/index.html
-- [ ] http://localhost:8002/match62-senegal-iraq/vivo/index.html
-- [ ] http://localhost:8002/match63-egypt-iran/boletos/index.html
-- [ ] http://localhost:8002/match63-egypt-iran/index.html
-- [ ] http://localhost:8002/match63-egypt-iran/vivo/index.html
-- [ ] http://localhost:8002/match64-nz-belgium/boletos/index.html
-- [ ] http://localhost:8002/match64-nz-belgium/index.html
-- [ ] http://localhost:8002/match64-nz-belgium/vivo/index.html
-- [ ] http://localhost:8002/match65-caboverde-saudi/boletos/index.html
-- [ ] http://localhost:8002/match65-caboverde-saudi/index.html
-- [ ] http://localhost:8002/match65-caboverde-saudi/vivo/index.html
-- [ ] http://localhost:8002/match65-caboverde-saudiarabia/boletos/index.html
-- [ ] http://localhost:8002/match65-caboverde-saudiarabia/index.html
-- [ ] http://localhost:8002/match65-caboverde-saudiarabia/vivo/index.html
-- [ ] http://localhost:8002/match66-uruguay-spain/boletos/index.html
-- [ ] http://localhost:8002/match66-uruguay-spain/index.html
-- [ ] http://localhost:8002/match66-uruguay-spain/vivo/index.html
-- [ ] http://localhost:8002/match67-panama-england/boletos/index.html
-- [ ] http://localhost:8002/match67-panama-england/index.html
-- [ ] http://localhost:8002/match67-panama-england/vivo/index.html
-- [ ] http://localhost:8002/match68-croatia-ghana/boletos/index.html
-- [ ] http://localhost:8002/match68-croatia-ghana/index.html
-- [ ] http://localhost:8002/match68-croatia-ghana/vivo/index.html
-- [ ] http://localhost:8002/match69-algeria-austria/boletos/index.html
-- [ ] http://localhost:8002/match69-algeria-austria/index.html
-- [ ] http://localhost:8002/match69-algeria-austria/vivo/index.html
-- [ ] http://localhost:8002/match7/boletos/index.html
-- [ ] http://localhost:8002/match7/index.html
-- [ ] http://localhost:8002/match7/vivo/index.html
-- [ ] http://localhost:8002/match70-jordan-argentina/boletos/index.html
-- [ ] http://localhost:8002/match70-jordan-argentina/index.html
-- [ ] http://localhost:8002/match70-jordan-argentina/vivo/index.html
-- [ ] http://localhost:8002/match71-colombia-portugal/boletos/index.html
-- [ ] http://localhost:8002/match71-colombia-portugal/index.html
-- [ ] http://localhost:8002/match71-colombia-portugal/vivo/index.html
-- [ ] http://localhost:8002/match72-uzbekistan-congo/boletos/index.html
-- [ ] http://localhost:8002/match72-uzbekistan-congo/index.html
-- [ ] http://localhost:8002/match72-uzbekistan-congo/vivo/index.html
-- [ ] http://localhost:8002/match73-2a-canada/boletos/index.html
-- [ ] http://localhost:8002/match73-2a-canada/index.html
-- [ ] http://localhost:8002/match73-2a-canada/vivo/index.html
-- [ ] http://localhost:8002/match73-canada/boletos/index.html
-- [ ] http://localhost:8002/match73-canada/index.html
-- [ ] http://localhost:8002/match73-canada/vivo/index.html
-- [ ] http://localhost:8002/match74-germany-tbd/boletos/index.html
-- [ ] http://localhost:8002/match74-germany-tbd/index.html
-- [ ] http://localhost:8002/match74-germany-tbd/vivo/index.html
-- [ ] http://localhost:8002/match75-1f-2c/boletos/index.html
-- [ ] http://localhost:8002/match75-1f-2c/index.html
-- [ ] http://localhost:8002/match75-1f-2c/vivo/index.html
-- [ ] http://localhost:8002/match76-brazil-2f/boletos/index.html
-- [ ] http://localhost:8002/match76-brazil-2f/index.html
-- [ ] http://localhost:8002/match76-brazil-2f/vivo/index.html
-- [ ] http://localhost:8002/match77-1i-tbd/boletos/index.html
-- [ ] http://localhost:8002/match77-1i-tbd/index.html
-- [ ] http://localhost:8002/match77-1i-tbd/vivo/index.html
-- [ ] http://localhost:8002/match78-2e-2i/boletos/index.html
-- [ ] http://localhost:8002/match78-2e-2i/index.html
-- [ ] http://localhost:8002/match78-2e-2i/vivo/index.html
-- [ ] http://localhost:8002/match79-1a-tbd/boletos/index.html
-- [ ] http://localhost:8002/match79-1a-tbd/index.html
-- [ ] http://localhost:8002/match79-1a-tbd/vivo/index.html
+- [x] http://localhost:8002/match6/boletos/index.html
+- [x] http://localhost:8002/match6/index.html
+- [x] http://localhost:8002/match6/vivo/index.html
+- [x] http://localhost:8002/match60-paraguay-australia/boletos/index.html
+- [x] http://localhost:8002/match60-paraguay-australia/index.html
+- [x] http://localhost:8002/match60-paraguay-australia/vivo/index.html
+- [x] http://localhost:8002/match61-norway-france/boletos/index.html
+- [x] http://localhost:8002/match61-norway-france/index.html
+- [x] http://localhost:8002/match61-norway-france/vivo/index.html
+- [x] http://localhost:8002/match62-senegal-iraq/boletos/index.html
+- [x] http://localhost:8002/match62-senegal-iraq/index.html
+- [x] http://localhost:8002/match62-senegal-iraq/vivo/index.html
+- [x] http://localhost:8002/match63-egypt-iran/boletos/index.html
+- [x] http://localhost:8002/match63-egypt-iran/index.html
+- [x] http://localhost:8002/match63-egypt-iran/vivo/index.html
+- [x] http://localhost:8002/match64-nz-belgium/boletos/index.html
+- [x] http://localhost:8002/match64-nz-belgium/index.html
+- [x] http://localhost:8002/match64-nz-belgium/vivo/index.html
+- [x] http://localhost:8002/match65-caboverde-saudi/boletos/index.html
+- [x] http://localhost:8002/match65-caboverde-saudi/index.html
+- [x] http://localhost:8002/match65-caboverde-saudi/vivo/index.html
+- [x] http://localhost:8002/match65-caboverde-saudiarabia/boletos/index.html
+- [x] http://localhost:8002/match65-caboverde-saudiarabia/index.html
+- [x] http://localhost:8002/match65-caboverde-saudiarabia/vivo/index.html
+- [x] http://localhost:8002/match66-uruguay-spain/boletos/index.html
+- [x] http://localhost:8002/match66-uruguay-spain/index.html
+- [x] http://localhost:8002/match66-uruguay-spain/vivo/index.html
+- [x] http://localhost:8002/match67-panama-england/boletos/index.html
+- [x] http://localhost:8002/match67-panama-england/index.html
+- [x] http://localhost:8002/match67-panama-england/vivo/index.html
+- [x] http://localhost:8002/match68-croatia-ghana/boletos/index.html
+- [x] http://localhost:8002/match68-croatia-ghana/index.html
+- [x] http://localhost:8002/match68-croatia-ghana/vivo/index.html
+- [x] http://localhost:8002/match69-algeria-austria/boletos/index.html
+- [x] http://localhost:8002/match69-algeria-austria/index.html
+- [x] http://localhost:8002/match69-algeria-austria/vivo/index.html
+- [x] http://localhost:8002/match7/boletos/index.html
+- [x] http://localhost:8002/match7/index.html
+- [x] http://localhost:8002/match7/vivo/index.html
+- [x] http://localhost:8002/match70-jordan-argentina/boletos/index.html
+- [x] http://localhost:8002/match70-jordan-argentina/index.html
+- [x] http://localhost:8002/match70-jordan-argentina/vivo/index.html
+- [x] http://localhost:8002/match71-colombia-portugal/boletos/index.html
+- [x] http://localhost:8002/match71-colombia-portugal/index.html
+- [x] http://localhost:8002/match71-colombia-portugal/vivo/index.html
+- [x] http://localhost:8002/match72-uzbekistan-congo/boletos/index.html
+- [x] http://localhost:8002/match72-uzbekistan-congo/index.html
+- [x] http://localhost:8002/match72-uzbekistan-congo/vivo/index.html
+- [x] http://localhost:8002/match73-2a-canada/boletos/index.html
+- [x] http://localhost:8002/match73-2a-canada/index.html
+- [x] http://localhost:8002/match73-2a-canada/vivo/index.html
+- [x] http://localhost:8002/match73-canada/boletos/index.html
+- [x] http://localhost:8002/match73-canada/index.html
+- [x] http://localhost:8002/match73-canada/vivo/index.html
+- [x] http://localhost:8002/match74-germany-tbd/boletos/index.html
+- [x] http://localhost:8002/match74-germany-tbd/index.html
+- [x] http://localhost:8002/match74-germany-tbd/vivo/index.html
+- [x] http://localhost:8002/match75-1f-2c/boletos/index.html
+- [x] http://localhost:8002/match75-1f-2c/index.html
+- [x] http://localhost:8002/match75-1f-2c/vivo/index.html
+- [x] http://localhost:8002/match76-brazil-2f/boletos/index.html
+- [x] http://localhost:8002/match76-brazil-2f/index.html
+- [x] http://localhost:8002/match76-brazil-2f/vivo/index.html
+- [x] http://localhost:8002/match77-1i-tbd/boletos/index.html
+- [x] http://localhost:8002/match77-1i-tbd/index.html
+- [x] http://localhost:8002/match77-1i-tbd/vivo/index.html
+- [x] http://localhost:8002/match78-2e-2i/boletos/index.html
+- [x] http://localhost:8002/match78-2e-2i/index.html
+- [x] http://localhost:8002/match78-2e-2i/vivo/index.html
+- [x] http://localhost:8002/match79-1a-tbd/boletos/index.html
+- [x] http://localhost:8002/match79-1a-tbd/index.html
+- [x] http://localhost:8002/match79-1a-tbd/vivo/index.html
 - [ ] http://localhost:8002/match8/boletos/index.html
 - [ ] http://localhost:8002/match8/index.html
 - [ ] http://localhost:8002/match8/vivo/index.html
-- [ ] http://localhost:8002/match80-1l-tbd/boletos/index.html
-- [ ] http://localhost:8002/match80-1l-tbd/index.html
-- [ ] http://localhost:8002/match80-1l-tbd/vivo/index.html
+- [x] http://localhost:8002/match80-1l-tbd/boletos/index.html
+- [x] http://localhost:8002/match80-1l-tbd/index.html
+- [x] http://localhost:8002/match80-1l-tbd/vivo/index.html
 - [ ] http://localhost:8002/match81-usa-tbd/boletos/index.html
 - [ ] http://localhost:8002/match81-usa-tbd/index.html
 - [ ] http://localhost:8002/match81-usa-tbd/vivo/index.html

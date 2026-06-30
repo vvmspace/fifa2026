@@ -2,134 +2,138 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.to">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Boletos FIFA 2026 | Acceso VIP y Distribución Exclusiva</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
-    
-    <style>
-        :root { --gold: #d4af37; --gold-light: #f9e076; --black: #0a0a0a; --dark-grey: #1a1a1a; }
-        body { background-color: var(--black); color: white; font-family: 'Playfair Display', serif; margin: 0; padding: 0; text-align: center; }
-        .header { display: flex; justify-content: space-between; align-items: center; padding: 20px 40px; max-width: 1200px; margin: 0 auto; }
-        .btn-back { color: #aaa; text-decoration: none; font-size: 0.9rem; transition: color 0.3s; }
-        .btn-back:hover { color: var(--gold); }
-        .logo { color: white; font-size: 1.5rem; font-weight: bold; }
-        .logo strong { color: var(--gold); }
-        
-        .hero { padding: 100px 20px; background: radial-gradient(circle at center, #1a1a1a 0%, #0a0a0a 100%); }
-        .hero h1 { color: var(--gold); font-size: 4rem; margin: 0 0 20px 0; text-transform: uppercase; letter-spacing: 2px; }
-        .hero p { color: #aaa; font-size: 1.2rem; max-width: 700px; margin: 0 auto 40px auto; line-height: 1.6; }
-        
-        .filter-container { margin-bottom: 60px; display: flex; justify-content: center; gap: 20px; }
-        .filter-btn { background: transparent; border: 1px solid var(--gold); color: var(--gold); padding: 10px 25px; cursor: pointer; font-family: inherit; font-size: 1rem; transition: all 0.3s; border-radius: 5px; }
-        .filter-btn.active, .filter-btn:hover { background: var(--gold); color: black; }
-        
-        .games-grid { max-width: 1000px; margin: 0 auto; padding: 0 20px 100px 20px; display: grid; gap: 30px; }
-        .game-card { background: var(--dark-grey); border: 1px solid #333; padding: 30px; border-radius: 10px; display: flex; justify-content: space-between; align-items: center; transition: border 0.3s, transform 0.3s; position: relative; overflow: hidden; }
-        .game-card:hover { border-color: var(--gold); transform: translateY(-5px); }
-        .game-card::before { content: ""; position: absolute; left: 0; top: 0; height: 100%; width: 4px; background: var(--gold); }
-        
-        .game-info { text-align: left; flex: 1; }
-        .game-date { color: var(--gold); font-size: 0.9rem; text-transform: uppercase; margin-bottom: 10px; display: block; }
-        .game-title { font-size: 1.8rem; margin: 0; color: white; }
-        
-        .game-actions { display: flex; gap: 15px; align-items: center; }
-        .btn-details { color: var(--gold); text-decoration: none; font-weight: bold; font-size: 0.9rem; text-transform: uppercase; border: 1px solid var(--gold); padding: 12px 20px; border-radius: 5px; transition: all 0.3s; }
-        .btn-details:hover { background: rgba(212, 175, 55, 0.1); }
-        .btn-obtain { background: linear-gradient(45deg, var(--gold), var(--gold-light)); color: black !important; text-decoration: none; font-weight: bold; font-size: 0.9rem; text-transform: uppercase; padding: 12px 25px; border-radius: 5px; transition: all 0.3s; box-shadow: 0 5px 15px rgba(212, 175, 55, 0.2); }
-        .btn-obtain:hover { transform: scale(1.05); box-shadow: 0 8px 20px rgba(212, 175, 55, 0.4); }
-        
-        .footer { padding: 60px 20px; border-top: 1px solid #222; color: #666; font-size: 0.9rem; }
-    </style>
-
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
 </head>
 <body>
-    <div class="header">
-        <a href="/index.html" class="btn-back">← Volver al Inicio</a>
-        <div class="logo">BOLETOS<strong>FIFA.STORE</strong></div>
+    <div class="premium-ticker">
+        <strong>Aviso:</strong> La demanda de boletos para el Mundial 2026 es extrema. Asegure su reserva inmediata.
     </div>
-    
+    <header>
+        <div class="header-content">
+            <div class="logo">BOLETOS<strong>FIFA.STORE</strong></div>
+            <div class="nav-subtitle">Acceso VIP Sovereign</div>
+        </div>
+    </header>
     <section class="hero">
-        <h1>Boletos FIFA 2026</h1>
-        <p>Distribución exclusiva de accesos VIP para el evento deportivo más prestigioso del planeta. Seguridad, sofisticación y la garantía de una experiencia soberana.</p>
-        <div class="filter-container">
-            <button class="filter-btn active">Todos los Eventos</button>
-            <button class="filter-btn">Fase de Grupos</button>
-            <button class="filter-btn">Fases Finales</button>
+        <h1>Boletos FIFA 2026 <small>DISTRIBUCIÓN EXCLUSIVA</small></h1>
+        <p>Su pasaporte hacia la gloria deportiva. Encontrará los más sofisticados <strong>boletos VIP</strong> en nuestra plataforma de reventa segura.</p>
+    </section>
+    <section class="schedule-section">
+        <h2 class="section-title">Disponibilidad de Boletos y Calendario</h2>
+        <div class="filters">
+            <div class="tab active">TODOS LOS EVENTOS</div>
+            <div class="tab">FASE DE GRUPOS</div>
+            <div class="tab">FASES FINALES</div>
+        </div>
+        <div class="grid">
+            <div class="card">
+                <div class="c-time">Match 78 | Octavos de Final</div>
+                <div class="c-teams">
+                    <div class="team"><span>🇨🇮</span> Costa de Marfil</div>
+                    <div class="vs-divider">VS</div>
+                    <div class="team"><span>🇳🇴</span> Noruega</div>
+                </div>
+                <div class="c-text">Duelo de potencia física y táctica en el AT&T Stadium. Acceso VIP garantizado.</div>
+                <div class="c-actions">
+                    <a href="/match78/" class="btn btn-outline">DETALLES</a>
+                    <a href="/match78/boletos/" class="btn btn-gold">OBTENER</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="c-time">Match 77 | Octavos de Final</div>
+                <div class="c-teams">
+                    <div class="team"><span>🇫🇷</span> Francia</div>
+                    <div class="vs-divider">VS</div>
+                    <div class="team"><span>🇸🇪</span> Suecia</div>
+                </div>
+                <div class="c-text">El refinamiento gala frente a la disciplina sueca. Una cita obligatoria en MetLife.</div>
+                <div class="c-actions">
+                    <a href="/match77/" class="btn btn-outline">DETALLES</a>
+                    <a href="/match77/boletos/" class="btn btn-gold">OBTENER</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="c-time">Match 79 | Octavos de Final</div>
+                <div class="c-teams">
+                    <div class="team"><span>🇲🇽</span> México</div>
+                    <div class="vs-divider">VS</div>
+                    <div class="team"><span>?</span> TBD</div>
+                </div>
+                <div class="c-text">El corazón de México late con fuerza en el Estadio Banorte. Boletos de élite disponibles.</div>
+                <div class="c-actions">
+                    <a href="/match79/" class="btn btn-outline">DETALLES</a>
+                    <a href="/match79/boletos/" class="btn btn-gold">OBTENER</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="c-time">Match 80 | Octavos de Final</div>
+                <div class="c-teams">
+                    <div class="team"><span>🏴󠁧󠁢󠁥󠁮󠁧󠁿</span> Inglaterra</div>
+                    <div class="vs-divider">VS</div>
+                    <div class="team"><span>🇨🇩</span> RD Congo</div>
+                </div>
+                <div class="c-text">La leyenda inglesa busca el camino al trono en el Mercedes-Benz Stadium.</div>
+                <div class="c-actions">
+                    <a href="/match80/" class="btn btn-outline">DETALLES</a>
+                    <a href="/match80/boletos/" class="btn btn-gold">OBTENER</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="c-time">Match 82 | Octavos de Final</div>
+                <div class="c-teams">
+                    <div class="team"><span>🇧🇪</span> Bélgica</div>
+                    <div class="vs-divider">VS</div>
+                    <div class="team"><span>🇸🇳</span> Senegal</div>
+                </div>
+                <div class="c-text">Talento europeo contra la fuerza africana en Lumen Field. Reservas prioritarias.</div>
+                <div class="c-actions">
+                    <a href="/match82/" class="btn btn-outline">DETALLES</a>
+                    <a href="/match82/boletos/" class="btn btn-gold">OBTENER</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="c-time">Match 81 | Octavos de Final</div>
+                <div class="c-teams">
+                    <div class="team"><span>🇺🇸</span> EE. UU.</div>
+                    <div class="vs-divider">VS</div>
+                    <div class="team"><span>🇧🇦</span> Bosnia</div>
+                </div>
+                <div class="c-text">El anfitrión lucha por su sueño en Levi's Stadium. Acceso exclusivo y VIP.</div>
+                <div class="c-actions">
+                    <a href="/match81/" class="btn btn-outline">DETALLES</a>
+                    <a href="/match81/boletos/" class="btn btn-gold">OBTENER</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="c-time">Match 84 | Octavos de Final</div>
+                <div class="c-teams">
+                    <div class="team"><span>🇪🇸</span> España</div>
+                    <div class="vs-divider">VS</div>
+                    <div class="team"><span>🇦🇹</span> Austria</div>
+                </div>
+                <div class="c-text">La maestría española se cita con Austria en SoFi Stadium. Una experiencia suprema.</div>
+                <div class="c-actions">
+                    <a href="/match84/" class="btn btn-outline">DETALLES</a>
+                    <a href="/match84/boletos/" class="btn btn-gold">OBTENER</a>
+                </div>
+            </div>
+            <div class="card final-card">
+                <div class="c-time">Final | Gran Final</div>
+                <div class="c-teams">
+                    <div class="team"><span>🏆</span> Finalista A</div>
+                    <div class="vs-divider">VS</div>
+                    <div class="team"><span>🏆</span> Finalista B</div>
+                </div>
+                <div class="c-text">El clímax del fútbol mundial. El partido más exclusivo del planeta en MetLife Stadium.</div>
+                <div class="c-actions">
+                    <a href="/final/" class="btn btn-outline">DETALLES</a>
+                    <a href="/final/boletos/" class="btn btn-gold">OBTENER</a>
+                </div>
+            </div>
         </div>
     </section>
-    
-    <div class="games-grid">
-        
-    <div class="game-card">
-        <div class="game-info">
-            <span class="game-date">28 Jun 2026 · 23:00 UTC</span>
-            <h3 class="game-title">Sudáfrica vs Canadá</h3>
-        </div>
-        <div class="game-actions">
-            <a href="/south-africa-canada/index.html" class="btn-details" title="Ver detalles del encuentro Sudáfrica vs Canadá">DETALLES</a>
-            <a href="https://www.ticketmaster.com/2026-world-cup-tickets/artist/4067734" class="btn-obtain" title="Obtener boletos VIP para Sudáfrica vs Canadá">OBTENER</a>
-        </div>
-    </div>
-    
-    <div class="game-card">
-        <div class="game-info">
-            <span class="game-date">29 Jun 2026 · 18:00 UTC</span>
-            <h3 class="game-title">Brasil vs Japón</h3>
-        </div>
-        <div class="game-actions">
-            <a href="/brazil-japan/index.html" class="btn-details" title="Ver detalles del encuentro Brasil vs Japón">DETALLES</a>
-            <a href="https://www.ticketmaster.com/2026-world-cup-tickets/artist/4067734" class="btn-obtain" title="Obtener boletos VIP para Brasil vs Japón">OBTENER</a>
-        </div>
-    </div>
-    
-    <div class="game-card">
-        <div class="game-info">
-            <span class="game-date">30 Jun 2026 · 20:00 UTC</span>
-            <h3 class="game-title">Alemania vs Paraguay</h3>
-        </div>
-        <div class="game-actions">
-            <a href="/germany-paraguay/index.html" class="btn-details" title="Ver detalles del encuentro Alemania vs Paraguay">DETALLES</a>
-            <a href="https://www.ticketmaster.com/2026-world-cup-tickets/artist/4067734" class="btn-obtain" title="Obtener boletos VIP para Alemania vs Paraguay">OBTENER</a>
-        </div>
-    </div>
-    
-    <div class="game-card">
-        <div class="game-info">
-            <span class="game-date">01 Jul 2026 · 15:00 UTC</span>
-            <h3 class="game-title">Sénégal vs Irak</h3>
-        </div>
-        <div class="game-actions">
-            <a href="/senegal-iraq/index.html" class="btn-details" title="Ver detalles del encuentro Sénégal vs Irak">DETALLES</a>
-            <a href="https://www.ticketmaster.com/2026-world-cup-tickets/artist/4067734" class="btn-obtain" title="Obtener boletos VIP para Sénégal vs Irak">OBTENER</a>
-        </div>
-    </div>
-    
-    <div class="game-card">
-        <div class="game-info">
-            <span class="game-date">02 Jul 2026 · 21:00 UTC</span>
-            <h3 class="game-title">Panamá vs Inglaterra</h3>
-        </div>
-        <div class="game-actions">
-            <a href="/panama-england/index.html" class="btn-details" title="Ver detalles del encuentro Panamá vs Inglaterra">DETALLES</a>
-            <a href="https://www.ticketmaster.com/2026-world-cup-tickets/artist/4067734" class="btn-obtain" title="Obtener boletos VIP para Panamá vs Inglaterra">OBTENER</a>
-        </div>
-    </div>
-    
-    <div class="game-card">
-        <div class="game-info">
-            <span class="game-date">03 Jul 2026 · 17:00 UTC</span>
-            <h3 class="game-title">Perú vs Croacia</h3>
-        </div>
-        <div class="game-actions">
-            <a href="/peru-croatia/index.html" class="btn-details" title="Ver detalles del encuentro Perú vs Croacia">DETALLES</a>
-            <a href="https://www.ticketmaster.com/2026-world-cup-tickets/artist/4067734" class="btn-obtain" title="Obtener boletos VIP para Perú vs Croacia">OBTENER</a>
-        </div>
-    </div>
-    
-    </div>
-    
-    <footer class="footer">
-        <p>&copy; 2026 BOLETOSFIFA.STORE | Acceso Restringido a la Élite</p>
-    </footer>
 </body>
 </html>

@@ -3,270 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Boletos Match 5 | Acceso VIP FIFA 2026</title>
-    <meta name="description" content="Reserve sus boletos para el Match 5 del Mundial 2026. Acceso VIP al BC Place.">
-    <link rel="stylesheet" href="/index.css">
-<style>
-
-:root {
-    --obsidian: #050505;
-    --obsidian-deep: #000000;
-    --gold-primary: #d4af37;
-    --gold-glow: #f9e498;
-    --gold-dark: #b8860b;
-    --gold-gradient: linear-gradient(135deg, #d4af37 0%, #f9e498 50%, #b8860b 100%);
-    --glass: rgba(255, 255, 255, 0.03);
-    --glass-border: rgba(212, 175, 55, 0.2);
-    --text-main: #f0f0f0;
-    --text-dim: #a0a0a0;
-    --font-serif: 'Playfair Display', serif;
-    --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
-}
-
-body {
-    background-color: var(--obsidian);
-    color: var(--text-main);
-    font-family: var(--font-sans);
-    margin: 0;
-    line-height: 1.7;
-    overflow-x: hidden;
-}
-
-header {
-    padding: 2rem;
-    background: linear-gradient(to bottom, rgba(0,0,0,0.9), transparent);
-    position: absolute;
-    width: 100%;
-    z-index: 100;
-    top: 0;
-    box-sizing: border-box;
-}
-
-.header-content {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logo {
-    color: var(--gold-primary);
-    text-decoration: none;
-    font-weight: 800;
-    font-size: 1.4rem;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-}
-
-.logo strong {
-    color: white;
-    font-weight: 300;
-    opacity: 0.8;
-}
-
-main {
-    padding-top: 6rem;
-}
-
-.hero {
-    text-align: center;
-    padding: 8rem 2rem 6rem;
-    background: 
-        radial-gradient(circle at 20% 30%, rgba(212, 175, 55, 0.05) 0%, transparent 40%),
-        radial-gradient(circle at 80% 70%, rgba(212, 175, 55, 0.05) 0%, transparent 40%),
-        var(--obsidian);
-    position: relative;
-    border-bottom: 1px solid var(--glass-border);
-}
-
-.hero h1 {
-    font-family: var(--font-serif);
-    font-size: 4.5rem;
-    margin-bottom: 1.5rem;
-    background: var(--gold-gradient);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: 700;
-    line-height: 1.1;
-}
-
-.hero h1 small {
-    display: block;
-    font-family: var(--font-sans);
-    font-size: 1rem;
-    text-transform: uppercase;
-    letter-spacing: 6px;
-    color: var(--text-dim);
-    -webkit-text-fill-color: var(--text-dim);
-    margin-top: 2rem;
-    font-weight: 400;
-}
-
-.match-score-card {
-    display: inline-flex;
-    align-items: center;
-    gap: 4rem;
-    background: var(--glass);
-    backdrop-filter: blur(20px);
-    border: 1px solid var(--glass-border);
-    padding: 2.5rem 5rem;
-    border-radius: 100px;
-    margin: 4rem 0;
-    box-shadow: 0 30px 60px rgba(0,0,0,0.8);
-}
-
-.match-score-card span {
-    font-size: 3rem;
-    font-weight: 800;
-    color: white;
-    font-family: var(--font-serif);
-    letter-spacing: 2px;
-}
-
-.match-score-card strong {
-    font-size: 1.2rem;
-    color: var(--gold-primary);
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    font-weight: 600;
-}
-
-.hero p {
-    max-width: 800px;
-    margin: 0 auto;
-    font-size: 1.3rem;
-    color: var(--text-dim);
-    font-style: italic;
-    font-weight: 300;
-}
-
-.seo-content-block {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 8rem 2rem;
-}
-
-.seo-content-block h2 {
-    font-family: var(--font-serif);
-    font-size: 3rem;
-    text-align: center;
-    margin-bottom: 4rem;
-    color: var(--gold-primary);
-}
-
-.seo-content-block p {
-    margin-bottom: 2.5rem;
-    font-size: 1.15rem;
-    text-align: justify;
-    color: var(--text-main);
-    opacity: 0.85;
-}
-
-.c-actions {
-    display: flex;
-    gap: 25px;
-    justify-content: center;
-    margin-top: 5rem;
-}
-
-.btn {
-    padding: 1.4rem 3rem;
-    border-radius: 0;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    cursor: pointer;
-    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
-    text-decoration: none;
-    display: inline-block;
-    font-size: 0.85rem;
-    border: 1px solid transparent;
-}
-
-.btn-gold {
-    background: var(--gold-gradient);
-    color: var(--obsidian-deep);
-    border: none;
-    box-shadow: 0 15px 30px rgba(212, 175, 55, 0.15);
-}
-
-.btn-gold:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 20px 40px rgba(212, 175, 55, 0.3);
-    filter: brightness(1.1);
-}
-
-.btn-outline {
-    background: transparent;
-    color: var(--gold-primary);
-    border: 1px solid var(--gold-primary);
-}
-
-.btn-outline:hover {
-    background: var(--gold-primary);
-    color: var(--obsidian-deep);
-}
-
-@media (max-width: 768px) {
-    .hero h1 { font-size: 2.8rem; }
-    .match-score-card { gap: 2rem; padding: 2rem 3rem; }
-    .match-score-card span { font-size: 2rem; }
-    .c-actions { flex-direction: column; align-items: center; }
-    .btn { width: 100%; text-align: center; }
-}
-
-
-.btn-back {
-    color: var(--text-dim);
-    text-decoration: none;
-    font-size: 0.8rem;
-    margin-right: 20px;
-    transition: color 0.3s;
-}
-.btn-back:hover {
-    color: var(--gold-primary);
-}
-.btn-cta {
-    padding: 1.5rem 4rem !important;
-    font-size: 1.2rem !important;
-    display: block !important;
-    width: fit-content !important;
-    margin: 2rem auto !important;
-    text-align: center;
-}
-
-
-<style>
-.btn-back {
-    color: #aaa;
-    text-decoration: none;
-    font-size: 0.9rem;
-    font-family: sans-serif;
-    transition: color 0.3s;
-}
-.btn-back:hover {
-    color: #d4af37;
-}
-.btn-cta {
-    padding: 1.5rem 4rem !important;
-    font-size: 1.2rem !important;
-    display: block !important;
-    width: fit-content !important;
-    margin: 2rem auto !important;
-    text-align: center;
-}
-</style>
-</style>
+    <title>Match 5 - Mundial 2026 | Acceso VIP FIFA 2026</title>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "FIFA World Cup 2026: Match 5",
+  "description": "Acceso VIP и boletos exclusivos para el Match 5 en el Mundial 2026. Experiencia de lujo soberano.",
+  "startDate": "2026-06-30T22:00",
+  "location": {
+    "@type": "Place",
+    "name": "Estadio FIFA 2026",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "City",
+      "addressRegion": "Region",
+      "addressCountry": "USA"
+    }
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://boletosfifa.store/match5/boletos/",
+    "priceCurrency": "USD",
+    "price": "1300.00",
+    "availability": "https://schema.org/LimitedAvailability"
+  },
+  "organizer": {
+    "@type": "Organization",
+    "name": "FIFA",
+    "url": "https://fifa.com"
+  }
+}</script>
+    <style>
+        :root { --gold: #d4af37; --gold-light: #f9e076; --black: #0a0a0a; }
+        body { background-color: var(--black); color: white; font-family: 'Playfair Display', serif; text-align: center; margin: 0; padding: 0; }
+        .header { display: flex; justify-content: space-between; align-items: center; padding: 20px; max-width: 1200px; margin: 0 auto; }
+        .btn-back { color: #aaa; text-decoration: none; font-size: 0.9rem; transition: color 0.3s; }
+        .btn-back:hover { color: var(--gold); }
+        .logo { color: white; font-size: 1.5rem; font-weight: bold; }
+        .logo strong { color: var(--gold); }
+        h1 { color: var(--gold); font-size: 3.5rem; margin: 60px 0; }
+        h2 { color: var(--gold-light); font-size: 2rem; margin-top: 40px; }
+        .btn-cta { background: linear-gradient(45deg, var(--gold), var(--gold-light)); color: black !important; padding: 1.5rem 4rem; font-size: 1.2rem; font-weight: bold; text-decoration: none; border-radius: 5px; display: inline-block; margin: 30px 0; box-shadow: 0 10px 20px rgba(212,175,55,0.3); }
+        .content { max-width: 800px; margin: 0 auto; line-height: 1.8; color: #aaa; padding: 0 20px 100px 20px; }
+        .nav-footer { margin-top: 50px; padding-bottom: 50px; }
+        .btn-secondary { color: var(--gold); text-decoration: none; font-size: 1rem; font-weight: bold; border: 1px solid var(--gold); padding: 10px 20px; border-radius: 5px; }
+    </style>
 </head>
-<body><a href="/index.html" class="btn-back" style="position:absolute; top:20px; left:20px; z-index:1000;">← Volver al Inicio</a>
-    <header class="luxury-header">
-        <span class="logo">BOLETOS<strong>FIFA.STORE</strong></span>
-    </header>
-    <main class="hero-section">
-        <h1 class="gold-text">Match 5: El Poder del Norte</h1>
-        <p>El BC Place se prepara para recibir la élite del fútbol. Asegure su entrada al Match 5 y experimente la sofisticación en Vancouver.</p>
-        <a href="boletos/index.html" class="btn-luxury" title="Reservar boletos Match 5">Reservar Acceso Exclusivo</a>
-    </main>
+<body>
+    <div class="header">
+        <a href="/" class="btn-back">← Volver al Inicio</a>
+        <div class="logo">BOLETOS<strong>FIFA.STORE</strong></div>
+    </div>
+    <h1>Match 5 - Mundial 2026</h1>
+    <a href="/match5/boletos/" class="btn-cta">RESERVAR ACCESO EXCLUSIVO</a>
+    <div class="content">
+        <section class="seo-content-block">
+        <h2>La Cúspide de la Gloria: Match 5 - Mundial 2026</h2>
+        <p>El Match 5 (Panamá vs Inglaterra) es la manifestación suprema de la coherencia táctica y el rigor atlético. Presenciar este duelo es observar la arquitectura del éxito deportivo en su máxima expresión.</p>
+        <p>Acceder a este partido es un privilegio reservado para la élite. Nuestro servicio de concierge gestiona cada detalle para asegurar un entorno de sofisticación absoluta.</p>
+        <h2>La Excelencia del Entorno</h2>
+        <p>La sede del partido ha sido seleccionada para ofrecer un marco de lujo acorde a la magnitud del evento. Nos especializamos  la gestión de palcos privados y zonas de lounge.</p>
+        <h2>Compromiso Soberano</h2>
+        <p>Implementamos protocolos de verificación exhaustivos para asegurar que cada entrada sea auténtica, legítima y registrada oficialmente por la FIFA.</p>
+    </section>
+    </div>
+    <div class="nav-footer">
+        <a href="/" class="btn-secondary">VOLVER AL INICIO</a>
+    </div>
 </body>
 </html>
