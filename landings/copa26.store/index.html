@@ -142,5 +142,49 @@
       </div>
     </section>
   </main>
+
+  <script>
+    function filter(phase) {
+      const tabs = document.querySelectorAll('.tab');
+      tabs.forEach(tab => tab.classList.remove('active'));
+      
+      const activeTab = Array.from(tabs).find(tab => 
+        tab.textContent.toLowerCase().includes(phase === 'grupos' ? 'grupos' : phase === 'playoffs' ? 'eliminatorias' : 'toda')
+      );
+      if (activeTab) activeTab.classList.add('active');
+
+      const cards = document.querySelectorAll('.card');
+      cards.forEach(card => {
+        if (phase === 'all' || card.dataset.phase === phase) {
+          card.style.display = 'flex';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    }
+
+    function updateCountdown() {
+      const targetDate = new Date('2026-06-28T23:00:00Z').getTime();
+      const now = new Date().getTime();
+      const diff = targetDate - now;
+
+      const countdownElement = document.getElementById('countdown');
+      if (!countdownElement) return;
+
+      if (diff <= 0) {
+        countdownElement.textContent = '¡El Torneo está en marcha!';
+        return;
+      }
+
+      const hours = Math.floor(diff / (1000 * 60 * 60));
+      const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+
+      countdownElement.textContent = `${hours}h ${minutes}m ${seconds}s`;
+    }
+
+    setInterval(updateCountdown, 1000);
+    updateCountdown();
+  </script>
 </body>
 </html>
