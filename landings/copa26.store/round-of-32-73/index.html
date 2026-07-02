@@ -1,95 +1,423 @@
 <!DOCTYPE html>
 <html lang="es">
- <head>
+<head>
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-  <title>
-   Dieciseisavos de Final Match 73 Acceso Exclusivo · Copa 26 | copa26.store
-  </title>
-  <meta content="Siga la emoción del Match 73 en Los Ángeles. Acceso exclusivo a entradas VIP y la mejor ubicación en el SoFi Stadium para la fase eliminatoria del Mundial 2026." name="description"/>
-  <link href="https://copa26.store/round-of-32-73/" rel="canonical"/>
-  <link href="../../index.css" rel="stylesheet"/>
-  <script type="application/ld+json">
-   {
-    "@context": "https://schema.org",
-    "@type": "SportsEvent",
-    "name": "Dieciseisavos de Final Match 73 - FIFA 2026",
-    "description": "Fase eliminatoria del Mundial 2026: Canadá lucha por avanzar en el SoFi Stadium.",
-    "startDate": "2026-06-28T23:00:00Z",
-    "location": {
-     "@type": "Place",
-     "name": "SoFi Stadium, Los Angeles, USA"
-    },
-    "offers": {
-     "@type": "AggregateOffer",
-     "url": "https://copa26.store/round-of-32-73/",
-     "priceCurrency": "USD",
-     "lowPrice": "250",
-     "highPrice": "5000",
-     "availability": "https://schema.org/InStock"
-    }
-   }
-  </script>
- </head>
- <body>
+  <title>Sudáfrica vs Canadá - Ronda de 32 | Boletos FIFA 2026</title>
+  <meta content="Acceso exclusivo y boletos VIP para el encuentro Sudáfrica vs Canadá en SoFi Stadium, USA. Seguridad y lujo en la Copa Mundial 2026." name="description"/>
+  <link href="/index.css" rel="stylesheet"/>
+<style>
+:root {
+  --obsidian: #0a0a0a;
+  --obsidian-light: #161616;
+  --gold: #d4af37;
+  --gold-dark: #aa8a2e;
+  --gold-light: #f9e4b7;
+  --text-main: #e0e0e0;
+  --text-muted: #a0a0a0;
+  --glass: rgba(255, 255, 255, 0.03);
+  --glass-border: rgba(212, 175, 55, 0.2);
+  --transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--obsidian);
+  color: var(--text-main);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: var(--transition);
+}
+
+/* --- Luxury Background --- */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at 50% -20%, #1a1a1a 0%, var(--obsidian) 70%);
+  z-index: -1;
+}
+
+/* --- Header --- */
+header {
+  padding: 2rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid var(--glass-border);
+  background: rgba(10, 10, 10, 0.8);
+  backdrop-filter: blur(10px);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header-content {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: var(--text-main);
+}
+
+.logo strong {
+  color: var(--gold);
+  font-weight: 700;
+}
+
+.nav-subtitle {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* --- Hero Section --- */
+.hero {
+  padding: 6rem 1rem;
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  font-weight: 200;
+  margin-bottom: 1.5rem;
+  color: var(--text-main);
+  letter-spacing: -1px;
+}
+
+.hero h1 small {
+  display: block;
+  font-size: 1.2rem;
+  color: var(--gold);
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  margin-top: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: var(--text-muted);
+  max-width: 700px;
+  margin: 0 auto;
+  font-weight: 300;
+}
+
+.hero strong {
+  color: var(--gold);
+}
+
+/* --- Match List Section --- */
+.schedule-section {
+  padding: 4rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 3rem;
+  color: var(--text-main);
+  position: relative;
+}
+
+.section-title::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 2px;
+  background: var(--gold);
+  margin: 1rem auto;
+}
+
+.filters {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+
+.tab {
+  background: var(--glass);
+  border: 1px solid var(--glass-border);
+  color: var(--text-muted);
+  padding: 0.6rem 1.5rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: var(--transition);
+  backdrop-filter: blur(5px);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.tab.active, .tab:hover {
+  color: var(--gold);
+  border-color: var(--gold);
+  background: rgba(212, 175, 55, 0.05);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 2rem;
+}
+
+.card {
+  background: var(--glass);
+  border: 1px solid var(--glass-border);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  backdrop-filter: blur(15px);
+  transition: var(--transition);
+  position: relative;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  border-color: var(--gold);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4), 0 0 20px rgba(212, 175, 55, 0.1);
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--gold), transparent);
+  opacity: 0;
+  transition: var(--transition);
+}
+
+.card:hover::before {
+  opacity: 1;
+}
+
+.c-time {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.c-teams {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.team {
+  font-size: 1.2rem;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.team span {
+  font-size: 1.4rem;
+}
+
+.vs-divider {
+  font-size: 0.8rem;
+  color: var(--gold);
+  font-weight: 700;
+  opacity: 0.5;
+}
+
+.c-text {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  margin-bottom: 2rem;
+  font-weight: 300;
+  min-height: 3rem;
+}
+
+.c-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: auto;
+}
+
+.btn {
+  flex: 1;
+  padding: 0.8rem;
+  text-align: center;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: var(--transition);
+  font-weight: 500;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 1px solid var(--glass-border);
+  color: var(--text-main);
+}
+
+.btn-outline:hover {
+  border-color: var(--gold);
+  color: var(--gold);
+}
+
+.btn-gold {
+  background: linear-gradient(135deg, var(--gold), var(--gold-dark));
+  border: none;
+  color: var(--obsidian);
+  font-weight: 700;
+}
+
+.btn-gold:hover {
+  filter: brightness(1.2);
+  box-shadow: 0 0 15px rgba(212, 175, 55, 0.4);
+}
+
+.final-card {
+  border-color: var(--gold);
+  background: rgba(212, 175, 55, 0.05);
+}
+
+.final-card .vs-divider {
+  color: var(--gold);
+  opacity: 1;
+}
+
+/* --- Ticker --- */
+.premium-ticker {
+  background: var(--gold);
+  color: var(--obsidian);
+  padding: 0.5rem;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.premium-ticker strong {
+  text-transform: uppercase;
+  margin-right: 10px;
+}
+
+/* --- Mobile Responsive --- */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  .header-content {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+
+
+.btn-back {
+    color: var(--text-dim);
+    text-decoration: none;
+    font-size: 0.8rem;
+    margin-right: 20px;
+    transition: color 0.3s;
+}
+.btn-back:hover {
+    color: var(--gold-primary);
+}
+.btn-cta {
+    padding: 1.5rem 4rem !important;
+    font-size: 1.2rem !important;
+    display: block !important;
+    width: fit-content !important;
+    margin: 2rem auto !important;
+    text-align: center;
+}
+
+
+<style>
+.btn-back {
+    color: #aaa;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-family: sans-serif;
+    transition: color 0.3s;
+}
+.btn-back:hover {
+    color: #d4af37;
+}
+.btn-cta {
+    padding: 1.5rem 4rem !important;
+    font-size: 1.2rem !important;
+    display: block !important;
+    width: fit-content !important;
+    margin: 2rem auto !important;
+    text-align: center;
+}
+</style>
+</style>
+</head>
+<body>
   <header>
-   <div class="header-content">
-    <a class="logo" href="/">
-     COPA26
-     <strong>
-      .STORE
-     </strong>
-    </a>
-   </div>
+    <div class="header-content"><a href="/index.html" class="btn-back">← Volver al Inicio</a>
+      <span class="logo">COPA<strong>26.STORE</strong></span></span>
+      <span class="nav-subtitle">Conserjería de Boletos de Élite</span>
+    </div>
   </header>
   <main>
-   <section class="hero">
-    <h1>
-     El Camino a la Gloria
-     <small>
-      Dieciseisavos de Final Match 73 · Acceso Soberano
-     </small>
-    </h1>
-    <div class="match-score-card">
-     <span>
-      2A
-     </span>
-     <strong>
-      vs
-     </strong>
-     <span>
-      CAN
-     </span>
-    </div>
-    <p>
-     La fase eliminatoria es el momento donde la presión alcanza su punto máximo y solo los más fuertes sobreviven. El Match 73 no es simplemente un juego; es una batalla por la supervivencia deportiva en el SoFi Stadium. Canadá, impulsada por el apoyo masivo de su continente, se enfrenta al segundo mejor clasificado del Grupo A en un duelo donde no hay espacio para el error. En el corazón de Los Ángeles, la tensión será palpable, transformando el estadio en un coliseo moderno donde la gloria y el fracaso están separados por un solo detalle táctico. Es la oportunidad de presenciar el drama más puro del fútbol, donde la estrategia se funde con el instinto la supervivencia.
-    </p>
-   </section>
-   <section class="seo-content-block">
-    <h2>
-     Hospitalidad de Élite en el SoFi Stadium
-    </h2>
-    <p>
-     Presenciar los Dieciseisavos de Final en el SoFi Stadium es sumergirse en la cúspide del lujo y la tecnología. Este recinto, el más avanzado del planeta, ofrece la atmósfera perfecta para un partido de eliminación directa. Nuestra gestión exclusiva le permite navegar la complejidad de Los Ángeles con total fluidez, asegurando que su llegada al estadio sea una transición privada, elegante y libre de cualquier fricción. Nos encargamos de coordinar cada aspecto, desde el transporte en vehículos de alta gama hasta el acceso prioritario por canales VIP, para que su única preocupación sea la intensidad del encuentro en el campo.
-    </p>
-    <p>
-     Le ofrecemos acceso a las suites más prestigiosas, donde el confort se encuentra con la adrenalina del knockout. Imagine disfrutar de la tensión del partido desde un entorno de privacidad absoluta, con servicios de conserjería personalizados que atienden cada uno de sus deseos en tiempo real. No se trata solo de ver un partido, sino de habitar un espacio de privilegio diseñado para la élite global, donde la alta cocina y el diseño vanguardista se fusionan con la emoción del fútbol mundial. Cada asiento en nuestra selección es una declaración de estatus y una garantía de visibilidad perfecta.
-    </p>
-    <p>
-     Técnicamente, este partido representa un desafío psicológico inmenso. Canadá llega con la responsabilidad de hacer honor a su condición de coanfitrión, mientras que el equipo 2A buscará dar la sorpresa aprovechando la presión sobre los locales. El juego se definirá en la capacidad de mantener la calma bajo la presión asfixiante de miles de espectadores y la precisión en las transiciones rápidas. Será un duelo de nervios de acero, donde la disciplina táctica será la única herramienta capaz de abrir el camino hacia los octavos de final.
-    </p>
-    <p>
-     Dada la naturaleza eliminatoria del encuentro, la demanda de accesos ha superado todas las expectativas. Asegurar sus entradas con antelación es la única vía para evitar la incertidumbre y garantizar una ubicación a la altura de la magnitud del evento. Le invitamos a reservar su lugar en la vanguardia del deporte mundial y vivir la Copa 26 desde una perspectiva de absoluta exclusividad, donde cada servicio está pensado para superar sus expectativas y convertir su visita a Los Ángeles en un recuerdo imborrable de poder y pasión.
-    </p>
-    <div class="c-actions" style="display:flex; gap:15px; justify-content:center; margin-top:20px;">
-     <button class="btn btn-gold" onclick="window.location.href='https://www.ticketmaster.com/event/Z7r9jZ1A7434f'">
-      Reservar Acceso VIP
-     </button>
-     <a class="btn btn-outline" href="/">
-      Volver
-     </a>
-    </div>
-   </section>
+    <section class="hero">
+      <h1>Sudáfrica vs Canadá - Ronda de 32</h1>
+      <p class="subtitle">28 Jun 2026 · SoFi Stadium, USA</p>
+    </section>
+    <section class="content">
+      <div class="luxury-text">
+        <h2>Una Experiencia Sin Precedentes</h2>
+        <p>El enfrentamiento más esperado de la fase eliminatoria inicial. Sudáfrica llega con una potencia física devastadora, mientras que Canadá busca consolidar su dominio en suelo norteamericano. El SoFi Stadium será el escenario de una batalla táctica donde la precisión europea se encuentra con la pasión africana.</p>
+        <p>Asistir a un encuentro de esta magnitud no es simplemente ver un partido de fútbol; es formar parte de un evento cultural global. Para el duelo entre Sudáfrica vs Canadá, hemos seleccionado las localidades más privilegiadas, asegurando una visibilidad perfecta y un confort absoluto.</p>
+        <p>Nuestra plataforma de reventa segura garantiza que cada boleto sea auténtico y verificado. En un mercado donde la demanda es extrema, ofrecemos una solución sofisticada para el aficionado que no acepta compromisos en términos de calidad o seguridad.</p>
+        <p>El estadio SoFi Stadium, USA ha sido preparado para recibir a la élite del deporte. Desde la zona VIP hasta los sectores preferentes, cada detalle ha sido curado para maximizar la experiencia sensorial del espectivo. La tensión en el aire, el rugido de la multitud y la maestría técnica de los jugadores convergen en una noche que definirá el destino de las naciones.</p>
+        <p>Le invitamos a asegurar su lugar en este enfrentamiento histórico. La disponibilidad es limitada y la demanda es global. No permita que la oportunidad de presenciar la gloria deportiva se escape.</p>
+      </div>
+      <div class="cta-box">
+        <h3>Acceso Prioritario</h3>
+        <p>Boletos disponibles para sectores Premium y VIP.</p>
+        <button class="btn btn-gold btn-cta" onclick="window.open('https://www.ticketmaster.com/2026-world-cup-tickets/artist/4067734', '_blank')">Obtener Boletos Ahora</button>
+      </div>
+    </section>
   </main>
- </body>
+</body>
 </html>

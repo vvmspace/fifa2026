@@ -31,7 +31,6 @@ a {
   transition: var(--transition);
 }
 
-/* --- Luxury Background --- */
 body::before {
   content: "";
   position: fixed;
@@ -43,7 +42,6 @@ body::before {
   z-index: -1;
 }
 
-/* --- Header --- */
 header {
   padding: 2rem 1rem;
   display: flex;
@@ -85,7 +83,6 @@ header {
   letter-spacing: 1px;
 }
 
-/* --- Hero Section --- */
 .hero {
   padding: 6rem 1rem;
   text-align: center;
@@ -123,7 +120,6 @@ header {
   color: var(--gold);
 }
 
-/* --- Match List Section --- */
 .schedule-section {
   padding: 4rem 1rem;
   max-width: 1200px;
@@ -309,7 +305,6 @@ header {
   opacity: 1;
 }
 
-/* --- Ticker --- */
 .premium-ticker {
   background: var(--gold);
   color: var(--obsidian);
@@ -325,7 +320,6 @@ header {
   margin-right: 10px;
 }
 
-/* --- Mobile Responsive --- */
 @media (max-width: 768px) {
   .hero h1 {
     font-size: 2.5rem;
