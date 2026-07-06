@@ -1,8 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
+<url>
     <loc>https://boletosfifa.github.io/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <changefreq>daily</changefreq>
     <priority>1.0</priority>
+  </url>
+<url>
+    <loc>https://boletosfifa.github.io/brasil/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+<url>
+    <loc>https://boletosfifa.github.io/brazil-japan/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+<url>
+    <loc>https://boletosfifa.github.io/canada/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+<url>
+    <loc>https://boletosfifa.github.io/cuartofinal-1/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+<url>
+    <loc>https://boletosfifa.github.io/final/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+<url>
+    <loc>https://boletosfifa.github.io/france/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+<url>
+    <loc>https://boletosfifa.github.io/france-sweden/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+<url>
+    <loc>https://boletosfifa.github.io/germany/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+<url>
+    <loc>https://boletosfifa.github.io/germany-paraguay/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+<url>
+    <loc>https://boletosfifa.github.io/ivory-coast/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+<url>
+    <loc>https://boletosfifa.github.io/ivory-coast-norway/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+<url>
+    <loc>https://boletosfifa.github.io/mexico/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+<url>
+    <loc>https://boletosfifa.github.io/mexico-tbd/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+<url>
+    <loc>https://boletosfifa.github.io/morocco/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+<url>
+    <loc>https://boletosfifa.github.io/netherlands/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+<url>
+    <loc>https://boletosfifa.github.io/netherlands-morocco/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+<url>
+    <loc>https://boletosfifa.github.io/norway/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+<url>
+    <loc>https://boletosfifa.github.io/round-of-32-73/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+<url>
+    <loc>https://boletosfifa.github.io/semifinal-1/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+<url>
+    <loc>https://boletosfifa.github.io/south-africa/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+<url>
+    <loc>https://boletosfifa.github.io/sweden/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
   </url>
 </urlset>
