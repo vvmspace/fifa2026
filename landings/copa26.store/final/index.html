@@ -3,16 +3,21 @@
  <head>
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-  <title>Gran Final Copa 2026 — MetLife Stadium | Entradas Exclusivas y Acceso Premium</title>
-  <meta name="description" content="La culminación del fútbol mundial. Acceso preferente a la Gran Final de la Copa Mundial 2026 en el MetLife Stadium. Experiencias VIP y entradas de lujo.">
+  <title>Gran Final Copa Mundial 2026 — Match 104 | MetLife Stadium 19 Julio</title>
+  <meta name="description" content="Match 104: la Gran Final de la Copa Mundial 2026, el 19 de julio en el MetLife Stadium. Entradas VIP, horarios y guía completa del partido que corona al campeón.">
+  <meta name="robots" content="index, follow">
+  <link href="https://copa26.store/final/" rel="canonical"/>
   <link href="../style-luxury-v3.css" rel="stylesheet"/>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet"/>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Event",
-    "name": "Gran Final Copa Mundial 2026",
-    "startDate": "2026-07-19T20:00",
+    "@type": "SportsEvent",
+    "name": "Copa Mundial 2026: Gran Final (Match 104)",
+    "description": "La Gran Final de la Copa Mundial 2026 entre el vencedor de Francia-España y el vencedor de Inglaterra-Argentina, en el MetLife Stadium.",
+    "startDate": "2026-07-19T23:00:00Z",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
     "location": {
       "@type": "Place",
       "name": "MetLife Stadium",
@@ -23,358 +28,29 @@
         "addressCountry": "US"
       }
     },
-    "description": "El evento deportivo más importante del planeta. La culminación de la Copa Mundial 2026.",
+    "competitor": [
+      { "@type": "SportsTeam", "name": "Vencedor Francia vs España" },
+      { "@type": "SportsTeam", "name": "Vencedor Inglaterra vs Argentina" }
+    ],
     "offers": {
-      "@type": "Offer",
-      "url": "https://copa26.store/final/entradas",
-      "availability": "https://schema.org/InStock",
-      "priceCurrency": "USD"
+      "@type": "AggregateOffer",
+      "url": "https://copa26.store/final/entradas/",
+      "priceCurrency": "USD",
+      "lowPrice": "200",
+      "highPrice": "5000",
+      "availability": "https://schema.org/InStock"
     }
   }
   </script>
  <style>
-:root {
-  --obsidian: #0a0a0a;
-  --obsidian-light: #161616;
-  --gold: #d4af37;
-  --gold-dark: #aa8a2e;
-  --gold-light: #f9e4b7;
-  --text-main: #e0e0e0;
-  --text-muted: #a0a0a0;
-  --glass: rgba(255, 255, 255, 0.03);
-  --glass-border: rgba(212, 175, 55, 0.2);
-  --transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
-}
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  background-color: var(--obsidian);
-  color: var(--text-main);
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  line-height: 1.6;
-  overflow-x: hidden;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-  transition: var(--transition);
-}
-
-/* --- Luxury Background --- */
-body::before {
-  content: "";
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: radial-gradient(circle at 50% -20%, #1a1a1a 0%, var(--obsidian) 70%);
-  z-index: -1;
-}
-
-/* --- Header --- */
-header {
-  padding: 2rem 1rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-bottom: 1px solid var(--glass-border);
-  background: rgba(10, 10, 10, 0.8);
-  backdrop-filter: blur(10px);
-  position: sticky;
-  top: 0;
-  z-index: 100;
-}
-
-.header-content {
-  max-width: 1200px;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.logo {
-  font-size: 1.5rem;
-  letter-spacing: 4px;
-  text-transform: uppercase;
-  font-weight: 300;
-  color: var(--text-main);
-}
-
-.logo strong {
-  color: var(--gold);
-  font-weight: 700;
-}
-
-.nav-subtitle {
-  font-size: 0.8rem;
-  color: var(--text-muted);
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
-/* --- Hero Section --- */
-.hero {
-  padding: 6rem 1rem;
-  text-align: center;
-  max-width: 900px;
-  margin: 0 auto;
-}
-
-.hero h1 {
-  font-size: 3.5rem;
-  font-weight: 200;
-  margin-bottom: 1.5rem;
-  color: var(--text-main);
-  letter-spacing: -1px;
-}
-
-.hero h1 small {
-  display: block;
-  font-size: 1.2rem;
-  color: var(--gold);
-  font-weight: 400;
-  text-transform: uppercase;
-  letter-spacing: 6px;
-  margin-top: 1rem;
-}
-
-.hero p {
-  font-size: 1.2rem;
-  color: var(--text-muted);
-  max-width: 700px;
-  margin: 0 auto;
-  font-weight: 300;
-}
-
-.hero strong {
-  color: var(--gold);
-}
-
-/* --- Match List Section --- */
-.schedule-section {
-  padding: 4rem 1rem;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.section-title {
-  text-align: center;
-  font-size: 2rem;
-  font-weight: 300;
-  margin-bottom: 3rem;
-  color: var(--text-main);
-  position: relative;
-}
-
-.section-title::after {
-  content: "";
-  display: block;
-  width: 60px;
-  height: 2px;
-  background: var(--gold);
-  margin: 1rem auto;
-}
-
-.filters {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  margin-bottom: 3rem;
-}
-
-.tab {
-  background: var(--glass);
-  border: 1px solid var(--glass-border);
-  color: var(--text-muted);
-  padding: 0.6rem 1.5rem;
-  cursor: pointer;
-  font-size: 0.9rem;
-  transition: var(--transition);
-  backdrop-filter: blur(5px);
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
-.tab.active, .tab:hover {
-  color: var(--gold);
-  border-color: var(--gold);
-  background: rgba(212, 175, 55, 0.05);
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
-  gap: 2rem;
-}
-
-.card {
-  background: var(--glass);
-  border: 1px solid var(--glass-border);
-  padding: 2rem;
-  display: flex;
-  flex-direction: column;
-  backdrop-filter: blur(15px);
-  transition: var(--transition);
-  position: relative;
-  overflow: hidden;
-}
-
-.card:hover {
-  transform: translateY(-10px);
-  border-color: var(--gold);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4), 0 0 20px rgba(212, 175, 55, 0.1);
-}
-
-.card::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 2px;
-  background: linear-gradient(90deg, transparent, var(--gold), transparent);
-  opacity: 0;
-  transition: var(--transition);
-}
-
-.card:hover::before {
-  opacity: 1;
-}
-
-.c-time {
-  display: flex;
-  justify-content: space-between;
-  font-size: 0.8rem;
-  color: var(--text-muted);
-  margin-bottom: 1.5rem;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
-.c-teams {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 1.5rem;
-}
-
-.team {
-  font-size: 1.2rem;
-  font-weight: 400;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.team span {
-  font-size: 1.4rem;
-}
-
-.vs-divider {
-  font-size: 0.8rem;
-  color: var(--gold);
-  font-weight: 700;
-  opacity: 0.5;
-}
-
-.c-text {
-  font-size: 0.95rem;
-  color: var(--text-muted);
-  margin-bottom: 2rem;
-  font-weight: 300;
-  min-height: 3rem;
-}
-
-.c-actions {
-  display: flex;
-  gap: 1rem;
-  margin-top: auto;
-}
-
-.btn {
-  flex: 1;
-  padding: 0.8rem;
-  text-align: center;
-  font-size: 0.85rem;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  cursor: pointer;
-  transition: var(--transition);
-  font-weight: 500;
-}
-
-.btn-outline {
-  background: transparent;
-  border: 1px solid var(--glass-border);
-  color: var(--text-main);
-}
-
-.btn-outline:hover {
-  border-color: var(--gold);
-  color: var(--gold);
-}
-
-.btn-gold {
-  background: linear-gradient(135deg, var(--gold), var(--gold-dark));
-  border: none;
-  color: var(--obsidian);
-  font-weight: 700;
-}
-
-.btn-gold:hover {
-  filter: brightness(1.2);
-  box-shadow: 0 0 15px rgba(212, 175, 55, 0.4);
-}
-
-.final-card {
-  border-color: var(--gold);
-  background: rgba(212, 175, 55, 0.05);
-}
-
-.final-card .vs-divider {
-  color: var(--gold);
-  opacity: 1;
-}
-
-/* --- Ticker --- */
-.premium-ticker {
-  background: var(--gold);
-  color: var(--obsidian);
-  padding: 0.5rem;
-  text-align: center;
-  font-size: 0.8rem;
-  font-weight: 500;
-  letter-spacing: 0.5px;
-}
-
-.premium-ticker strong {
-  text-transform: uppercase;
-  margin-right: 10px;
-}
-
-/* --- Mobile Responsive --- */
-@media (max-width: 768px) {
-  .hero h1 {
-    font-size: 2.5rem;
-  }
-  .grid {
-    grid-template-columns: 1fr;
-  }
-  .header-content {
-    flex-direction: column;
-    gap: 1rem;
-  }
-}
-
-
+.final-meta { display: flex; flex-wrap: wrap; justify-content: center; gap: 3rem; margin: 3rem 0; }
+.final-meta div { text-align: center; }
+.final-meta span { display: block; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 2px; color: var(--text-dim); margin-bottom: 0.5rem; }
+.final-meta strong { font-size: 1.2rem; color: var(--gold-primary); font-weight: 600; font-family: var(--font-sans); }
+.path-grid { max-width: 1000px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.5rem; padding: 0 2rem 6rem; }
+.path-grid .path-card { background: var(--glass); border: 1px solid var(--glass-border); padding: 2rem; text-align: center; }
+.path-grid h3 { color: var(--gold-primary); font-family: var(--font-serif); font-size: 1.3rem; margin: 0 0 0.8rem; }
+.path-grid p { color: var(--text-dim); font-size: 0.95rem; margin: 0 0 1.2rem; }
 .btn-back {
     color: var(--text-dim);
     text-decoration: none;
@@ -393,7 +69,6 @@ header {
     margin: 2rem auto !important;
     text-align: center;
 }
-
 </style>
 </head>
  <body>
@@ -412,7 +87,7 @@ header {
     <h1>
      El Olimpo del Fútbol
      <small>
-      Final Copa Mundial 2026 — MetLife Stadium
+      Gran Final — Match 104 — MetLife Stadium
      </small>
     </h1>
     <div class="match-score-card">
@@ -422,42 +97,67 @@ header {
      </strong>
      <span>LA ETERNIDAD</span>
     </div>
+    <div class="final-meta">
+      <div><span>Fecha</span><strong>19 julio 2026</strong></div>
+      <div><span>Hora</span><strong>19:00 ET · 23:00 UTC</strong></div>
+      <div><span>Sede</span><strong>East Rutherford, NJ</strong></div>
+    </div>
     <p>
-     Cuando el mundo entero contiene el aliento, solo unos pocos tienen el privilegio de presenciar la gloria en vivo. Le invitamos a asegurar su lugar en el evento más prestigioso del siglo.
+     Cuando el mundo entero contiene el aliento, solo unos pocos tienen el privilegio de presenciar la gloria en vivo. El vencedor de Francia–España se mide con el vencedor de Inglaterra–Argentina por la copa.
     </p>
     <div class="c-actions">
-     <button class="btn btn-gold" onclick="window.location.href='https://www.ticketmaster.com/2026-world-cup-tickets/artist/4067734'">
+     <button class="btn btn-gold" onclick="window.open('https://www.ticketmaster.com/2026-world-cup-tickets/artist/4067734', '_blank')">
       Solicitar Entradas VIP
      </button>
+     <a class="btn btn-outline" href="/final/vivo/">Ver en vivo</a>
     </div>
    </section>
+
+   <div class="path-grid">
+    <div class="path-card">
+      <h3>Entradas</h3>
+      <p>Disponibilidad por sector para el partido que cierra el torneo.</p>
+      <a class="btn btn-outline" href="/final/entradas/">Ver entradas</a>
+    </div>
+    <div class="path-card">
+      <h3>Boletos</h3>
+      <p>Guía práctica de precios, sectores y logística de llegada.</p>
+      <a class="btn btn-outline" href="/final/boletos/">Ver boletos</a>
+    </div>
+    <div class="path-card">
+      <h3>Tercer puesto</h3>
+      <p>El partido previo del 19 de julio, en el Hard Rock Stadium de Miami.</p>
+      <a class="btn btn-outline" href="/match103-third-place/">Ver partido</a>
+    </div>
+   </div>
+
    <section class="seo-content-block">
     <div class="luxury-section">
-     <h2>Distinción y Privilegio</h2>
+     <h2>Dos semifinales, un solo trono</h2>
      <p>
-      Presenciar la Gran Final de la Copa Mundial 2026 en el MetLife Stadium no es solo asistir a un partido; es entrar en un círculo exclusivo de testigos de la historia. Hemos curado una selección de accesos que trascienden lo convencional, enfocándonos en la experiencia del usuario más exigente: privacidad total, vistas panorámicas y un servicio de concierge que anticipa cada necesidad.
+      El camino hasta el MetLife Stadium pasó por Arlington y por Atlanta: Francia venció a España en el AT&amp;T Stadium, e Inglaterra se impuso a Argentina en el Mercedes-Benz Stadium. Ambos finalistas llegan con un mes de torneo en las piernas, lo que suele traducirse en un partido de máxima cautela táctica en los primeros veinte minutos y de máxima intensidad a partir de ahí.
      </p>
      <p>
-      El MetLife Stadium, en East Rutherford, New Jersey, se transforma para este encuentro en el centro gravitacional del deporte. La magnitud del evento requiere que el asistente de élite planifique su llegada con antelación, optando por servicios de traslado privado para evitar el congestionamiento y asegurar que la transición desde la ciudad de Nueva York sea fluida y sofisticada.
+      Presenciar la Gran Final en el MetLife Stadium no es solo asistir a un partido; es entrar en un círculo exclusivo de testigos de la historia. Hemos curado una selección de accesos que trascienden lo convencional, enfocándonos en la experiencia del usuario más exigente: privacidad total, vistas panorámicas y un servicio de concierge que anticipa cada necesidad.
      </p>
      <p>
-      La escasez de entradas para el partido final es absoluta. Nuestra misión es proporcionar un puente seguro y directo hacia la adquisición de estos activos deportivos, eliminando la fricción y garantizando que la transacción se realice bajo los más estrictos estándares de seguridad y transparencia.
+      El MetLife Stadium, en East Rutherford, New Jersey, se transforma para este encuentro en el centro gravitacional del deporte. La magnitud del evento requiere que el asistente de élite planifique su llegada con antelación, optando por servicios de traslado privado o por el tren NJ Transit desde Manhattan para evitar el congestionamiento habitual de un día de final.
      </p>
     </div>
     <div class="luxury-section" style="margin-top: 6rem;">
      <h2>La Catedral del Juego: MetLife Stadium</h2>
      <p>
-      Como coloso de la arquitectura deportiva, el MetLife Stadium ofrece una infraestructura que potencia la emoción del juego. Cada sector ha sido optimizado para que la tensión del encuentro sea palpable, mientras que las zonas VIP proporcionan un refugio de lujo donde la pasión se mezcla con la sofisticación.
+      Como coloso de la arquitectura deportiva, el MetLife Stadium ofrece una infraestructura para más de 82.000 espectadores que potencia la emoción del juego. Es la primera vez que este estadio recibe una final masculina de la FIFA, y cada sector ha sido optimizado para que la tensión del encuentro sea palpable, mientras que las zonas VIP proporcionan un refugio de lujo donde la pasión se mezcla con la sofisticación.
      </p>
      <p>
       La atmósfera que envolverá a New Jersey y Nueva York durante el cierre del torneo será indescriptible. Desde la hotelería de cinco estrellas hasta los eventos paralelos de alta gama, la experiencia de la final se extiende mucho más allá de los 90 minutos de juego. Es una celebración de la excelencia humana y la competitividad global.
      </p>
      <p>
-     Le recordamos que la demanda global es masiva. Asegurar su entrada ahora es la única forma de garantire que no quede fuera del evento que definirá la década. La oportunidad de presenciar la consagración de un campeón es un lujo que no admite esperas.
+      La demanda global es masiva y crece con cada resultado de semifinal confirmado. Asegurar su entrada ahora es la forma más directa de garantizar que no quede fuera del evento que definirá la década, y verificamos cada acceso contra el sistema oficial de emisión antes de confirmarlo.
      </p>
     </div>
     <div class="c-actions">
-     <button class="btn btn-gold" onclick="window.location.href='https://www.ticketmaster.com/2026-world-cup-tickets/artist/4067734'">
+     <button class="btn btn-gold" onclick="window.open('https://www.ticketmaster.com/2026-world-cup-tickets/artist/4067734', '_blank')">
       Asegurar Mi Entrada Ahora
      </button>
      <a class="btn btn-outline" href="/">

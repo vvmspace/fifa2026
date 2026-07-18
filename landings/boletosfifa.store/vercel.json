@@ -16,6 +16,21 @@
       "permanent": true
     },
     {
+      "source": "/match104-final/boletos/",
+      "destination": "/final/boletos/",
+      "permanent": true
+    },
+    {
+      "source": "/match104-final/vivo/",
+      "destination": "/final/vivo/",
+      "permanent": true
+    },
+    {
+      "source": "/match104/",
+      "destination": "/final/",
+      "permanent": true
+    },
+    {
       "source": "/match63-egypt-iran/",
       "destination": "/egypt-iran/",
       "permanent": true

@@ -1371,21 +1371,6 @@
     <priority>0.8</priority>
   </url>
 <url>
-    <loc>https://boletosfifa.store/match104-final/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-<url>
-    <loc>https://boletosfifa.store/match104-final/boletos/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-<url>
-    <loc>https://boletosfifa.store/match104-final/vivo/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-<url>
     <loc>https://boletosfifa.store/match11/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
