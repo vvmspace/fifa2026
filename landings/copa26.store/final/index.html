@@ -69,6 +69,51 @@
     margin: 2rem auto !important;
     text-align: center;
 }
+.live-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: rgba(220, 38, 38, 0.14);
+    border: 1px solid rgba(220, 38, 38, 0.4);
+    color: #ff5555;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 0.4rem 1rem;
+    margin-bottom: 1.2rem;
+}
+.live-badge::before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #ff5555;
+    animation: pulse-live 1.5s ease-in-out infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+    .live-badge::before { animation: none; }
+}
+@keyframes pulse-live {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.35; }
+}
+.live-embed {
+    position: relative;
+    width: 100%;
+    max-width: 900px;
+    padding-top: 56.25%;
+    margin: 2rem auto;
+    background: #000;
+    border: 1px solid var(--glass-border);
+    overflow: hidden;
+}
+.live-embed iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
 </style>
 </head>
  <body>
@@ -84,6 +129,7 @@
   </header>
   <main>
    <section class="hero">
+    <span class="live-badge">En vivo ahora</span>
     <h1>
      El Olimpo del Fútbol
      <small>
@@ -97,19 +143,22 @@
      </strong>
      <span>LA ETERNIDAD</span>
     </div>
+    <p>
+     El partido ya está en juego: solo unos pocos tienen el privilegio de presenciar la gloria en vivo. El vencedor de Francia–España se mide con el vencedor de Inglaterra–Argentina por la copa. Sigue la transmisión en directo aquí mismo.
+    </p>
+    <div class="live-embed">
+     <iframe src="https://www.youtube.com/embed/h-SQ8-kl5aE?autoplay=0&rel=0" title="Transmisión en vivo: Gran Final Copa Mundial 2026" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
     <div class="final-meta">
       <div><span>Fecha</span><strong>19 julio 2026</strong></div>
       <div><span>Hora</span><strong>19:00 ET · 23:00 UTC</strong></div>
       <div><span>Sede</span><strong>East Rutherford, NJ</strong></div>
     </div>
-    <p>
-     Cuando el mundo entero contiene el aliento, solo unos pocos tienen el privilegio de presenciar la gloria en vivo. El vencedor de Francia–España se mide con el vencedor de Inglaterra–Argentina por la copa.
-    </p>
     <div class="c-actions">
-     <button class="btn btn-gold" onclick="window.open('https://www.ticketmaster.com/2026-world-cup-tickets/artist/4067734', '_blank')">
+     <a class="btn btn-gold" href="/final/vivo/">Ver en vivo</a>
+     <button class="btn btn-outline" onclick="window.open('https://www.ticketmaster.com/2026-world-cup-tickets/artist/4067734', '_blank')">
       Solicitar Entradas VIP
      </button>
-     <a class="btn btn-outline" href="/final/vivo/">Ver en vivo</a>
     </div>
    </section>
 

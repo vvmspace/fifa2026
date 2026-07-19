@@ -14,6 +14,10 @@
     --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
 }
 
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 body {
     background-color: var(--obsidian);
     color: var(--text-main);
@@ -62,8 +66,8 @@ main {
 
 .hero {
     text-align: center;
-    padding: 8rem 2rem 6rem;
-    background: 
+    padding: 3.5rem 1.25rem 3rem;
+    background:
         radial-gradient(circle at 20% 30%, rgba(212, 175, 55, 0.05) 0%, transparent 40%),
         radial-gradient(circle at 80% 70%, rgba(212, 175, 55, 0.05) 0%, transparent 40%),
         var(--obsidian);
@@ -73,46 +77,50 @@ main {
 
 .hero h1 {
     font-family: var(--font-serif);
-    font-size: 4.5rem;
+    font-size: clamp(2rem, 9vw, 4.5rem);
     margin-bottom: 1.5rem;
     background: var(--gold-gradient);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 700;
-    line-height: 1.1;
+    line-height: 1.15;
 }
 
 .hero h1 small {
     display: block;
     font-family: var(--font-sans);
-    font-size: 1rem;
+    font-size: clamp(0.7rem, 2.8vw, 1rem);
     text-transform: uppercase;
-    letter-spacing: 6px;
+    letter-spacing: 3px;
     color: var(--text-dim);
     -webkit-text-fill-color: var(--text-dim);
-    margin-top: 2rem;
+    margin-top: 1.2rem;
     font-weight: 400;
 }
 
 .match-score-card {
-    display: inline-flex;
+    display: flex;
     align-items: center;
-    gap: 4rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: clamp(0.5rem, 4vw, 4rem);
     background: var(--glass);
     backdrop-filter: blur(20px);
     border: 1px solid var(--glass-border);
-    padding: 2.5rem 5rem;
-    border-radius: 100px;
-    margin: 4rem 0;
+    padding: clamp(1rem, 4vw, 2.5rem) clamp(1rem, 6vw, 5rem);
+    border-radius: 32px;
+    margin: 2.5rem auto;
     box-shadow: 0 30px 60px rgba(0,0,0,0.8);
+    max-width: 100%;
+    width: fit-content;
 }
 
 .match-score-card span {
-    font-size: 3rem;
+    font-size: clamp(0.95rem, 4.5vw, 3rem);
     font-weight: 800;
     color: white;
     font-family: var(--font-serif);
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 .match-score-card strong {

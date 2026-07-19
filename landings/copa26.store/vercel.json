@@ -31,6 +31,21 @@
       "permanent": true
     },
     {
+      "source": "/match100/",
+      "destination": "/match100-w95-w96/",
+      "permanent": true
+    },
+    {
+      "source": "/match101/",
+      "destination": "/match101-w97-w98/",
+      "permanent": true
+    },
+    {
+      "source": "/match102/",
+      "destination": "/match102-w99-w100/",
+      "permanent": true
+    },
+    {
       "source": "/match63-egypt-iran/",
       "destination": "/egypt-iran/",
       "permanent": true

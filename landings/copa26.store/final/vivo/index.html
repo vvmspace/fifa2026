@@ -49,6 +49,51 @@
 .btn-back:hover {
     color: var(--gold-primary);
 }
+.live-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: rgba(220, 38, 38, 0.14);
+    border: 1px solid rgba(220, 38, 38, 0.4);
+    color: #ff5555;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 0.4rem 1rem;
+    margin-bottom: 1.2rem;
+}
+.live-badge::before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #ff5555;
+    animation: pulse-live 1.5s ease-in-out infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+    .live-badge::before { animation: none; }
+}
+@keyframes pulse-live {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.35; }
+}
+.live-embed {
+    position: relative;
+    width: 100%;
+    max-width: 900px;
+    padding-top: 56.25%;
+    margin: 2rem auto;
+    background: #000;
+    border: 1px solid var(--glass-border);
+    overflow: hidden;
+}
+.live-embed iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
 </style>
 </head>
  <body>
@@ -64,6 +109,7 @@
   </header>
   <main>
    <section class="hero">
+    <span class="live-badge">En vivo ahora</span>
     <h1>
      Transmisión Elite
      <small>
@@ -71,8 +117,11 @@
      </small>
     </h1>
     <p>
-     Si no estarás en el MetLife Stadium, aquí tienes el horario exacto por zona horaria y la guía para seguir el partido que decide al campeón de la Copa Mundial 2026.
+     El partido ya está en juego. Míralo aquí mismo, en directo, el encuentro que decide al campeón de la Copa Mundial 2026.
     </p>
+    <div class="live-embed">
+     <iframe src="https://www.youtube.com/embed/h-SQ8-kl5aE?autoplay=0&rel=0" title="Transmisión en vivo: Gran Final Copa Mundial 2026" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
     <div class="c-actions">
      <a class="btn btn-outline" href="/final/entradas/">
       Prefiero ir al estadio

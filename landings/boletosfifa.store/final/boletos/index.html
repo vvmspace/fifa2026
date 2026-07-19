@@ -17,6 +17,12 @@
         .content { max-width: 800px; margin: 0 auto; line-height: 1.8; color: #aaa; padding: 0 20px 100px 20px; }
         .nav-footer { margin-top: 50px; padding-bottom: 50px; }
         .btn-secondary { color: var(--gold); text-decoration: none; font-size: 1rem; font-weight: bold; border: 1px solid var(--gold); padding: 10px 20px; border-radius: 5px; }
+        .live-badge { display: inline-flex; align-items: center; gap: 0.5rem; background: rgba(220,38,38,0.14); border: 1px solid rgba(220,38,38,0.4); color: #ff5555; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 2px; padding: 0.4rem 1rem; margin: 0 auto 1rem; }
+        .live-badge::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: #ff5555; animation: pulse-live 1.5s ease-in-out infinite; }
+        @media (prefers-reduced-motion: reduce) { .live-badge::before { animation: none; } }
+        @keyframes pulse-live { 0%, 100% { opacity: 1; } 50% { opacity: 0.35; } }
+        .live-embed { position: relative; width: 100%; max-width: 700px; padding-top: 56.25%; margin: 0 auto 2rem; background: #000; border: 1px solid rgba(212,175,55,0.2); overflow: hidden; }
+        .live-embed iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
     </style>
 </head>
 <body>
@@ -24,7 +30,11 @@
         <a href="/" class="btn-back">← Volver al Inicio</a>
         <div class="logo">BOLETOS<strong>FIFA.STORE</strong></div>
     </div>
-    <h1>Adquirir Boletos</h1>
+    <h1>Boletos Gran Final <small style="display:block;font-size:1.1rem;color:#aaa;">Match 104 · Mundial 2026</small></h1>
+    <span class="live-badge">En vivo ahora</span>
+    <div class="live-embed">
+        <iframe src="https://www.youtube.com/embed/h-SQ8-kl5aE?autoplay=0&rel=0" title="Transmisión en vivo: Gran Final Mundial 2026" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
     <a href="https://www.ticketmaster.com/2026-world-cup-tickets/artist/4067734" class="btn-cta">OBTENER ACCESO AHORA</a>
     <div class="content">
         

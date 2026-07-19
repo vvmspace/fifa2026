@@ -45,7 +45,7 @@ body::before {
 
 /* --- Header --- */
 header {
-  padding: 2rem 1rem;
+  padding: 1.2rem 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -61,8 +61,11 @@ header {
   max-width: 1200px;
   width: 100%;
   display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
   justify-content: space-between;
   align-items: center;
+  text-align: center;
 }
 
 .logo {
@@ -87,32 +90,65 @@ header {
 
 /* --- Hero Section --- */
 .hero {
-  padding: 6rem 1rem;
+  padding: 3rem 1.25rem 2.5rem;
   text-align: center;
   max-width: 900px;
   margin: 0 auto;
 }
 
+.live-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(220, 38, 38, 0.14);
+  border: 1px solid rgba(220, 38, 38, 0.4);
+  color: #ff5555;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 0.4rem 1rem;
+  margin-bottom: 1.2rem;
+}
+
+.live-badge::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #ff5555;
+  animation: pulse-live 1.5s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .live-badge::before { animation: none; }
+}
+
+@keyframes pulse-live {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.35; }
+}
+
 .hero h1 {
-  font-size: 3.5rem;
+  font-size: clamp(2.1rem, 8vw, 3.5rem);
   font-weight: 200;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.2rem;
   color: var(--text-main);
   letter-spacing: -1px;
+  line-height: 1.15;
 }
 
 .hero h1 small {
   display: block;
-  font-size: 1.2rem;
+  font-size: clamp(0.85rem, 3vw, 1.2rem);
   color: var(--gold);
   font-weight: 400;
   text-transform: uppercase;
-  letter-spacing: 6px;
-  margin-top: 1rem;
+  letter-spacing: 4px;
+  margin-top: 0.8rem;
 }
 
 .hero p {
-  font-size: 1.2rem;
+  font-size: clamp(1rem, 3vw, 1.2rem);
   color: var(--text-muted);
   max-width: 700px;
   margin: 0 auto;
@@ -120,6 +156,77 @@ header {
 }
 
 .hero strong {
+  color: var(--gold);
+}
+
+.live-embed {
+  position: relative;
+  width: 100%;
+  max-width: 900px;
+  padding-top: 56.25%;
+  margin: 2rem auto;
+  background: #000;
+  border: 1px solid var(--glass-border);
+  overflow: hidden;
+}
+
+.live-embed iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.live-embed-note {
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-top: -1rem;
+  margin-bottom: 2rem;
+}
+
+.hero-actions {
+  flex-direction: column;
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+.hero-actions .btn {
+  padding: 1rem 1.5rem;
+  font-size: 0.9rem;
+}
+
+.recap-section {
+  padding: 1rem 1.25rem 4rem;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.recap-text {
+  color: var(--text-muted);
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+}
+
+.recap-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.recap-links a {
+  color: var(--gold-light);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 1px solid var(--glass-border);
+  padding: 0.9rem 1rem;
+}
+
+.recap-links a:hover {
+  border-color: var(--gold);
   color: var(--gold);
 }
 
@@ -176,14 +283,21 @@ header {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
-  gap: 2rem;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .grid {
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: 2rem;
+  }
 }
 
 .card {
   background: var(--glass);
   border: 1px solid var(--glass-border);
-  padding: 2rem;
+  padding: 1.5rem;
   display: flex;
   flex-direction: column;
   backdrop-filter: blur(15px);
@@ -260,12 +374,15 @@ header {
 
 .c-actions {
   display: flex;
+  flex-wrap: wrap;
   gap: 1rem;
   margin-top: auto;
 }
 
 .btn {
   flex: 1;
+  min-width: 140px;
+  min-height: 44px;
   padding: 0.8rem;
   text-align: center;
   font-size: 0.85rem;
@@ -274,6 +391,9 @@ header {
   cursor: pointer;
   transition: var(--transition);
   font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn-outline {
@@ -325,16 +445,24 @@ header {
   margin-right: 10px;
 }
 
-/* --- Mobile Responsive --- */
-@media (max-width: 768px) {
-  .hero h1 {
-    font-size: 2.5rem;
-  }
-  .grid {
-    grid-template-columns: 1fr;
-  }
+/* --- Desktop enhancements (mobile-first base above) --- */
+@media (min-width: 640px) {
   .header-content {
-    flex-direction: column;
-    gap: 1rem;
+    flex-direction: row;
+  }
+  .hero {
+    padding: 6rem 1rem;
+  }
+  .hero-actions {
+    flex-direction: row;
+    max-width: none;
+  }
+  .recap-links {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .recap-links a {
+    flex: 1;
+    max-width: 320px;
   }
 }

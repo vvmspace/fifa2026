@@ -374,15 +374,60 @@ header {
     margin: 2rem auto !important;
     text-align: center;
 }
+.live-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: rgba(220, 38, 38, 0.14);
+    border: 1px solid rgba(220, 38, 38, 0.4);
+    color: #ff5555;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 0.4rem 1rem;
+    margin-bottom: 1.2rem;
+}
+.live-badge::before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #ff5555;
+    animation: pulse-live 1.5s ease-in-out infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+    .live-badge::before { animation: none; }
+}
+@keyframes pulse-live {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.35; }
+}
+.live-embed {
+    position: relative;
+    width: 100%;
+    max-width: 700px;
+    padding-top: 56.25%;
+    margin: 1.5rem auto 0;
+    background: #000;
+    border: 1px solid var(--glass-border);
+    overflow: hidden;
+}
+.live-embed iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
 
 </style>
 </head>
  <body>
   <div class="premium-ticker">
    <strong>
-    Final:
+    EN VIVO:
    </strong>
-   agenda de final actualizada para aficionados que organizan viaje, señal y entrada.
+   Match 104 · Gran Final · el partido ya está en juego.
   </div>
   <header>
    <div class="header-content"><a href="/index.html" class="btn-back">← Volver al Inicio</a>
@@ -398,6 +443,7 @@ header {
   </header>
   <main>
    <section class="hero">
+    <span class="live-badge">En vivo ahora</span>
     <h1>
      Final boletos
      <small>
@@ -407,6 +453,9 @@ header {
     <p>
      Final Copa Mundial 2026 concentra búsquedas fuertes de entradas Copa Mundial. Aquí reunimos horario, sede y recomendaciones prácticas: llegar con margen, comparar sectores reales y no dejar la compra para el último refresco de precios.
     </p>
+    <div class="live-embed">
+     <iframe src="https://www.youtube.com/embed/h-SQ8-kl5aE?autoplay=0&rel=0" title="Transmisión en vivo: Gran Final Copa Mundial 2026" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
    </section>
    <section class="seo-content-block" style="margin-top:28px;padding:22px;font-size:15px;color:var(--text-muted);border-top:1px solid #222;">
     <h2>
@@ -421,8 +470,8 @@ header {
       en vivo
      </a>
      o la página de
-     <a href="/final/boletos/">
-      boletos
+     <a href="/final/entradas/">
+      entradas
      </a>
      para una lectura más directa según tu intención de búsqueda.
     </p>
